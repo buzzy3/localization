@@ -443,7 +443,6 @@
     "voucherSettingsToolTip": "Bewerk voucherinstellingen",
     "settingsSplashSubmitSuccess": "Splash pagina bijwerking geslaagd",
     "settingsSplashSubmitFailure": "Splash pagina bijwerking is mislukt",
-    "settingsSubmitSuccess": "Succes! Netwerkinstellingen opgeslagen.Wacht 1-2 minuten voor het doorvoeren van de wijzigingen.",
     "settingsSubmitFailure": "Oeps ... Er is iets misgegaan. Corrigeer de hieronder gemarkeerde velden.",
     "deleteNetworkVerificationError": "Om dit netwerk te verwijderen, typt u {p0} nauwkeurig in het onderstaande veld in.",
     "deleteNetworkKey": "verwijder dit netwerk",

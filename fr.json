@@ -443,7 +443,6 @@
     "voucherSettingsToolTip": "Modifier les paramètres des coupons",
     "settingsSplashSubmitSuccess": "Mise à jour réussie du Portail Captif",
     "settingsSplashSubmitFailure": "Échec de la mise à jour du Portail Captif",
-    "settingsSubmitSuccess": "Félicitations ! Les paramètres réseau ont été enregistrés. Prévoyez 1-2 minutes pour que les changements prennent effet.",
     "settingsSubmitFailure": "Oups...Quelque chose ne va pas. Veuillez corriger les champs marqués ci-dessous.",
     "deleteNetworkVerificationError": "Pour supprimer ce réseau, tapez {p0} exactement dans le champ ci-dessous.",
     "deleteNetworkKey": "supprimer ce réseau",
