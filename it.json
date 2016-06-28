@@ -443,6 +443,7 @@
     "voucherSettingsToolTip": "Modifica impostazioni dei buoni",
     "settingsSplashSubmitSuccess": "Aggiornamento della pagina iniziale completato",
     "settingsSplashSubmitFailure": "Aggiornamento della pagina iniziale non completato",
+    "settingsSubmitSuccess": "Operazione completata! Impostazioni di rete salvate. Attendere 1-2 minuti affinché le modifiche siano efficaci.",
     "settingsSubmitFailure": "Spiacenti... Si è verificato un problema. Correggere i campi contrassegnati in basso.",
     "deleteNetworkVerificationError": "Per eliminare questa rete, digitare {p0} correttamente nel campo sottostante.",
     "deleteNetworkKey": "elimina questa rete",

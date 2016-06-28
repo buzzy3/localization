@@ -455,6 +455,7 @@
 	"voucherSettingsToolTip":"Editar ajustes vales de conexión",
 	"settingsSplashSubmitSuccess":"Actualización correcta de la página de presentación",
 	"settingsSplashSubmitFailure":"No se pudo actualizar la página de presentación",
+	"settingsSubmitSuccess":"Éxito! Configuración de red guardada. Espere 1 a 2 minutos para que los cambios surtan efecto.",
 	"settingsSubmitFailure":"Oh... Algo no está del todo bien. Por favor corrija los campos marcados a continuación.",
 	"deleteNetworkVerificationError":"Para eliminar esta red, escriba {p0} exactamente en el campo a continuación.",
 	"deleteNetworkKey":"eliminar esta red",

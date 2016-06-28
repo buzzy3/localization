@@ -439,6 +439,7 @@
     "voucherSettingsToolTip":"Upravit nastavení voucherů",
 	"settingsSplashSubmitSuccess":"Úprava Splash page úspěšná",
 	"settingsSplashSubmitFailure":"Úprava Splash page neúspěšná",
+	"settingsSubmitSuccess":"Úspěch! Nasavení sítě bylo uloženo. Počkejte 1-2 minuty aby se změny projevily.",
 	"settingsSubmitFailure":"Oops... Něco se nepovedlo. Prosím opravte označená pole.",
 	"deleteNetworkVerificationError":"Ke smazání sítě, přesně opište \"delete this network\"do pole níže.",
 	"settingsGeneral":"Obecné nastavení",

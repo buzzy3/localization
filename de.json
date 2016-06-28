@@ -440,6 +440,7 @@
     "voucherSettingsToolTip": "Voucher Einstellungen bearbeiten",
     "settingsSplashSubmitSuccess": "Startseite wurde erfolgreich aktualisiert",
     "settingsSplashSubmitFailure": "Startseite konnte nicht aktualisiert werden",
+    "settingsSubmitSuccess": "Netzwerkeinstellungen erfolgreich gespeichert. Die Änderungen werden innerhalb von 1-2 Minuten wirksam.",
     "settingsSubmitFailure": "Hoppla... Da ist etwas schief gelaufen. Bitte korrigieren Sie die markierten Felder.",
     "deleteNetworkVerificationError": "Wenn Sie dieses Netzwerk löschen möchten, geben Sie im folgenden Feld „{p0}“ ein.",
 	"deleteNetworkKey":"Dieses Netzwerk löschen",
