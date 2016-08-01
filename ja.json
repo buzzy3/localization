@@ -1,6 +1,6 @@
 # This is the Japanese text file. Basically we need to go line-by-line and change each of the English verbage (notated in blue text on my Github file) into Japanese.
 # Using Git to translate would be the ideal way to do things as we could both work on this file a bit at a time without stepping on each other's toes and changes are fully reversable and comparable.
-# Let me know if you need help learning Git. 
+# Let me know if you need help learning Git.
 
 # otherwise, you can simply copy this into a text editor and do it that way at your leisure.
 # Remember everything that is inside curly brackets "{}" is a string that the program uses to insert information like username, time, dates, and so on. Those must be kept as-is and used in the resulting translation.
@@ -47,22 +47,22 @@
 	"wishError31":"Empty value!",
 	"localizationError":"Error sending feedback!",
 	"localizationError104":"Please enter a suggestion",
-	"submit":"Save",
-	"submitCreate":"Create",
-	"submitCreateAccount":"Create account",
-	"submitDelete":"Delete",
-	"submitRecover":"Reset my password",
-	"submitReset":"Change my password",
+	"submit":"通信",
+	"submitCreate":"作ります",
+	"submitCreateAccount":"新アカウントを作ります",
+	"submitDelete":"取消",
+	"submitRecover":"パスワードをリセット",
+	"submitReset":"パスワードを変更",
 	"submitVoucherCreate":"Create Vouchers",
-	"splashSubmit":"Save changes",
-	"splashCancel":"Cancel",
-    "splashClose":"Close",
-	"splashModal":"Edit splash page",
-	"splashSize":"Preview: ",
-	"splashSizeLaptop":"Laptop / Tablet",
-	"splashSizeTablet":"Tablet",
-	"splashSizePhoneLarge":"Large phone",
-	"splashSizePhoneSmall":"Small phone",
+	"splashSubmit":"変更内容を保存",
+	"splashCancel":"キャンセル",
+  "splashClose":"閉まる",
+	"splashModal":"スプラッシュページを編集",
+	"splashSize":"プレビュー: ",
+	"splashSizeLaptop":"ノート版/ タブレット版",
+	"splashSizeTablet":"タブレット版",
+	"splashSizePhoneLarge":"大型スマホ版",
+	"splashSizePhoneSmall":"小型スマホ版",
     "modalClose":"Close",
     "editSubmit":"Save changes",
     "editCancel":"Cancel",
