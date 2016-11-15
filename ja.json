@@ -20,7 +20,7 @@
 	"timeDeltaMinutesSingular":"{p0}分間前",
 	"timeDeltaHours":"{p0}時間前",
 	"timeDeltaHoursSingular":"{p0}時間前",
-	"timeDeltaDays":"{p0}日dd前",
+	"timeDeltaDays":"{p0}日前",
 	"timeDeltaDaysSingular":"{p0}日前",
 	"kilobitsPerSecond":"Kbps",
     "megabitsPerSecond":"Mbps",
