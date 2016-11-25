@@ -1952,7 +1952,6 @@
 	"nodePaneDescriptionPlaceholder":"Access Point Beschreibung...",
 	"description":"{displayName} ist ein cloudbasierter Enterprise Controller der es einfach macht Ihre Netzwerke von überallher zu erstellen, zu verwalten und zu überwachen.",
 	"alertsType5":"Einer oder mehrere Ihrer Access Points werden gerade auf die neueste Firmware upgedated. Dabei können Netzwerkausfälle, vezögertes Reporting und verzögerte Reaktionen auf Konfigurationsänderungen auftreten. Laden Sie diese Seite neu um Updates zu erhalten.",
-	"alert202":"In diesem Netz existiert ein Mix von Geräten mit Firmware 5xx und 6.x. Einige {displayName} Möglichkeiten die durch die 5xx Firmware verfügbar sind, werden angezeigt, können aber nicht auf diesen Geräten aktiviert werden. Um alle Möglichkeiten nutzen zu können, führen Sie auf allen Geräten ein Update auf 6.x durch.",
 	"alert203":"Einer oder mehrere Ihrer Access Points können sich nicht mit dem Internet verbinden da Sie unter einem anderen Länderschlüssel laufen. Schließen Sie alle Access Points im Repeatermodus zumindest einmal an das Kabel an.",
 	"alert302":"Ihr custom.sh Script wurde nicht auf allen Access Points installiert. {ts0}Erfahren Sie mehr{te1}.",
 	"loginRecoverError4":"Auf diesem Konto wurden zuviele Versuche gemacht das Passwort zurückzusetzen. Bitte überprüfen Sie Ihre Inbox und Spamordner ob Sie ein Mail von no-reply@cloudtrax.com bekommen haben. Kein Mail? {ts0}Kontaktieren Sie den Support{te1}.",
