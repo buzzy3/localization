@@ -2448,7 +2448,7 @@
 	"switchIgmpVlans":"VLANy",
 	"switchIgmpVlansTip":"Zvolte VLANy, na kterých má být povolen IGMP snooping.",
 	"switchPaneMirrorButton":"Zapnout zrcadlení",
-	"switchPaneUnmirrorButton":"Zypnout zrcadlení",
+	"switchPaneUnmirrorButton":"Vypnout zrcadlení",
 	"switchPaneAggregationButton":"Agreguj",
 	"switchPaneUnaggregationButton":"Rozděl",
 	"portTableMirror":"Zrcadlení",
@@ -2470,5 +2470,5 @@
 	"switchUnmirrorConfirm":"Opravdu chcete odstranit port(y)  {p0} z jejich zrcadel? Poznámka: jedno nebo více zrcadel může být úplně odstraněna po uložení této akce.",
 	"switchUpdatedVlans":"Prosím zaškrtněte k ujištění, že neodstraníte management VLAN (VLAN ID 1) ze sloupců PVID a Untagged VLANy pro Uplink port.",
 	"switchMissingVlan1":"Musíte mít alespoň jeden port s management VLAN (VLAN 1), který má nastaven sloupce PVID i Untagged VLANy. V ideálním případě by to měl být váš současný uplink port. Prosím opravte to než budete moci akci uložit.",
-	"portErrorRateLimit":"Omození rychlosti portu musí být mezi 0 a 1,000Mbps na maximálně 2 desetinná místa (oddělená tečkou)."
+	"portErrorRateLimit":"Omezení rychlosti portu musí být mezi 0 a 1,000Mbps na maximálně 2 desetinná místa (oddělená tečkou)."
 }
