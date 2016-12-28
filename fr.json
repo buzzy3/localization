@@ -1094,7 +1094,6 @@
     "upgradeDisable": "Mises à niveau automatiques",
     "upgradeDisableOn": "Activé",
     "upgradeDisableOff": "Désactivé",
-    "upgradeFirmwareRelease": "Version du Firmware",
     "upgradeFirmwareReleaseStable": "Stable ({p0})",
     "upgradeFirmwareReleaseTesting": "Test",
     "upgradeFirmwareRelease4": "NG4XX",
@@ -2284,7 +2283,6 @@
 	"ssidAdvancedEnableBandSteering":"Band Steering",
 	"ssidAdvancedEnableBandSteeringTip":"Band Steering tente de connecter les clients à la bande 5Ghz lorsque cela est possible afin de mieux utiliser la bande passante disponible.",
 	"ssidAdvancedEnable80211r":"802.11r",
-	"ssidAdvancedEnable80211rTip":"802.11r ou fast BSS transition (FT) - transition rapide BSS - tente de réduire le délai de transfert dans les situations où un périphérique passe d'un AP à un autre. Cela est utile dans les applications telles que les appels VoIP qui doivent maintenir la continuité de la connexion.",
 	"ssidDisabledAlert":"Ce SSID est désactivé. Activez ce SSID pour afficher et modifier les paramètres.",
 	"ssidAdvancedPerformance":"Performance",
 	"ssidAdvancedPerformance0":"Performance Maximale",
@@ -2342,7 +2340,6 @@
 	"switchTablePowerAvailable":"Puissance disponible",
 	"watts":"{p0} Watt(s)",
 	"wattsShort":"{p0}W",
-	"upgradeFirmwareReleaseSwitch":"Sortie Firmware",
 	"upgradeFirmwareReleaseSwitchS8":"OMS8 :",
 	"upgradeFirmwareReleaseSwitchS24":"OMS24 :",
 	"upgradeFirmwareReleaseSwitchS48":"OMS48 :",
@@ -2500,8 +2497,6 @@
 	"userPasswordResetCompleteP1":"Le mot de passe a été réinitialisé avec succès.",
 	"userVerifyHeader":"Vérification de l'utilisateur",
 	"userVerifyP1":"Veuillez entrer un mot de passe.",
-	"userVerifyCompleteHeader":"Vérification de l'utilisateur terminée",
-	"userVerifyCompleteP1":"L'utilisateur a été vérifié avec succès.",
 	"userUpdateRolesNetwork":"Réseau",
 	"userUpdateRolesNgroup":"Groupe Réseau"
 }

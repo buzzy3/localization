@@ -1078,7 +1078,6 @@
     "upgradeDisable": "Automatische upgrades",
     "upgradeDisableOn": "Aan",
     "upgradeDisableOff": "Uit",
-    "upgradeFirmwareRelease": "Firmwareversie",
     "upgradeFirmwareReleaseStable": "Stabiel ({p0})",
     "upgradeFirmwareReleaseTesting": "Testen",
     "upgradeFirmwareRelease4": "NG4XX",
@@ -1976,7 +1975,6 @@
 	"switchTablePowerAvailable":"Beschikbare Power",
 	"watts":"{p0} watt(s)",
 	"wattsShort":"{p0}w",
-	"upgradeFirmwareReleaseSwitch":"Firmware release",
 	"upgradeFirmwareReleaseSwitchS8":"OMS8:",
 	"upgradeFirmwareReleaseSwitchS24":"OMS24:",
 	"upgradeFirmwareReleaseSwitchS48":"OMS48:",
@@ -2016,6 +2014,5 @@
   "flagBeta":"Deze feature is vrijgegeven voor feedback onder het beta-test programma",
 	"ssidAdvancedEnableBandSteering":"Band Steering",
 	"ssidAdvancedEnableBandSteeringTip":"Band Steering probeert om gebruikers zoveel mogelijk op de 5Ghz band te verbinden met als doel om de beschikbare bandbreedte zo optimaal mogelijk te gebruiken.",
-	"ssidAdvancedEnable80211r":"802.11r",
-	"ssidAdvancedEnable80211rTip":"802.11r of Fast BSS transition (FT) probeert om de handover vertraging te reduceren in situaties waar een wifi device roamt van één AP naar een andere. Dit is zinvol bij applicaties zoals VoIP gesprekken die de verbinding in stand moeten houden."
+	"ssidAdvancedEnable80211r":"802.11r"
 }

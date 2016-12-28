@@ -1079,7 +1079,6 @@
     "upgradeDisable": "Aggiornamenti automatici",
     "upgradeDisableOn": "Acceso",
     "upgradeDisableOff": "Spento",
-    "upgradeFirmwareRelease": "Rilascio del firmware",
     "upgradeFirmwareReleaseStable": "Stabile ({p0})",
     "upgradeFirmwareReleaseTesting": "Test",
     "upgradeFirmwareRelease4": "NG4XX",
