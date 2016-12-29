@@ -1,72 +1,54 @@
 {
 	"version":"75ebb547625dfcb3b766a18b8d5fc5c9a61b0734",
 	"description":"{displayName}は、クラウドベースのWLANコントローラです。どこからでも簡単にネットワークを作成し、管理し、監視することができます。",
-
 	"minutes":"分",
 	"seconds":"秒",
 	"now":"只今",
 	"average":"平均",
 	"networkTime":"ネットワークのタイムゾーンを使用します。",
 	"timeDeltaMinutes":"{p0}分間前",
-
-	"timeDeltaMinutesSingular":"{p0}分間前",
-
-	"timeDeltaHours":"{p0}時間前",
-
-	"timeDeltaHoursSingular":"{p0}時間前",
+  "timeDeltaMinutesSingular":"{p0}分間前",
+  "timeDeltaHours":"{p0}時間前",
+  "timeDeltaHoursSingular":"{p0}時間前",
 	"timeDeltaDays":"{p0}日前",
 	"timeDeltaDaysSingular":"{p0}日前",
 	"kilobitsPerSecond":"Kbps",
-    "megabitsPerSecond":"Mbps",
+  "megabitsPerSecond":"Mbps",
 	"title":"{displayName} | クラウドでのネットワークコントローラ",
 	"retrievePassword1":"リセットしたいアカウントのパスワードのリンクに従って下さい。リンクは24時間有効です。",
-
-	"retrievePassword2":"アカウント名：",
+  "retrievePassword2":"アカウント名：",
 	"retrievePassword3":"リセット用のリンク：",
-
-	"retrievePassword4":"パスワードをリセットしたくない場合は、このメールは無視していただいて結構です。パスワードは変更されません。",
-
-	"retrievePasswordSubject":"{displayName}のパースワードのリセットについて",
-
-	"createAccountEmail1":"{p0}こんにちは、",
+  "retrievePassword4":"パスワードをリセットしたくない場合は、このメールは無視していただいて結構です。パスワードは変更されません。",
+  "retrievePassword5":"パスワードをレセットします"
+  "retrievePasswordSubject":"{displayName}のパースワードのリセットについて",
+  "createAccountEmail1":"{p0}こんにちは、",
 	"createAccountEmail2":"CloudTrax.comのダッシュボード上でマスターアカウント{p0}の作成のリクエストが行われました。",
-
 	"createAccountEmail2a":"このリクエストを行ったなら、下のリンクをクリックして、アカウントの作成を終了してください。このリクエストに心当たりがない場合は、このメールは無視していただいて結構です。",
-
 	"createAccountEmail3":"アカウントの認証",
 	"createAccountEmail4":"ありがとうございます{p0}- CloudTraxチーム一同",
 	"createAccountEmailSubject":"あなたの'{p0}' アカウントを認証してください。",
 	"loading":"ローディング中",
 	"send":"送信",
 	"logoSuccess":"ロゴアップロードが完了しました！ 更新に最大で10分かかることがあります。",
-
 	"logoError":"ロゴアップロードエラーが発生しました。",
 	"wishInstructions":"このページが...だったら",
-
 	"wishSuccess":"リクエストを送信していただき、ありがとうございました！",
-
 	"localizationSuccess":"フィードバックを送信して頂き、ありがとうございます！",
 	"wishError":"リクエストの送信中にエラーが発生しました！",
-
 	"wishError31":"値が空です！",
 	"localizationError":"フィードバック送信中にエラーが発生しました！",
-
 	"localizationError104":"提案を入力してくださいn",
-	"submit":"通信",
+	"submit":"保蔵",
+	"send":"通信",
 	"submitCreate":"作成する",
-
 	"submitCreateAccount":"新しくアカウントを作成",
-
 	"submitDelete":"消去",
-
 	"submitRecover":"パスワードをリセット",
 	"submitReset":"パスワードを変更",
 	"submitVoucherCreate":"バウチャーを作成",
-
 	"splashSubmit":"変更内容を保存",
 	"splashCancel":"キャンセル",
   "splashClose":"閉じる",
-
 	"splashModal":"スプラッシュページを編集",
 	"splashSize":"プレビュー: ",
 	"splashSizeLaptop":"ノート版/ タブレット版",
@@ -86,14 +68,16 @@
 	"networkSearchAdd":"+ 新しいネットワークを作ります",
 	"networkSearchNone":"ネットワークが見つかりませんでした",
 	"accountUpdate":"アカウントの設定",
+	"accountNgroups":"ネットワークグループ",
+  "accountUsers":"ネットワークウーサー",
 	"alertsInstructions":"{p0}アラートが届いています",
 	"alertsInstructionsPlural":"{p0}アラートが届いています",
+	"alertsType1Switch":"{p0} switch(es) on this network need to be re-paired with {displayName}. Click to re-pair (so we know it’s you). {ts1}Learn more.{te2}",
+	"alertsType1SwitchShort":"{p0} switch(es) on this network need to be re-paired with {displayName}.",
+	"alertsType1SwitchStatus":"Pairing {p0} of {p1} switches",
 	"alertsType1":"このネットワーク上の{p0}アクセスポイントは、{displayName}とペアリングをやり直す必要があります。クリックして、ペアリングをやり直してください（本人であることを確認するためです）。{ts1}詳細{te2}",
-
-	"alertsType1Short":"このネットワーク上の{p0}アクセスポイントは、{displayName}とペアリングをやり直す必要があります。",
-
+  "alertsType1Short":"このネットワーク上の{p0}アクセスポイントは、{displayName}とペアリングをやり直す必要があります。",
 	"alertsType1Button":"今すぐペアリングをやり直す",
-
 	"alertsType1Status":"{p1}アクセスポイントの{p0}をペアリング",
 	"alertsType1StatusComplete":"ペアリングは完了しました。このエラーメッセージは5分以内に消去されます。",
 	"alertsType2":"新しくなったCloudTraxへようこそ！{ts0}クイックツアー{te1}で新たな変更点を確認しましょう。問題が発生した場合、もしくは、フィードバックを送りたい場合は、{ts2}お問い合わせ{te3}ください。",
@@ -101,37 +85,27 @@
 	"alertsType3":"このネットワークの{p0}アクセスポイントが停止しています。{ts3}詳しい情報{te4}を{ts1}確認{te2}する。",
 	"alertsType3Short":"このネットワークの{p0}アクセスポイントが停止しています。",
 	"alertsType4":"定期的なメンテナンス: {p1}の{p0}からメンテナンスを行うため{displayName}を停止します。メンテナンス中もネットワークは正常に稼働します。",
-
 	"alertsType5":"1つ、または、複数のアクセスポイントを新しいファームウェアのバージョンにアップグレードしています。その間はネットワークの中断、レポートの遅延、設定変更の遅れが発生する可能性があります。更新するには、このページを再び読み込んでください。",
-
 	"alert202":"このネットワークには5xxと6.xのファームウェアの端末が存在します。5xxのファームウェアではサポートされていない一部の{displayName}機能は表示されていても、端末には適用されません。これらの機能を有効にするには、全ての端末を6.xのファームウェアにアップグレードする必要があります。",
 	"alert203":"オンラインのノードと異なる国コードで稼働しているため、1つ、または、複数のオフラインのモードがインターネットに接続することができていない可能性があります。リピーターモードでコンセントに差し込んでいるものの、オンラインにならないノードがある場合、少なくとも1度は有線でコンセントに接続してみてください。",
-
 	"alert302":"custom.shのスクリプトは全てのアクセスポイントに適用されていませんでした。{ts0}詳細{te1}。",
-
 	"help":"ヘルプ",
 	"logout":"ログアウト",
 	"signup":"アカウントを作成",
-
 	"login":"サインイン",
 	"loginGreeting":"以下でCloudTrax 3、CloudTrax 4、Lobby Assistant、もしくは、読み出し専用の信用情報を利用してください。",
-
 	"loginRedirecting":"ログインしています...",
 	"loginPasswordRecover":"パスワードをリセット",
 	"loginPasswordRecoverOr":"または",
 	"loginPasswordRecoverInstructions":"パスワードをリセットするには、アカウント名、または、{displayName}へのサインインに利用しているEメールアドレスを入力する必要があります。",
-
 	"loginPasswordRecoverComplete":"このアカウントのパスワードをリセットするためのリンクをEメールに送信しました。受信箱を確認してください。",
-
 	"loginPasswordReset":"パスワードをリセット",
 	"loginPasswordResetComplete":"パスワードの更新が完了しました。{ts0}ここをクリックしてログインしてください{te1}。",
-
 	"loginPasswordResetInstructions":"{p0} {displayName}アカウントの新しいパスワードを入力してください。",
 	"loginRecoverError1":"提供していただいた情報ではパスワードを設定することができません。",
 	"loginRecoverError2":"提供していただいた情報ではパスワードを設定することができません。(2)",
 	"loginRecoverError3":"提供していただいた情報ではパスワードを設定することができません。(3)",
 	"loginRecoverError4":"このアカウントのパスワードのリセットを何度も試しているようです。受信箱とスパムフォルダーをチェックし、no-reply@cloudtrax.comからメールが届いているかどうか確認してください。まだメールが届いていない場合は、{ts0}サポートにお問い合わせ{te1}ください。",
-
 	"loginPasswordResetError1":"提供していただいた情報ではパスワードを設定することができません。",
 	"loginPasswordResetError2":"パスワードリセット用のトークンの有効期限が過ぎました。",
 	"loginPasswordResetError3":"パスワードのリセットに失敗しました。",
@@ -147,6 +121,7 @@
 	"navMonitor":"管理",
 	"navNodes":"アクセスポイント",
 	"navNodesIndex":"アクセスポイント",
+	"navSwitchesIndex":"すスイッチ",
 	"navNodesSiteSurvey":"サイトサーベイ",
 	"navAccount":"アカウント",
 	"navAccountUpdate":"アカウントの設定",
@@ -172,13 +147,11 @@
 	"loginError3":"もう一度ログインしてください",
 	"loginError4":"ログインしてください",
 	"loginError5":"ユーザー名、および/または、パスワードが違います。",
-
 	"header2":"どこからでも簡単にネットワークの構築、管理、および、監視が可能です。",
 	"account":"アカウント、または、ネットワーク",
 	"password":"パスワード",
 	"loginButton":"ログイン",
 	"lostLogin":"ログイン情報をお忘れですか？",
-
 	"getStartedHeader":"ここからスタート",
 	"getStartedLink1":"クイック・スタートガイド",
 	"getStartedLink2":"ネットワーク計画ガイド",
@@ -200,24 +173,17 @@
 	"filter":"絞り込む:",
 	"osTableNone":"クライアントが存在しません",
 	"osPluralLabel":"{p0} OSの合計です。　{p0} OSs total.",
-
 	"osSingularLabel":"{p0} OSの合計です。　{p0} OSs total.",
-
 	"tableColumnsShowTitle":"列を表示する/隠す",
-
 	"tableColumnsShow":"オプションを見る",
 	"nodeTableStatusModel":"モデル:",
 	"nodeTableStatusStatus":"ステータス:",
 	"nodeTableStatusAlerts":"スペア:",
 	"nodeTableStatusAlerts":"アラート:",
 	"nodeTableExportCsv":"全てをエクスポート: CSV",
-
 	"nodeTableExportXml":"全てをエクスポート: XML",
-
     "nodeTableExportSelectedCsv":"選択したものをエクスポート: CSV",
-
     "nodeTableExportSelectedXml":"選択したものをエクスポート: XML",
-
 	"nodeTableStatus":"ステータス",
 	"nodeTableName":"名前",
 	"nodeTableMac":"Mac/IP",
@@ -233,13 +199,11 @@
 	"nodeTableChannel5":"5G",
 	"nodeTablePing":"Ping レイテンシー",
 	"nodeTableLoad":"読み込み/{bph}メモリの残り Load/{bph}Memfree",
-
 	"nodeTableLastCheckin":"前回のチェックイン",
 	"nodeTableUpTime":"アップタイム",
 	"nodeTableVersion":"バージョン",
 	"nodeTableHops":"ホップ数",
 	"nodeTableNearestGateway":"最も近いゲートウェイ",
-
 	"nodeTableSpeed":"メッシュ速度(現在/平均)",
 	"nodeTableOutages":"停止",
 	"nodeTableNone":"まだアクセスポイントの追加が行われていません！",
@@ -254,6 +218,7 @@
     "nodeUpdateFailure":"アクセスポイントを更新することができませんでした",
     "editNode":"アクセスポイントを編集",
     "transferNode":"アクセスポイントを転送",
+    "transferSwitch":"スイッチを転送"
 	"clientTableWired":"有線",
 	"clientTableYes":"はい",
 	"clientTableNo":"いいえ",
@@ -265,71 +230,42 @@
 	"clientTableTrafficDown":"ダウンロード",
 	"clientTableTrafficTotal":"合計",
 	"clientTableCapabilities":"速さ/{bph}能力",
-
 	"clientTableRSSI":"RSSI",
 	"clientTableOS":"OS",
 	"clientTableSSID":"SSID",
 	"clientTableLastSeenOn":"最終ログイン Last　Seen　on",
-
 	"clientTableLastSeen":"最終ログイン　Last Seen",
-
 	"clientTableName":"MACアドレス",
-
 	"clientTableNone":"クライアントは存在しません",
-
 	"clientTableDevices":"端末",
-
     "clientTableActionsUnblock":"ブロック解除",
-
     "clientTableActionsBlock":"ブロック",
-
     "clientTableCapabilitiesWirelessG":"802.11g, {p0}",
     "clientTableCapabilitiesWirelessN":"802.11n, {p0}",
     "clientTableCapabilitiesWirelessAC":"802.11ac, {p0}",
     "clientTableCapabilitiesWirelessRate":"{p0} Mbps",
 	"bandNotApplicable":"バンド 該当なし",
-
     "clientBlockedTip":"このクライアントはブロックされています",
-
 	"layer7TableDescription":"説明",
-
 	"layer7TableGroup":"グループ",
-
 	"layer7TableUpload":"アップロード",
-
 	"layer7TableDownload":"ダウンロード",
-
 	"layer7TableUsage":"利用量の合計",
-
 	"layer7TableNone":"アプリのデータはありません",
-
 	"layer7Group1":"ファイル共有",
-
 	"layer7Group2":"—",
 	"layer7Group3":"バックアップ",
-
 	"layer7Group4":"ソーシャル",
-
 	"layer7Group5":"写真の共有",
-
 	"layer7Group6":"人気のあるウェブサイト",
-
 	"layer7Group7":"音声/動画会議",
-
 	"layer7Group8":"Eメール",
-
 	"layer7Group9":"ゲーム",
-
 	"layer7Group10":"動画のストリーミング",
-
 	"layer7Group11":"動画のストリーミング (RTMP)",
-
 	"layer7Group12":"オーディオのストリーミング",
-
 	"layer7Group13":"オーディオのストリーミング (RTMP)",
-
 	"layer7Group14":"オーディオ/動画のストリーミング",
-
 	"layer7Group15":"SMB",
 	"layer7Group16":"DHCP",
 	"layer7Group17":"GRE",
@@ -340,9 +276,7 @@
 	"layer7Group22":"SSL",
 	"layer7Group23":"HTTP",
 	"layer7Group24":"HTTP 動画",
-
 	"layer7Group25":"HTTP オーディオ",
-
 	"layer7Apphbogo":"HBO",
 	"layer7Appshowtime":"Showtime",
 	"layer7Appamazonvideo":"Amazon Video",
@@ -476,3799 +410,2138 @@
 	"layer7Appah":"Authentication Header",
 	"layer7Appamazonmusic":"Amazon Music",
 	"layer7Appesp":"セキュリティーペイロードのカプセル化",
-
 	"layer7Appipip":"IP in IPトンネリング　IP-within-IP",
-
 	"layer7Appl2tp":"レイヤー・2・トンネリング・プロトコル",
-
 	"layer7Apprtmp_aboutcom":"About.com",
 	"layer7Appsctp":"ストリーム・コントロール・トランスミッション・プロトコル",
-
 	"layer7Appudplite":"UDPLite",
 	"layer7Appvocera":"Vocera",
 	"layer7Appxboxlive":"Xbox Live",
 	"networkHistogramActiveUsers":"クライアント",
-
 	"networkHistogramClients":"クライアント",
-
 	"networkHistogramDownload":"ダウンロード",
-
 	"networkHistogramUpload":"アップロード",
-
 	"networkHistogramTraffic":"トラフィック",
-
 	"networkHistogramClientDown":"クライアント・ダウンロード",
-
 	"networkHistogramClientUp":"クライアント・アップロード",
-
 	"networkHistogramNodeDown":"アクセスポイント・ダウンロード",
-
 	"networkHistogramNodeUp":"アクセスポイント・アップロード",
-
 	"networkHistogramSubtitle":"合計: {p0} (↓{p1}, ↑{p2}) / クライアント: {p3}",
-
 	"nodeDown":"ダウンしました！",
-
 	"nodeStatus1":"DNS経由でデフォルトのダッシュボードのホスト名を解決することができません: ファームウェアfirmware-ngは代わりにフォールバックIPを利用します。",
-
 	"nodeStatus2":"DNS経由で別のダッシュボードのホスト名を解決することができません: firmware-ngはフォールバック IPを代わりに利用し、この試みが失敗した場合はデフォルトのダッシュボードを利用します。",
-
 	"nodeStatus3":"キーが見つかりません。",
-
 	"nodeStatus4":"キャプティブポータルが見つかりません！",
-
 	"nodeStatus5":"解読キーが無効です！",
-
 	"nodeStatus6":"ロンリーモード後、初めてのログインです",
-
 	"nodeStatus7":"ログインの時間切れです！",
-
 	"nodeStatus8":"Alt ダッシュボード 404 エラーです！",
-
-	"nodeStatus9":"アクセスポイントのキーのペアリングが必要です。",
-
-	"nodeStatus10":"VLANのローミングは無効です。",
-
-	"nodeStatus11":"Alt ダッシュボードのチェックインの有効期限が過ぎました！",
-
+  "nodeStatus9":"アクセスポイントのキーのペアリングが必要です。",
+  "nodeStatus10":"VLANのローミングは無効です。",
+  "nodeStatus11":"Alt ダッシュボードのチェックインの有効期限が過ぎました！",
+ +"nodeStatus12":"low TX-power mode",
+ +"nodeStatus13":"overlay partition is full",
+ +"nodeStatus14":"alternate checkin path broken that should never come up",
+ +"switchStatusPairing":"Switch pairing required.",
 	"notApplicable":"該当なし",
-
 	"surveyTableSignal":"シグナル",
-
 	"surveyTableChannel":"チャンネル",
-
 	"surveyTableSsid":"SSID",
 	"surveyTableBssid":"BSSID",
 	"surveyTableMode":"モード",
-
 	"surveyTableEncryption":"暗号化",
-
 	"surveyTableVendor":"ベンダー",
-
 	"surveyTableSeenByNodeName":"確認された最も強いシグナル",
-
 	"surveyTableSeenByNodeTime":"時間",
-
 	"surveyTableNone":"シグナルがありません",
-
 	"settingsSubmit":"変更を保存",
-
 	"settingsCancel":"キャンセル",
-
 	"nodeSubmit":"変更を保存",
-
 	"nodeCancel":"キャンセル",
-
 	"nodeAddSuccess":"成功しました！アクセスポイントが追加されました。コンセントに差し込んでから5分後にレポートを開始します。",
-
 	"nodeTransferSuccess":"成功しました！アクセスポイントが移転されました。",
-
 	"voucherDeleteSuccess":"{p0} バウチャーが消去されました。",
-
 	"voucherRestoreSuccess":"{p0} バウチャーが復元されました。",
-
 	"voucherRenewSuccess":"{p0} バウチャーが更新されました。",
-
 	"voucherCreateSuccess":"{p0} バウチャーが作成されました。",
-
 	"voucherResetSuccess":"{p0} バウチャーがリセットされました。",
-
     "voucherSettingsToolTip":"バウチャーの設定を編集",
-
 	"settingsSplashSubmitSuccess":"スプラッシュページの更新が成功しました",
-
 	"settingsSplashSubmitFailure":"スプラッシュページの更新が失敗しました",
-
 	"settingsSubmitSuccess":"成功しました！ネットワークの設定を保存しました。変更が有効になるまで1-2分かかります。",
-
 	"settingsRadioSubmitSuccess":"成功しました！ネットワークの設定を保存しました。変更がアクセスポイントに反映されるまでに数分かかる可能性があります。",
-
 	"settingsSubmitFailure":"すいません…誤りがあるようです。以下に表示した欄を修正してください。",
-
 	"deleteNetworkVerificationError":"このネットワークを消去するには、以下の欄に\"{p0}\"を誤りなく入力する必要があります。",
-
 	"deleteNetworkKey":"このネットワークを消去",
-
 	"settingsGeneral":"一般設定",
-
 	"settingsGeneralNetwork":"ネットワーク",
-
 	"settingsGeneralAlerts":"アラート",
-
 	"settingsGeneralPassword":"パスワード",
-
 	"settingsGeneralLogo":"ロゴを更新",
-
 	"settingsGeneralDisableInternetCheck":"インターネットをチェック",
-
 	"settingsGeneralDisablePublicAccess":"読み出し専用を許可",
-
 	"settingsGeneralNetworkName":"ネットワーク名",
-
 	"settingsGeneralDisplayName":"タイトルのテキスト",
-
 	"settingsGeneralGatewayName":"ディスプレイ名",
-
 	"settingsGeneralLocation":"場所",
-
 	"settingsGeneralTimezone":"時間帯",
-
 	"settingsGeneralEnable12hDisplay":"12時間の表示を有効化",
-
 	"settingsGeneralEnableAlerts":"Eメールによるアラートを送信",
-
 	"settingsGeneralNotificationEmailAddress":"アラートEメール",
-
 	"settingsGeneralNotes":"注記",
-
 	"settingsDisplayEmbedEnable":"スニペット",
-
 	"settingsDisplayEmbedEnableButton":"埋め込み用コードを表示",
-
 	"settingsDisplayEmbedDisable":"停止",
-
 	"settingsDisplayCloudtrax":"{displayName}",
 	"settingsDisplayCloudtraxTip":"{displayName}のダッシュボードのデザインと操作感を更新する。",
-
 	"settingsDisplayEmbeds":"外部の埋め込み",
-
 	"settingsDisplayEmbedsTip":"HTMLのスニペットを使って{displayName}の機能をクライアントのポータル等の外部のサイトに埋め込んでください。{ts0}詳細{te1}。",
-
 	"alphanumericDashUnderscoreSpace":"利用することができるのは、文字、数字、下線、ダッシュ、および、スペースのみです。",
-
 	"alphanumericDashUnderscoreSpacePeriodComma":"利用することができるのは、文字、数字、下線、ダッシュ、スペース、ピリオド、および、コンマのみです。",
-
 	"eightCharacterMinimum":"8文字以上が必要です。",
-
 	"validIPOnly":"有効なIPアドレスのみ",
-
 	"numbersOnly":"数字のみ",
-
 	"validMACOnly":"有効なMACのみ",
-
 	"validURLOnly":"有効なURLのみ",
-
 	"validURLOrIPOnly":"有効なURL、または、IPのみ",
-
 	"requiredInput":"空欄のままにしておくことはできません",
-
 	"statusOverview":"ネットワークの概要",
-
 	"statusSiteSurvey":"サイトサーベイ",
-
 	"siteSurveyScan":"今すぐスキャンする",
-
 	"siteSurveyScanCounter":"再スキャンを行っています... {p0}秒後にリフレッシュします",
-
 	"siteSurveyScanCounterPlural":"再スキャンを行っています... {p0}秒後にリフレッシュします",
-
 	"statusNodes":"アクセスポイント",
-
 	"statusNodesList":"リスト",
-
 	"statusNodesMap":"地図",
-
 	"statusOverviewUsage":"利用",
-
 	"statusOverviewApplications":"トップのアプリ",
-
 	"statusOverviewClients":"トップのクライアント",
-
 	"statusOverviewDevices":"トップの端末",
-
 	"statusOverviewNodes":"トップのアクセスポイント",
-
 	"statusOverviewLocation":"場所",
-
 	"nodeMapAddNode":"アクセスポイントを追加",
-
 	"nodeMapAddNodeError1":"アクセスポイントの追加中にエラーが発生しました。{lb}{lb}ここをクリックして継続。",
-
 	"nodeMapUpdateNodeError1":"アクセスポイントの更新中にエラーが発生しました。{lb}{lb}ここをクリックして継続。",
-
-	"nodeMapAddNodeSubmit":"追加",
-
+	"nodeMapAddNodeSubmit":"追加"
 	"nodeMapAddNodeName":"名前",
-
 	"nodeMapAddNodeMac":"MAC",
 	"nodeMapAddNodeDescription":"説明",
-
 	"nodeMapAddNodeLatitude":"緯度",
-
 	"nodeMapAddNodeLongitude":"経度",
-
 	"nodeMapAddNodeChannel":"チャンネルのオーバーライド",
-
 	"nodeMapAddNodeChannelAuto":"チャンネル (自動)",
-
 	"nodeMapAddNodeChannel24":"2.4GHz チャンネルのオーバーライド",
-
 	"nodeMapAddNodeChannel5":"5GHz チャンネルのオバーライド",
-
 	"nodeMapOverlays":"フロアプラン",
-
 	"nodeMapUpdateNodeNetwork":"ネットワーク",
-
 	"nodeMapTransferNodeNetwork":"ネットワーク",
-
 	"nodeMapUpdateNodeCommandTransfer":"移動",
-
 	"nodeMapUpdateNodeCommandTransferButton":"ネットワークへ移動",
-
 	"nodeMapUpdateNodeOverlay":"フロアプラン",
-
 	"nodeMapOverlaysNone":"なし",
-
 	"nodeMapOverlayCreateError":"オーバーレイの作成中にエラーが発生しました。{lb}{lb}ここをクリックして継続。",
-
 	"nodeMapOverlayDeleteError":"オーバーレイの消去中にエラーが発生しました。{lb}{lb}ここをクリックして継続。",
-
 	"nodeMapOverlayUpdateError":"オーバーレイの更新中にエラーが発生しました。{lb}{lb}ここをクリックして継続。",
-
 	"nodeMapOverlayCreate":"追加",
-
 	"nodeMapOverlayUpdate":"編集",
-
 	"nodeMapOverlayDelete":"フロアプランを消去",
-
 	"nodeMapOverlayCreateTitle":"フロアプランを追加",
-
 	"nodeMapOverlayCreateName":"オーバーレイの名前",
-
 	"nodeMapOverlayCreateFile":"画像を選択",
-
 	"nodeMapOverlayCreateOpacity":"不透明度を選択",
-
 	"nodeMapOverlayCreateSubmit":"アップロード",
-
 	"nodeMapOverlayDeleteTitle":"フロアプランを削除",
-
 	"nodeMapOverlayDeleteOverlay":"フロアプランを消去",
-
 	"nodeMapOverlayDeleteSubmit":"消去",
-
 	"nodeMapOverlayUpdateTitle":"フロアプランを編集",
-
 	"nodeMapOverlayUpdateSubmit":"更新",
-
 	"nodeMapOverlayOptions":"オプション",
-
 	"nodeMapChannel245":"{p0} (2.4GHz)、{p1} (5GHz)",
-
 	"nodeMapChannel24Only":"{p0} (2.4GHz帯のみ)",
 	"nodeMapChannel5Only":"{p0} (5GHz帯のみ)",
 	"nodeMapChannel24":" (2.4GHz)",
 	"nodeMapChannel5":" (5GHz)",
 	"nodeMapTimePeriod":"{p0} ({p1})",
 	"networksMapNetworkDetailsTab":"詳細",
-
 	"networksMapStatus":"ステータス",
-
 	"networksMapNetworkStatusLine":"{p0} アップ、{p1} ダウン",
-
 	"networksMapNetworkStatusLineSpare":"{p0} アップ、{p1} ダウン、{p2} スペア",
-
 	"networksMapClients":"クライアント",
-
 	"networksMapUsage":"利用",
-
 	"networksMapUsageLine":"{p0} ダウンロード済み {p1} アップロード済み",
-
 	"networksMapNetworkMapTab":"地図",
-
 	"networksMapStatus":"ネットワークのステータス",
-
 	"voucherTableNone":"バウチャーは見つかりませんでした",
-
 	"voucherTableVoucher":"バウチャー",
-
 	"voucherTableComment":"コメント",
-
 	"voucherTablePayPal":"‘Paypal トランザクション",
-
 	"voucherTableMax":"最大",
-
 	"voucherTableUsed":"利用済み ",
-
 	"voucherTableMaxUnlimited":"無制限",
-
 	"voucherTableUsers":"ユーザー",
-
 	"voucherTableDuration":"期間",
-
 	"voucherTableRemaining":"残り",
-
 	"voucherTableLimit":"制限 (MB)",
-
 	"voucherTableDownload":"ダウンロード/アップロード",
-
 	"voucherTableStatus":"ステータス",
-
 	"voucherTableStatusDeleted":"消去しました",
-
 	"voucherTableStatusActive":"アクティブ",
-
 	"voucherTableStatusUnused":"未使用",
-
 	"voucherTableStatusExpired":"有効期限切れ",
-
 	"voucherTableStatusUntracked":"未追跡",
-
 	"voucherTableStatusUntrackedTip":"このバウチャーは数を制限せずに端末を許可するよう設定されています。{displayName}は、この設定が適用されている時は個々のユーザーの追跡を行いません。",
-
 	"voucherTableCreated":"作成しました　",
-
 	"voucherTableActions":"アクション",
-
 	"voucherTableActionsDelete":"消去",
-
 	"voucherTableActionsRestore":"復元",
-
 	"voucherTableActionsRenew":"更新",
-
 	"voucherTableActionsReset":"リセット",
-
 	"voucherTableActionsEdit":"編集",
-
 	"voucherTableDurationHours":"{p0} 時間",
-
 	"voucherTableDurationHoursPlural":"{p0} 時間",
-
 	"voucherCreate":"バウチャーを作成",
-
 	"voucherCreateSuccessSingular":"バウチャーを作成しました",
-
 	"voucherCreateSuccessPlural":"バウチャーを作成しました",
-
 	"voucherCreateFailure":"バウチャーを作ることができませんでした",
-
 	"voucherOverMax":"このネットワークに対するバウチャーが多過ぎます",
-
 	"customVoucherNameError":"カスタム名を与えることができるバウチャーは1つだけです",
-
 	"voucherNameUnavailable":"バウチャーコードが既に存在します。バウチャーコードは大文字と小文字を区別しません。",
-
 	"voucherSettings":"バウチャーの設定",
-
 	"voucherUpdate":"バウチャーを編集",
-
 	"voucherList":"バウチャー",
-
 	"voucherRequireAlert":"バウチャーを利用しているようです。バウチャーの帯域幅の制限を実施するには、帯域制限を有効にする必要があります。",
-
 	"voucherUpdateInstructions":"このバウチャーを以下で編集、および、更新してください。　",
-
 	"voucherCreateInstructions1":"注意: 以下の帯域幅制限を実行するには、（SSIDの設定から）帯域制限を有効にする必要があります。",
-
 	"voucherCreateInstructions2":"詳細は{ts0}バウチャーの利用{te1}で確認してください。",
-
 	"voucherPurgeText":"消去されたバウチャー、および、有効期限の切れたバウチャーは毎日自動的に削除されます。未使用のバウチャーは特定の日数が経過した後自動的に削除されます。",
-
 	"voucherMaxText":"バウチャーの最大数はネットワークあたり2,000、もしくは、アクセスポイントあたり100であり、より多い方が適用されます。",
-
 	"voucherCreateName":"バウチャーコード",
-
 	"voucherCreateSize":"用紙サイズ",
-
 	"voucherUpdateComment":"コメント",
-
 	"voucherUpdateDuration":"期間（時間）",
-
 	"voucherUpdateMaxUsers":"最大の端末数",
-
 	"voucherUpdateDownloadLimit":"ダウンロードの制限（Mbps）",
-
 	"voucherUpdateUploadLimit":"アップロードの制限（Mbps）",
-
 	"voucherUpdateSaveDefaults":"デフォルトとして保存",
-
 	"voucherUpdateFailure":"更新できませんでした",
-
 	"voucherUpdateSuccess":"更新できました",
-
 	"voucherCreateQuantity":"量",
-
 	"voucherCreatePurgeDays":"（日）後に削除",
-
 	"voucherDownLimitError":"0.056から100の間で設定してください",
-
 	"voucherUpLimitError":"0.056から100の間で設定してください",
-
 	"voucherSettingsSubmit":"変更を保存",
-
 	"voucherSettingsAppearance":"テーマ",
 	"voucherSettingsDurationText":"期間のテキスト",
-
 	"voucherSettingsDefaultDurationText":"有効時間: {p0}",
-
 	"voucherSettingsDefaultLoginText":"ログインコード: {p0}",
-
 	"voucherSettingsAccessText":"アクセスのテキスト",
-
 	"voucherSettingsBorder":"境界線を表示",
-
 	"voucherSettingsLogo":"画像を表示",
-
 	"voucherSettingsManagement":"管理",
-
 	"voucherSettingsLobbyAssistant":"ロビーアシスタント",
-
 	"voucherSettingsLobbyAssistantEnable":"有効にする",
-
 	"voucherSettingsLobbyAssistantPassword":"パスワード",
-
 	"voucherSettingsLobbyAssistantCreateBulk":"バルクを作成",
-
 	"voucherSettingsLobbyAssistantEditSettings":"設定を編集",
-
 	"voucherSubmitSuccess":"設定が更新されました",
-
 	"ssidGeneralNameValidation":"ネットワーク内で固有であり、1から32文字以内（32バイト以下）である必要があります。",
-
 	"settingsSsid":"SSID {p0}: {p1}",
 	"settingsSsidGeneral":"一般",
-
 	"settingsSsidAdvanced":"上級者向け",
-
 	"settingsSsidCaptivePortal":"キャプティブポータル",
-
 	"settingsSsidCaptivePortalTip":"{ts0}{displayName} ヘルプセンター{te1}にキャプティブポータルとスプラッシュページの詳細を用意しています。Facebook WiFiについては、{ts2}Facebookのヘルプセンター{te3}でご確認ください。",
-
 	"settingsSsidCaptivePortalLegacyTip":"ヘルプセンター{te1}にキャプティブポータルとスプラッシュページの詳細を用意しています。",
-
 	"ssidGeneralName":"SSID名",
-
 	"ssidGeneralEnable":"有効にする",
-
 	"ssidGeneralEnableHiddenNetwork":"公開",
-
 	"ssidGeneralWifiName":"ブロードキャスト名",
-
 	"ssidGeneralEnableUseNodeName":"アクセスポイント名を利用",
-
 	"ssidGeneralWifiAuthType":"認証",
-
 	"ssidGeneralWpa2Only":"WPA2のみ",
-
 	"ssidGeneralWpaPassword":"WPAのパスワード",
-
 	"ssidAdvancedWpaEServerIpAddress":"WPA エンタープライズのサーバーアドレス",
-
 	"ssidAdvancedWpaEServerPort":"WPA エンタープライズのサーバーポート",
-
 	"ssidAdvancedWpaEServerSecret":"WPA エンタープライズのサーバー秘密鍵",
-
 	"ssidGeneralWifiAuthTypeOpen":"開く",
-
 	"ssidGeneralWifiAuthTypePsk":"WPA 事前共有鍵",
-
 	"ssidGeneralWifiAuthTypeE":"WPA エンタープライズ",
-
 	"ssidAdvancedEnableApIsolation":"クライアント・アイソレーション",
-
 	"ssidAdvancedEnableLanBlock":"LANのアクセスをブロック",
-
 	"ssidAdvancedSmtpRedirectServerAddress":"SMTP リダイレクト",
-
 	"ssidAdvancedSmtpRedirectServerAddressPlaceholder":"例 {lb}192.168.1.1　Ex. {lb}192.168.1.1",
-
 	"ssidAdvancedWifiWhitelist":"アクセス・コントロール・リスト",
-
 	"ssidAdvancedWifiWhitelistPlaceholder":"例:{lb}00:01:cc:dd:ee:33{lb}00:00:cc:dd:ee:44　Ex:{lb}00:01:cc:dd:ee:33{lb}00:00:cc:dd:ee:44",
-
 	"ssidAdvancedVlanTag":"VLANブリッジング",
-
 	"ssidAdvancedDnsServerAddresses":"代替DNS",
-
 	"ssidAdvancedDnsServerAddressesPlaceholder":"例: 8.8.8.8　Ex: 8.8.8.8",
-
 	"ssidAdvancedDnsServerAddressesTip":"このSSIDに対する代替DNSサーバーのIPアドレスを1行に1つずつ入力してください。この設定はこのSSIDのネットワーク全体の代替DNSの設定よりも優先されます。そのため、コンテンツのフィルタリング、クライアントの追跡等のためにOpenDNS等のサービスを利用することが可能になります。",
-
 	"ssidCpSplashPage":"スプラッシュページ",
-
 	"ssidCpSplashPageNone":"なし",
-
 	"ssidCpSplashPageFacebook":"Facebook WiFi",
 	"ssidCpSplashPageCloudtrax":"カスタム",
-
 	"ssidCpSplashPageRemote":"リモートでホスティング",
-
 	"ssidCpFacebookRegister":"ネットワークを登録",
-
 	"ssidCpFacebookConfigure":"Facebook WiFiを設定",
-
 	"cpFacebookPairing":"{p0}とペアにする",
-
 	"cpFacebookPairingFailure":"Facebookから情報を取り込むことができません。",
-
 	"cpFacebookPairingPrompt":"上のボタンをクリックしてFacebook WiFiの設定を行ったら、このページに戻り、変更を保存してください。",
-
 	"ssidCpRemoteServerUrl":"スプラッシュページのURL",
-
 	"ssidCpRemoteServerHost":"サーバーのホスト",
-
 	"ssidCpRemoteServerPath":"サーバーパス",
-
 	"ssidCpRemoteEnableServerSsl":"SSLを有効にする",
-
 	"ssidCpRemoteServerSecret":"スプラッシュページの秘密鍵",
-
 	"ssidCpRemoteNasId":"サーバー NAS ID ",
-
 	"ssidCpLoginMethod":"スプラッシュページの認証",
-
 	"ssidCpLoginMethodType":"スプラッシュページの認証のタイプ",
-
 	"ssidCpLoginMethodNone":"{displayName}",
 	"ssidCpLoginMethodRadius":"RADIUS",
 	"ssidCpLoginMethodLdap":"LDAP",
 	"ssidCpLoginMethodActiveDirectory":"アクティブ・ディレクトリ",
-
 	"ssidCpLoginMethodHttp":"HTTP",
 	"ssidCpLoginMethodRadiusServerAddress1":"サーバーアドレス 1",
-
 	"ssidCpLoginMethodRadiusServerAddress2":"サーバーアドレス 2",
-
 	"ssidCpLoginMethodRadiusServerSecret":"サーバーの秘密鍵",
-
 	"ssidCpLoginMethodRadiusNasId":"NAS ID",
 	"ssidCpLoginMethodRadiusEnableSwapOctets":"オクテットのスワップを有効にする",
-
 	"ssidCpLoginMethodActiveDirectoryServerAddress":"サーバーアドレス",
-
 	"ssidCpLoginMethodActiveDirectoryServerPort":"サーバーポート",
-
 	"ssidCpLoginMethodActiveDirectoryServerAddressPlaceholder":"例.{lb}192.168.1.1{lb}255.255.255.255",
-
 	"ssidCpLoginMethodActiveDirectoryServerPortPlaceholder":"例.{lb}123{lb}456",
-
 	"ssidCpLoginMethodActiveDirectoryBindDn":"バインド DN",
-
 	"ssidCpLoginMethodActiveDirectoryBindUsername":"バインド ユーザー名",
-
 	"ssidCpLoginMethodActiveDirectoryBindPassword":"バインド パスワード",
-
 	"ssidCpLoginMethodActiveDirectoryDefaultSeconds":"デフォルトの秒数",
-
 	"ssidCpLoginMethodActiveDirectoryDefaultDownload":"デフォルトのダウンロード",
-
 	"ssidCpLoginMethodActiveDirectoryDefaultUpload":"デフォルトのアップロード",
-
 	"ssidCpLoginMethodLdapServerAddress":"サーバーアドレス",
-
 	"ssidCpLoginMethodLdapServerAddressPlaceholder":"例.{lb}192.168.1.1{lb}255.255.255.255",
-
 	"ssidCpLoginMethodLdapServerPortPlaceholder":"例.{lb}123{lb}456",
-
 	"ssidCpLoginMethodLdapServerPort":"サーバーポート",
-
 	"ssidCpLoginMethodLdapBaseDn":"ベース DN",
-
 	"ssidCpLoginMethodLdapBindDn":"バインド DN",
-
 	"ssidCpLoginMethodLdapBindUsername":"バインド ユーザー名",
-
 	"ssidCpLoginMethodLdapBindPassword":"バインド パスワード",
-
 	"ssidCpLoginMethodLdapAttributes":"属性",
-
 	"ssidCpLoginMethodLdapFilter":"フィルター",
-
 	"ssidCpLoginMethodLdapDefaultSeconds":"デフォルトの秒数",
-
 	"ssidCpLoginMethodLdapDefaultDownload":"デフォルトのダウンロード",
-
 	"ssidCpLoginMethodLdapDefaultUpload":"デフォルトのアップロード",
-
 	"ssidCpLoginMethodHttpUrl":"URL",
 	"ssidCpLoginMethodHttpSecret":"秘密鍵",
-
 	"ssidCpAfterSplashPageRedirectUrl":"リダイレクト URL",
-
 	"ssidCpEnableIncludeUserdataOnRedirect":"リダイレクト URLにユーザーのデータを含める",
-
 	"ssidCpEnableTrafficShaping":"帯域制限",
-
 	"ssidCpPerClientDownloadSpeed":"ダウンロード",
-
 	"ssidCpPerClientUploadSpeed":"アップロード",
-
 	"ssidCpEnableBlockPreauthClients":"認証されていないユーザーをブロックする",
-
++ "ssidCpEnableFailsafe":"Enable Failsafe Mode",
 	"ssidCpEnableRequireValidLogin":"バウチャーを要求",
-
 	"ssidCpWhitelist":"ホワイトリスト",
-
 	"ssidCpWhitelistPlaceholder":"例:{lb}00:01:cc:dd:ee:ee{lb}00:00:cc:dd:ee:ff",
-
 	"ssidCpBlocklist":"ブロックした端末　Blocked devices",
-
 	"ssidCpBlocklistPlaceholder":"例:{lb}00:01:cc:dd:ee:11{lb}00:00:cc:dd:ee:22",
-
 	"ssidCpBlockMessage":"ブロックしたメッセージ",
-
 	"ssidCpWalledGarden":"ウォールドガーデン",
-
 	"ssidCpWalledGardenPlaceholder":"例:{lb}www.myhomepage.com{lb}www.myvideohost.com{lb}www.myimagehost.com{lb}www.google.com",
-
 	"ssidCpClientForceTimeout":"クライアントの強制タイムアウト",
-
 	"cpCloudtrax":"スプラッシュページを編集",
-
 	"nodeTableTip1":"{ts0}地図の表示{te1}を選択して、アクセスポイントを追加、または、編集してください。",
-
 	"nodeMapTip1":"地図上の場所をクリックして、新しいアクセスポイントを追加してください。",
-
 	"nodeMapTip2":"地図をクリックして、新しいアクセスポイントを追加してください。既存のアクセスポイントをクリックして編集、または、クリック、および、ドラッグを行い、移動することができます。",
-
 	"nodeMapUpdateNodeDetails":"詳細",
-
 	"nodeMapUpdateNodeNeighbors":"隣接",
-
 	"nodeMapUpdateNodeCommands":"コマンド",
-
 	"nodeMapUpdateNodeEdit":"編集",
-
 	"nodeMapUpdateNodeCommandReboot":"再起動",
-
 	"nodeMapUpdateNodeCommandRebootButton":"アクセスポイントを再起動",
-
 	"nodeMapUpdateNodeCommandRebootLoading":"再起動中",
-
     "nodeTableRebootSent":"再起動のコマンドを送信しました",
-
     "nodeTableRebootError":":に対する再起動のコマンドが失敗しました　",
-
     "nodeTableActions":"アクション",
-
     "nodeTableActionsReboot":"再起動",
-
     "nodeTableActionsDelete":"消去",
-
     "nodeTableActionsView":"地図上で見る",
-
     "nodeTableActionsEdit":"編集",
-
 	"nodeMapUpdateNodeCommandSpare":"アラートを無効化",
-
 	"nodeMapUpdateNodeCommandDelete":"消去",
-
 	"nodeMapUpdateNodeCommandDeleteButton":"アクセスポイントを消去",
-
 	"neighborsTableName":"隣接",
-
 	"neighborsTableMac":"MAC",
 	"neighborsTableSignal24":"RSSI (2.4GHz)",
 	"neighborsTableSignal5":"RSSI (5GHz)",
 	"neighborsTableChannels":"バンド",
-
 	"neighborsTableNone":"隣接",
-
 	"nodeMapUpdateNodeDetailsMac":"MAC",
 	"nodeMapUpdateNodeDetailsProperty":"プロパティ―",
-
 	"nodeMapUpdateNodeDetailsValue":"値",
-
 	"nodeMapUpdateNodeDetailsMac":"Mac",
 	"nodeMapUpdateNodeDetailsBuild":"バージョン",
-
 	"nodeMapUpdateNodeDetailsUplink":"IPアドレス",
-
 	"nodeMapUpdateNodeDetailsChannels":"チャンネル",
-
 	"nodeMapUpdateNodeDetailsGateway":"ゲートウェイ",
-
 	"nodeMapUpdateNodeDetailsSpeed":"スループット",
-
 	"nodeMapUpdateNodeDetailsOutages":"停止",
-
 	"nodeMapUpdateNodeDetailsClients":"クライアント",
-
 	"nodeMapUpdateNodeDetailsLastCheckin":"前回のチェックイン",
-
 	"accountUpdateEmail":"Eメール",
-
 	"accountUpdateNameFirst":"ファーストネーム",
-
 	"accountUpdatePasswordNew":"新しいパスワード",
-
 	"accountUpdatePasswordCurrent":"現在のパスワード",
-
 	"manageNetworkName":"ネットワーク名",
-
 	"manageNetworkCreate":"新しいネットワークを作成",
-
 	"manageNetworkDelete":"ネットワークを消去",
-
 	"submitDeleteNetwork":"ネットワークを消去",
-
 	"manageNetworkCreateSuccess":"ネットワークを作成しました！最初のアクセスポイントを以下に加えてください。地図をクリックすると、アクセスポイントを追加することができます。",
-
 	"manageNetworkCloneSuccess1":"ネットワークを複製しました！",
-
 	"manageNetworkCloneSuccess2":"次のステップ:",
-
 	"manageNetworkCloneSuccess3":"PayPalを利用している場合、スプラッシュページに新しいボタンを作成してください。",
-
 	"manageNetworkCloneSuccess4":"Facebook WiFiを利用している場合、SSIDの再ペアリングを行ってください。",
-
 	"manageNetworkCreateFailure":"ネットワークを作成することができませんでした！",
-
 	"manageNetworkDeleteSuccess":"ネットワークを消去することができました！",
-
 	"manageNetworkDeleteFailure":"ネットワークを消去することができませんでした！",
-
 	"manageNetworkDeleteConfirm":"本当にこのネットワークを消去しますか ({p0})？　{lb}{lb}全てのアクセスポイントはネットワークから削除され、このネットワークの全ての記録は失われます。　このアクションは元に戻すことができません。",
-
 	"manageNetworkPassword":"パスワード",
-
 	"manageNetworkPasswordConfirm":"パスワードを確認",
-
 	"manageNetworkEmail":"Eメール",
-
 	"manageNetworkLocation":"場所",
-
 	"manageNetworkTimezone":"時間帯",
-
 	"nameFirst":"ファーストネーム",
-
 	"email":"Eメール",
-
 	"signupInvalidEmail":"有効なEメールアドレスが必要です。",
-
 	"signupError1":"赤で記された欄を確認してください",
-
 	"signupError2":"ご自身のユーザーのタイプを選択してください",
-
 	"signupCompleteHeader":"もうすぐです…",
-
 	"signupCompleteMessage1":"Eメールを確認してください。{p0}へ向かうリンクを送信しました。Eメールを認証し、サインアップのプロセスを完了してください。",
-
 	"signupCompleteMessage2":"Eメールが届いていませんか？スパムフォルダーを確認してください。",
-
 	"signupCompleteMessage3":"それでも見つかりませんか？ {ts0}ここをクリック{te1}してもう一度送信してください。",
-
 	"signupCompleteSending":"送信中…",
-
 	"signupCompleteSent":"送信しました",
-
 	"signupCompleteFailure":"送信に失敗しました",
-
 	"signupVerifyMessage":"認証中…",
-
 	"signupVerifySuccess":"認証しました！",
-
 	"signupVerifyFailure":"認証に失敗しました！",
-
 	"signupVerifyHeader":"成功しました！",
-
 	"signupVerifyMessage1":"{displayName}のサインアップが完了しました。続いて最初のネットワークの構築していきます。",
-
 	"signupVerifyMessage2":"{ts0}サインイン{te1}ページに進み、早速始めましょう。サポートが必要な場合、{displayName}ヘルプセンター内の{ts2}スタートガイド{te3}を参考にしてください。",
-
 	"signupVerifyMessage3":"サインイン",
-
 	"sortableTableLimit":"{p0}",
 	"sortableTableLimitAll":"全て",
-
 	"sortableTableRecordsPerPage":"ページあたりの{p0}記録",
-
 	"nodesPluralLabel":"{p0} APの合計。",
-
 	"nodesSingularLabel":"{p0} APの合計。",
-
 	"neighborsPluralLabel":"{p0} Neighbors total.",
-
 	"neighborsSingularLabel":"{p0} Neighbor total.",
 	"clientsPluralLabel":"{p0} クライアントの合計。",
-
 	"clientsSingularLabel":"{p0} クライアントの合計。",
-
 	"layer7PluralLabel":"{p0} アプリの合計。",
-
 	"layer7SingularLabel":"{p0} アプリの合計。",
-
 	"layer7PieChartLabelApplications":"アプリ",
-
 	"surveyPluralLabel":"{p0} シグナルの合計。",
-
 	"surveySingularLabel":"{p0} シグナルの合計。",
-
 	"vouchersPluralLabel":"{p0} バウチャーの合計。",
-
 	"vouchersSingularLabel":"{p0} バウチャーの合計。",
-
 	"networksPluralLabel":"{p0} ネットワークの合計。",
-
 	"networksSingularLabel":"{p0} ネットワークの合計。",
-
 	"radioCountryCode":"国",
-
 	"radioTxPower":"送信電力。",
-
 	"radioChannel24":"2.4GHz",
 	"radioChannel5":"5GHz",
 	"radioEnableAutorf":"チャンネル",
-
 	"radioTxPower":"送信電力",
-
 	"radioTxPower24":"2.4GHz",
 	"radioTxPower5":"5GHz",
 	"radioAutorfHour":"メンテナンスの期間",
-
 	"radioAutorfHour0":"午前0時-1時",
-
 	"radioAutorfHour1":"午前1時-2時",
-
 	"radioAutorfHour2":"午前2時-3時",
-
 	"radioAutorfHour3":"午前3時－4時",
-
 	"radioAutorfHour4":"午前4時-5時",
-
 	"radioAutorfHour5":"午前5時-6時",
-
 	"radioAutorfHour6":"午前6時-7時",
-
 	"radioAutorfHour7":"午前7時-8時",
-
 	"radioAutorfHour8":"午前8時-9時",
-
 	"radioAutorfHour9":"午前9時-10時",
-
 	"radioAutorfHour10":"午前10時-11時",
-
 	"radioAutorfHour11":"午前11時-12時",
-
 	"radioAutorfHour12":"午前12時-午後1時",
-
 	"radioAutorfHour13":"午後1時-2時",
-
 	"radioAutorfHour14":"午後2時-3時",
-
 	"radioAutorfHour15":"午後3時-4時",
-
 	"radioAutorfHour16":"午後4時-5時",
-
 	"radioAutorfHour17":"午後5時-6時",
-
 	"radioAutorfHour18":"午後6時-7時",
-
 	"radioAutorfHour19":"午後7時-8時",
-
 	"radioAutorfHour20":"午後8時-9時",
-
 	"radioAutorfHour21":"午後9時-10時",
-
 	"radioAutorfHour22":"午後10時-11時",
-
 	"radioAutorfHour23":"午後11時-午前0時",
-
 	"country00":"不明",
-
 	"countryUS":"アメリカ合衆国",
-
 	"countryAF":"アフガニスタン",
-
 	"countryAX":"オーランド諸島",
-
 	"countryAL":"アルバニア",
-
 	"countryDZ":"アルジェリア",
-
 	"countryAS":"アメリカ領サモア",
-
 	"countryAD":"アンドラ",
-
 	"countryAO":"アンゴラ",
-
 	"countryAI":"アンギラ",
-
 	"countryAQ":"南極",
-
 	"countryAG":"アンティグア・バーブーダ",
-
 	"countryAR":"アルゼンチン",
-
 	"countryAU":"オーストラリア",
-
 	"countryAT":"オーストリア",
-
 	"countryAZ":"アゼルバイジャン",
-
 	"countryBS":"バハマ",
-
 	"countryBH":"バーレーン",
-
 	"countryBD":"バングラデシュ",
-
 	"countryBB":"バルバドス",
-
 	"countryBY":"ベラルーシ",
-
 	"countryBE":"ベルギー",
-
 	"countryBZ":"ベリーズ",
-
 	"countryBJ":"ベナン",
-
 	"countryBM":"バミューダ",
-
 	"countryBT":"ブータン",
-
 	"countryBO":"ボリビア",
-
 	"countryBA":"ボスニア・ヘルツェゴビナ",
-
 	"countryBW":"ボツワナ",
-
 	"countryBV":"ブーベ島",
-
 	"countryBR":"ブラジル",
-
 	"countryIO":"イギリス領インド洋地域",
-
 	"countryBN":"ブルネイ",
-
 	"countryBG":"ブルガリア",
-
 	"countryBF":"ブルキナファソ",
-
 	"countryBI":"ブルンジ",
-
 	"countryKH":"カンボジア",
-
 	"countryCM":"カメルーン",
-
 	"countryCA":"カナダ",
-
 	"countryCV":"カーボベルデ",
-
 	"countryKY":"ケイマン諸島",
-
 	"countryCF":"中央アフリカ共和国",
-
 	"countryTD":"チャド",
-
 	"countryCL":"チリ",
-
 	"countryCN":"中華人民共和国",
-
 	"countryCX":"クリスマス島",
-
 	"countryCC":"ココス（キーリング）諸島",
-
 	"countryCO":"コロンビア",
-
 	"countryKM":"コモロ",
-
 	"countryCG":"コンゴ共和国",
-
 	"countryCD":"コンゴ民主共和国",
-
 	"countryCK":"クック諸島",
-
 	"countryCR":"コスタリカ",
-
 	"countryCI":"コートジボワール",
-
 	"countryHR":"クロアチア",
-
 	"countryCU":"キューバ",
-
 	"countryCY":"キプロス",
-
 	"countryCZ":"チェコ",
-
 	"countryDK":"デンマーク",
-
 	"countryDJ":"ジブチ　",
-
 	"countryDM":"ドミニカ国",
-
 	"countryDO":"ドミニカ共和国",
-
 	"countryEC":"エクアドル",
-
 	"countryEG":"エジプト",
-
 	"countrySV":"エルサルバドル",
-
 	"countryGQ":"赤道ギニア",
-
 	"countryER":"エリトリア",
-
 	"countryEE":"エストニア",
-
 	"countryET":"エチオピア",
-
 	"countryFK":"フォークランド諸島（マルビナス諸島）",
-
 	"countryFO":"フェロー諸島",
-
 	"countryFJ":"フィジー",
-
 	"countryFI":"フィンランド",
-
 	"countryFR":"フランス",
-
 	"countryGF":"フランス領ギアナ",
-
 	"countryPF":"フランス領ポリネシア",
-
 	"countryTF":"フランス領南方・南極地域",
-
 	"countryGA":"ガボン",
-
 	"countryGM":"ガンビア",
-
 	"countryGE":"ジョージア",
-
 	"countryDE":"ドイツ",
-
 	"countryGH":"ガーナ",
-
 	"countryGI":"ジブラルタル",
-
 	"countryGR":"ギリシャ",
-
 	"countryGL":"グリーンランド",
-
 	"countryGD":"グレナダ",
-
 	"countryGP":"グアドループ",
-
 	"countryGU":"グアム",
-
 	"countryGT":"グアテマラ",
-
 	"countryGG":"ガーンジー",
-
 	"countryGN":"ギニア",
-
 	"countryGW":"ギニアビサウ",
-
 	"countryGY":"ガイアナ",
-
 	"countryHT":"ハイチ",
-
 	"countryHM":"ハード島とマクドナルド諸島",
-
 	"countryVA":"バチカン市国",
-
 	"countryHN":"ホンジュラス",
-
 	"countryHK":"香港",
-
 	"countryHU":"ハンガリー",
-
 	"countryIS":"アイスランド",
-
 	"countryIN":"インド",
-
 	"countryID":"インドネシア",
-
 	"countryIR":"イラン",
-
 	"countryIQ":"イラク",
-
 	"countryIE":"アイルランド",
-
 	"countryIM":"マン島",
-
 	"countryIL":"イスラエル",
-
 	"countryIT":"イタリア",
-
 	"countryJM":"ジャマイカ",
-
 	"countryJP":"日本",
-
 	"countryJE":"ジャージー",
-
 	"countryJO":"ヨルダン",
-
 	"countryKZ":"カザフスタン",
-
 	"countryKE":"ケニヤ",
-
 	"countryKI":"キリバス",
-
 	"countryKP":"朝鮮民主主義人民共和国",
-
 	"countryKR":"大韓民国",
-
 	"countryKW":"クウェート",
-
 	"countryKG":"キルギス",
-
 	"countryLA":"ラオス",
-
 	"countryLV":"ラトビア",
-
 	"countryLB":"レバノン",
-
 	"countryLS":"レソト",
-
 	"countryLR":"リベリア",
-
 	"countryLY":"リビア",
-
 	"countryLI":"リヒテンシュタイン",
-
 	"countryLT":"リトアニア",
-
 	"countryLU":"ルクセンブルク",
-
 	"countryMO":"マカオ",
-
 	"countryMK":"マケドニア",
-
 	"countryMG":"マダガスカル",
-
 	"countryMW":"マラウイ",
-
 	"countryMY":"マレーシア",
-
 	"countryMV":"モルディブ",
-
 	"countryML":"マリ",
-
 	"countryMT":"マルタ",
-
 	"countryMH":"マーシャル諸島",
-
 	"countryMQ":"マルティニーク",
-
 	"countryMR":"モーリタニア",
-
 	"countryMU":"モーリシャス",
-
 	"countryYT":"マヨット",
-
 	"countryMX":"メキシコ",
-
 	"countryFM":"ミクロネシア",
-
 	"countryMD":"モルドバ",
-
 	"countryMC":"モナコ",
-
 	"countryMN":"モンゴル",
-
 	"countryME":"モンテネグロ",
-
 	"countryMS":"モントセラト",
-
 	"countryMA":"モロッコ",
-
 	"countryMZ":"モザンビーク",
-
 	"countryMM":"ミャンマー",
-
 	"countryNA":"ナミビア",
-
 	"countryNR":"ナウル",
-
 	"countryNP":"ネパール",
-
 	"countryNL":"オランダ",
-
 	"countryNC":"ニューカレドニア",
-
 	"countryNZ":"ニュージーランド",
-
 	"countryNI":"ニカラグア",
-
 	"countryNE":"ニジェール",
-
 	"countryNG":"ナイジェリア",
-
 	"countryNU":"ニウエ",
-
 	"countryNF":"ノーフォーク島",
-
 	"countryMP":"北マリアナ諸島",
-
 	"countryNO":"ノルウェー",
-
 	"countryOM":"オマーン",
-
 	"countryPK":"パキスタン",
-
 	"countryPW":"パラオ",
-
 	"countryPS":"パレスチナ自治区",
-
 	"countryPA":"パナマ",
-
 	"countryPG":"パプアニューギニア",
-
 	"countryPY":"パラグアイ",
-
 	"countryPE":"ペルー",
-
 	"countryPH":"フィリピン",
-
 	"countryPN":"ピトケアン諸島",
-
 	"countryPL":"ポーランド",
-
 	"countryPT":"ポルトガル",
-
 	"countryPR":"プエルトリコ",
-
 	"countryQA":"カタール",
-
 	"countryRE":"レユニオン",
-
 	"countryRO":"ルーマニア",
-
 	"countryRU":"ロシア",
-
 	"countryRW":"ルワンダ",
-
 	"countrySH":"セントヘレナ",
-
 	"countryKN":"セントキッツ・ネービス",
-
 	"countryLC":"セントルシア",
-
 	"countryPM":"サンピエール島・ミクロン島",
-
 	"countryVC":"セントビンセント、および、グレナディーン",
-
 	"countryWS":"サモア",
-
 	"countrySM":"サンマリノ",
-
 	"countryST":"サントメ・プリンシぺ",
-
 	"countrySA":"サウジアラビア",
-
 	"countrySN":"セネガル",
-
 	"countryRS":"セルビア",
-
 	"countrySC":"セーシェル",
-
 	"countrySL":"シエラレオネ",
-
 	"countrySG":"シンガポール",
-
 	"countrySK":"スロバキア",
-
 	"countrySI":"スロベニア",
-
 	"countrySB":"ソロモン諸島",
-
 	"countrySO":"ソマリア",
-
 	"countryZA":"南アフリカ共和国",
-
 	"countryGS":"サウスジョージア",
-
 	"countryES":"スペイン",
-
 	"countryLK":"スリランカ",
-
 	"countrySD":"スーダン",
-
 	"countrySR":"スリナム",
-
 	"countrySJ":"スヴァールバル諸島、および、ヤンマイエン島",
-
 	"countrySZ":"スワジランド",
-
 	"countrySE":"スウェーデン",
-
 	"countryCH":"スイス",
-
 	"countrySY":"シリア・アラブ共和国",
-
 	"countryTW":"台湾",
-
 	"countryTJ":"タジキスタン",
-
 	"countryTZ":"タンザニア",
-
 	"countryTH":"タイ",
-
 	"countryTL":"東ティモール",
-
 	"countryTG":"トーゴ",
-
 	"countryTK":"トケラウ",
-
 	"countryTO":"トンガ",
-
 	"countryTT":"トリニダード・トバゴ",
-
 	"countryTN":"チュニジア",
-
 	"countryTR":"トルコ",
-
 	"countryTM":"トルクメニスタン",
-
 	"countryTC":"タークス・カイコス諸島",
-
 	"countryTV":"ツバル",
-
 	"countryUG":"ウガンダ",
-
 	"countryUA":"ウクライナ",
-
 	"countryAE":"アラブ首長国連邦",
-
 	"countryGB":"英国",
-
 	"countryUM":"合衆国領有小離島",
-
 	"countryUY":"ウルグアイ",
-
 	"countryUZ":"ウズベキスタン",
-
 	"countryVU":"バヌアツ",
-
 	"countryVE":"ベネズエラ",
-
 	"countryVN":"ベトナム",
-
 	"countryVG":"イギリス領ヴァージン諸島",
-
 	"countryVI":"アメリカ領ヴァージン諸島",
-
 	"countryWF":"ウォリス・フツナ",
-
 	"countryEH":"西サハラ",
-
 	"countryYE":"イエメン",
-
 	"countryZM":"ザンビア",
-
 	"countryZW":"ジンバブエ",
-
 	"countryAM":"アルメニア",
-
 	"countryAW":"アルバ",
-
 	"countryBL":"サン・バルテルミー島",
-
 	"countryBQ":"ボネール、シント・ユースタティウス、および、サバ",
-
 	"countryCW":"キュラソー島",
-
 	"countryMF":"セント・マーチン島（フランス領）",
-
 	"countrySS":"南スーダン",
-
 	"countrySX":"セント・マーチン島（オランダ領）",
-
 	"radioTxPowerCountry":"国の設定を利用",
-
 	"navSettingsUpgrade":"メンテナンス",
-
 	"upgradeDisable":"自動アップグレード",
-
 	"upgradeDisableOn":"オン",
-
 	"upgradeDisableOff":"オフ",
-
 	"upgradeFirmwareRelease":"ファームウェア・リリース",
-
 	"upgradeFirmwareReleaseNg5xx":"NG5XX",
 	"upgradeFirmwareReleaseLegacy":"レガシー（現在は481）",
-
 	"upgradeFirmwareReleaseStable":"安定 (現在は {p0})",
-
 	"upgradeFirmwareReleaseStableLatest":"安定-最新 （現在は {p0}）",
-
 	"upgradeFirmwareReleaseBeta":"ベータ（現在は {p0}）",
-
 	"upgradeFirmwareReleaseTesting":"テスト中",
-
 	"upgradeFirmwareRelease4":"NG4XX",
 	"upgradeFirmwareRelease5":"NG5XX",
 	"upgradeFirmwareReleaseReserve":"予約",
-
 	"advancedDeleteNetwork":"ネットワークを消去",
-
 	"advancedDeleteNetworkLink":"このネットワークを消去",
-
 	"advancedSecurity":"セキュリティー",
-
 	"advancedAlternateServers":"代替サーバー",
-
 	"advancedMisc":"その他",
-
 	"advancedNodeRootPassword":"ルートのパスワード",
-
 	"advancedEnableMeshEncryption":"メッシュの暗号化",
-
 	"advancedCloudApHost":"代替コントローラー",
-
 	"advancedSmtpRedirectServerAddress":"SMTP リダイレクト",
-
 	"advancedSmtpRedirectServerAddressPlaceholder":"例.{lb}192.168.1.1 ",
-
 	"advancedDnsDomainName":"ローカルのドメイン",
-
 	"advancedDnsDomainNamePlaceholder":"例: cloudtrax.local",
-
 	"advancedDnsServerIpAddress":"代替DNS ",
-
 	"advancedDnsServerIpAddressPlaceholder":"例:8.8.8.8 ",
-
 	"advancedCustomScriptUrl":"custom.sh サーバー",
-
 	"advancedCustomScriptUrlPlaceholder":"例: http://myscripts.com/directory/",
-
 	"advancedCustomScriptUrlPlaceholderError":"ディレクトリーに向かうURLであり、フォワードスラッシュで終わる必要があります。",
-
 	"advancedEnableShareVoucher":"バウチャーを共有",
-
 	"advancedWiredBridgeSsid":"有線接続のクライアントをブリッジ接続",
-
 	"advancedWirelessBridgeSsid":"SSIDをブリッジ接続",
-
 	"advancedWirelessBridgeSsidNone":"なし",
-
 	"statusClients":"クライアント",
-
 	"statusClientsBlocked":"ブロックしたクライアント",
-
     "clientBlockError":"クライアントをブロックすることができませんでした",
-
 	"timezoneGroupPacific":"太平洋",
-
 	"timezoneGroupIndian":"インド洋",
-
 	"timezoneGroupEurope":"ヨーロッパ",
-
 	"timezoneGroupAustralia":"オーストラリア",
-
 	"timezoneGroupAtlantic":"大西洋",
-
 	"timezoneGroupAsia":"アジア",
-
 	"timezoneGroupArctic":"北極",
-
 	"timezoneGroupAntarctica":"南極",
-
 	"timezoneGroupAmerica":"アメリカ",
-
 	"timezoneGroupAfrica":"アフリカ",
-
 	"timezoneGroupUTC":"UTC",
 	"timezoneGroupEtc":"Etc",
 	"timezoneGroupGMT":"GMT",
 	"timezoneGroupCanada":"カナダ",
-
 	"timezoneGroupUS":"米国",
-
 	"timezoneAfricaAbidjan":"アフリカ/アビジャン ({p0})",
-
 	"timezoneAfricaAccra":"アフリカ/アクラ ({p0})",
-
 	"timezoneAfricaAddisAbaba":"アフリカ/アディス_アベバ ({p0})",
-
 	"timezoneAfricaAlgiers":"アフリカ/アルジェ ({p0})",
-
 	"timezoneAfricaAsmara":"アフリカ/アスマラ　({p0})",
-
 	"timezoneAfricaAsmera":"アフリカ/アスマラ ({p0})",
-
 	"timezoneAfricaBamako":"アフリカ/バマコ　({p0})",
-
 	"timezoneAfricaBangui":"アフリカ/バンギ　({p0})",
-
 	"timezoneAfricaBanjul":"アフリカ/バンジュール　({p0})",
-
 	"timezoneAfricaBissau":"アフリカ/ビサウ　({p0})",
-
 	"timezoneAfricaBlantyre":"アフリカ/ブランタイア　({p0})",
-
 	"timezoneAfricaBrazzaville":"アフリカ/ブラザヴィル　({p0})",
-
 	"timezoneAfricaBujumbura":"アフリカ/ブジュンブラ　({p0})",
-
 	"timezoneAfricaCairo":"アフリカ/カイロ　({p0})",
-
 	"timezoneAfricaCasablanca":"アフリカ/カサブランカ　({p0})",
-
 	"timezoneAfricaCeuta":"アフリカ/セウタ　({p0})",
-
 	"timezoneAfricaConakry":"アフリカ/コナクリ　({p0})",
-
 	"timezoneAfricaDakar":"アフリカ/ダカール　({p0})",
-
 	"timezoneAfricaDaresSalaam":"アフリカ/ダル・エス・サラーム　({p0})",
-
 	"timezoneAfricaDjibouti":"アフリカ/ジブチ　({p0})",
-
 	"timezoneAfricaDouala":"アフリカ/ドゥアラ　({p0})",
-
 	"timezoneAfricaElAaiun":"アフリカ/アイウン　({p0})",
-
 	"timezoneAfricaFreetown":"アフリカ/フリータウン　({p0})",
-
 	"timezoneAfricaGaborone":"アフリカ/ハボローネ　({p0})",
-
 	"timezoneAfricaHarare":"アフリカ/ハラレ　({p0})",
-
 	"timezoneAfricaJohannesburg":"アフリカ/ヨハネスブルグ　({p0})",
-
 	"timezoneAfricaJuba":"アフリカ/ジュバ　({p0})",
-
 	"timezoneAfricaKampala":"アフリカ/カンパラ　({p0})",
-
 	"timezoneAfricaKhartoum":"アフリカ/ハルツーム　({p0})",
-
 	"timezoneAfricaKigali":"アフリカ/キガリ　({p0})",
-
 	"timezoneAfricaKinshasa":"アフリカ/キンシャサ　({p0})",
-
 	"timezoneAfricaLagos":"アフリカ/ラゴス　({p0})",
-
 	"timezoneAfricaLibreville":"アフリカ/リーブルヴィル　({p0})",
-
 	"timezoneAfricaLome":"アフリカ/ロメ　({p0})",
-
 	"timezoneAfricaLuanda":"アフリカ/ルアンダ　({p0})",
-
 	"timezoneAfricaLubumbashi":"アフリカ/ルブンバシ　({p0})",
-
 	"timezoneAfricaLusaka":"アフリカ/ルサカ　({p0})",
-
 	"timezoneAfricaMalabo":"アフリカ/マラボ　({p0})",
-
 	"timezoneAfricaMaputo":"アフリカ/マプト　({p0})",
-
 	"timezoneAfricaMaseru":"アフリカ/マセル　({p0})",
-
 	"timezoneAfricaMbabane":"アフリカ/ムババーネ　({p0})",
-
 	"timezoneAfricaMogadishu":"アフリカ/モガディシュ　({p0})",
-
 	"timezoneAfricaMonrovia":"アフリカ/モンロビア　({p0})",
-
 	"timezoneAfricaNairobi":"アフリカ/ナイロビ　({p0})",
-
 	"timezoneAfricaNdjamena":"アフリカ/ンジャナメ　({p0})",
-
 	"timezoneAfricaNiamey":"アフリカ/ニアメ　({p0})",
-
 	"timezoneAfricaNouakchott":"アフリカ/ヌアクショット　({p0})",
-
 	"timezoneAfricaOuagadougou":"アフリカ/ワガドゥグー　({p0})",
-
 	"timezoneAfricaPorto-Novo":"アフリカ/ポルトノボ　({p0})",
-
 	"timezoneAfricaSaoTome":"アフリカ/サントメ　({p0})",
-
 	"timezoneAfricaTimbuktu":"アフリカ/トンブクトゥ　({p0})",
-
 	"timezoneAfricaTripoli":"アフリカ/トリポリ　({p0})",
-
 	"timezoneAfricaTunis":"アフリカ/チュニス　({p0})",
-
 	"timezoneAfricaWindhoek":"アフリカ/ウィントフック　({p0})",
-
 	"timezoneAmericaAdak":"アメリカ/アダック　({p0})",
-
 	"timezoneAmericaAnchorage":"アメリカ/アンカレッジ　({p0})",
-
 	"timezoneAmericaAnguilla":"アメリカ/アンギラ　({p0})",
-
 	"timezoneAmericaAntigua":"アメリカ/アンティグア　({p0})",
-
 	"timezoneAmericaAraguaina":"アメリカ/アラグァイーナ　({p0})",
-
 	"timezoneAmericaArgentinaBuenosAires":"アメリカ/アルゼンチン/ブエノスアイレス　({p0})",
-
 	"timezoneAmericaArgentinaCatamarca":"アメリカ/アルゼンチン/カタマルカ　({p0})",
-
 	"timezoneAmericaArgentinaComodRivadavia":"アメリカ/アルゼンチン/コモドーロ・リバダビア　({p0})",
-
 	"timezoneAmericaArgentinaCordoba":"アメリカ/アルゼンチン/コルドバ　({p0})",
-
 	"timezoneAmericaArgentinaJujuy":"アメリカ/アルゼンチン/フフイ　({p0})",
-
 	"timezoneAmericaArgentinaLaRioja":"アメリカ/アルゼンチン/ラ・リオハ ({p0})",
-
 	"timezoneAmericaArgentinaMendoza":"アメリカ/アルゼンチン/メンドーサ　({p0})",
-
 	"timezoneAmericaArgentinaRioGallegos":"アメリカ/アルゼンチン/リオ・ガジェゴス　({p0})",
-
 	"timezoneAmericaArgentinaSalta":"アメリカ/アルゼンチン/サルタ　({p0})",
-
 	"timezoneAmericaArgentinaSanJuan":"アメリカ/アルゼンチン/サンフアン　({p0})",
-
 	"timezoneAmericaArgentinaSanLuis":"アメリカ/アルゼンチン/サンルイス　({p0})",
-
 	"timezoneAmericaArgentinaTucuman":"アメリカ/アルゼンチン/トゥクマン　({p0})",
-
 	"timezoneAmericaArgentinaUshuaia":"アメリカ/アルゼンチン/ウシュアイア　({p0})",
-
 	"timezoneAmericaAruba":"アメリカ/アルバ　 ({p0})",
-
 	"timezoneAmericaAsuncion":"アメリカ/アスンシオン　({p0})",
-
 	"timezoneAmericaAtikokan":"アメリカ/アティコーカン　({p0})",
-
 	"timezoneAmericaBahia":"アメリカ/バイ―ア　({p0})",
-
 	"timezoneAmericaBahiaBanderas":"アメリカ/バイ―ア・デ・バンデラス　({p0})",
-
 	"timezoneAmericaBarbados":"アメリカ/バルバドス ({p0})",
-
 	"timezoneAmericaBelem":"アメリカ/ベレン　({p0})",
-
 	"timezoneAmericaBelize":"アメリカ/ベリーズ　({p0})",
-
 	"timezoneAmericaBlanc-Sablon":"アメリカ/ブラン・サブロン　({p0})",
-
 	"timezoneAmericaBoaVista":"アメリカ/ボア・ヴィスタ　({p0})",
-
 	"timezoneAmericaBogota":"アメリカ/ボゴタ　({p0})",
-
 	"timezoneAmericaBoise":"アメリカ/ボイシ　({p0})",
-
 	"timezoneAmericaBuenosAires":"アメリカ/ブエノスアイレス　({p0})",
-
 	"timezoneAmericaCambridgeBay":"アメリカ/ケンブリッジ・ベイ　({p0})",
-
 	"timezoneAmericaCampoGrande":"アメリカ/カンポ・グランデ　({p0})",
-
 	"timezoneAmericaCancun":"アメリカ/カンクン　({p0})",
-
 	"timezoneAmericaCaracas":"アメリカ/カラカス　({p0})",
-
 	"timezoneAmericaCatamarca":"アメリカ/カタマルカ　({p0})",
-
 	"timezoneAmericaCayenne":"アメリカ/カイエンヌ　({p0})",
-
 	"timezoneAmericaCayman":"アメリカ/ケイマン ({p0})",
-
 	"timezoneAmericaChicago":"アメリカ/シカゴ　({p0})",
-
 	"timezoneAmericaChihuahua":"アメリカ/チワワ　({p0})",
-
 	"timezoneAmericaCoralHarbour":"アメリカ/コーラル・ハーバー　({p0})",
-
 	"timezoneAmericaCordoba":"アメリカ/コルドバ　({p0})",
-
 	"timezoneAmericaCostaRica":"アメリカ/コスタリカ　 ({p0})",
-
 	"timezoneAmericaCreston":"アメリカ/クレストン　({p0})",
-
 	"timezoneAmericaCuiaba":"アメリカ/クイアバ　({p0})",
-
 	"timezoneAmericaCuracao":"アメリカ/キュラソー　({p0})",
-
 	"timezoneAmericaDanmarkshavn":"アメリカ/デンマークシェヴン　({p0})",
-
 	"timezoneAmericaDawson":"アメリカ/ドーソン　({p0})",
-
 	"timezoneAmericaDawsonCreek":"アメリカ/ドーソン・クリーク　({p0})",
-
 	"timezoneAmericaDenver":"アメリカ/デンバー　({p0})",
-
 	"timezoneAmericaDetroit":"アメリカ/デトロイト　({p0})",
-
 	"timezoneAmericaDominica":"アメリカ/ドミニカ　({p0})",
-
 	"timezoneAmericaEdmonton":"アメリカ/エドモントン　({p0})",
-
 	"timezoneAmericaEirunepe":"アメリカ/エイルネぺ　({p0})",
-
 	"timezoneAmericaElSalvador":"アメリカ/エルサルバドル　({p0})",
-
 	"timezoneAmericaFortaleza":"アメリカ/フォルタレザ　({p0})",
-
 	"timezoneAmericaGlaceBay":"アメリカ/グレス・ベイ　({p0})",
-
 	"timezoneAmericaGodthab":"アメリカ/ヌーク　({p0})",
-
 	"timezoneAmericaGooseBay":"アメリカ/グースベイ　({p0})",
-
 	"timezoneAmericaGrandTurk":"アメリカ/グランドターク　({p0})",
-
 	"timezoneAmericaGrenada":"アメリカ/グレナダ　({p0})",
-
 	"timezoneAmericaGuadeloupe":"アメリカ/グアドループ　({p0})",
-
 	"timezoneAmericaGuatemala":"アメリカ/グアテマラ　({p0})",
-
 	"timezoneAmericaGuayaquil":"アメリカ/グアヤキル　({p0})",
-
 	"timezoneAmericaGuyana":"アメリカ/ガイアナ　({p0})",
-
 	"timezoneAmericaHalifax":"アメリカ/ハリファックス　({p0})",
-
 	"timezoneAmericaHavana":"アメリカ/ハバナ　({p0})",
-
 	"timezoneAmericaHermosillo":"アメリカ/エルモシージョ　({p0})",
-
 	"timezoneAmericaIndianapolis":"アメリカ/インディアナポリス　({p0})",
-
 	"timezoneAmericaIndianaIndianapolis":"アメリカ/インディアナ/インディアナポリス　({p0})",
-
 	"timezoneAmericaIndianaKnox":"アメリカ/インディアナ/ノックス　({p0})",
-
 	"timezoneAmericaIndianaMarengo":"アメリカ/インディアナ/マレンゴ　({p0})",
-
 	"timezoneAmericaIndianaPetersburg":"アメリカ/インディアナ/ピーターズバーグ　({p0})",
-
 	"timezoneAmericaIndianaTellCity":"アメリカ/インディアナ/テル・シティー　({p0})",
-
 	"timezoneAmericaIndianaVevay":"アメリカ/インディアナ/べベイ　({p0})",
-
 	"timezoneAmericaIndianaVincennes":"アメリカ/インディアナ/ビンセンズ　({p0})",
-
 	"timezoneAmericaIndianaWinamac":"アメリカ/インディアナ/ウィナマク　({p0})",
-
 	"timezoneAmericaInuvik":"アメリカ/イヌヴィック　({p0})",
-
 	"timezoneAmericaIqaluit":"アメリカ/イカルイト　({p0})",
-
 	"timezoneAmericaJamaica":"アメリカ/ジャマイカ　({p0})",
-
 	"timezoneAmericaJuneau":"アメリカ/ジュノー　({p0})",
-
 	"timezoneAmericaJujuy":"アメリカ/フフイ　({p0})",
-
 	"timezoneAmericaKentuckyLouisville":"アメリカ/ケンタッキー/ルイビル　({p0})",
-
 	"timezoneAmericaKentuckyMonticello":"アメリカ/ケンタッキー/モンティチェロ ({p0})",
-
 	"timezoneAmericaKralendijk":"アメリカ/クラレンダイク ({p0})",
-
 	"timezoneAmericaLaPaz":"アメリカ/ラパス　({p0})",
-
 	"timezoneAmericaLima":"アメリカ/リマ　({p0})",
-
 	"timezoneAmericaLouisville":"アメリカ/ルイビル　({p0})",
-
 	"timezoneAmericaLosAngeles":"アメリカ/ロサンゼルス　({p0})",
-
 	"timezoneAmericaLowerPrinces":"アメリカ/ローワー・プリンシズ　({p0})",
-
 	"timezoneAmericaMaceio":"アメリカ/マセイオ　({p0})",
-
 	"timezoneAmericaManagua":"アメリカ/マナグア　({p0})",
-
 	"timezoneAmericaManaus":"アメリカ/マナウス　({p0})",
-
 	"timezoneAmericaMarigot":"アメリカ/マリゴ　({p0})",
-
 	"timezoneAmericaMartinique":"アメリカ/マルティニーク　({p0})",
-
 	"timezoneAmericaMatamoros":"アメリカ/マタモロス　({p0})",
-
 	"timezoneAmericaMazatlan":"アメリカ/マサトラン　({p0})",
-
 	"timezoneAmericaMendoza":"アメリカ/メンドーサ　({p0})",
-
 	"timezoneAmericaMenominee":"アメリカ/メノミニー　({p0})",
-
 	"timezoneAmericaMerida":"アメリカ/メリダ　({p0})",
-
 	"timezoneAmericaMetlakatla":"アメリカ/メトラカットラ　({p0})",
-
 	"timezoneAmericaMexicoCity":"アメリカ/メキシコシティ　({p0})",
-
 	"timezoneAmericaMiquelon":"アメリカ/ミクロン　({p0})",
-
 	"timezoneAmericaMoncton":"アメリカ/モンクトン　({p0})",
-
 	"timezoneAmericaMonterrey":"アメリカ/モンテレイ　({p0})",
-
 	"timezoneAmericaMontevideo":"アメリカ/モンテビデオ　({p0})",
-
 	"timezoneAmericaMontreal":"アメリカ/モントリオール　({p0})",
-
 	"timezoneAmericaMontserrat":"アメリカ/モントラセト　({p0})",
-
 	"timezoneAmericaNassau":"アメリカ/ナッソー　({p0})",
-
 	"timezoneAmericaNewYork":"アメリカ/ニューヨーク　({p0})",
-
 	"timezoneAmericaNipigon":"アメリカ/二ピゴン　({p0})",
-
 	"timezoneAmericaNome":"アメリカ/ノーム　({p0})",
-
 	"timezoneAmericaNoronha":"アメリカ/ノローニャ　({p0})",
-
 	"timezoneAmericaNorthDakotaBeulah":"アメリカ/ノースダコタ/ビューラー　({p0})",
-
 	"timezoneAmericaNorthDakotaCenter":"アメリカ/ノースダコタ/センター　({p0})",
-
 	"timezoneAmericaNorthDakotaNewSalem":"アメリカ/ノースダコタ/ニューセーラム　({p0})",
-
 	"timezoneAmericaOjinaga":"アメリカ/オヒナガ　({p0})",
-
 	"timezoneAmericaPanama":"アメリカ/パナマ　({p0})",
-
 	"timezoneAmericaPangnirtung":"アメリカ/パングナータング　({p0})",
-
 	"timezoneAmericaParamaribo":"アメリカ/パラマリボ　({p0})",
-
 	"timezoneAmericaPhoenix":"アメリカ/フェニックス　({p0})",
-
 	"timezoneAmericaPort-au-Prince":"アメリカ/ポルトープランス　({p0})",
-
 	"timezoneAmericaPortofSpain":"アメリカ/ポート・オブ・スペイン　({p0})",
-
 	"timezoneAmericaPortoVelho":"アメリカ/ポルト・ヴェーリョ　({p0})",
-
 	"timezoneAmericaPuertoRico":"アメリカ/プエルトリコ　({p0})",
-
 	"timezoneAmericaRainyRiver":"アメリカ/レイニー・リバー　({p0})",
-
 	"timezoneAmericaRankinInlet":"アメリカ/ランキン・インレット　({p0})",
-
 	"timezoneAmericaRecife":"アメリカ/レシフェ　({p0})",
-
 	"timezoneAmericaRegina":"アメリカ/レジャイナ　({p0})",
-
 	"timezoneAmericaResolute":"アメリカ/レゾリュート　({p0})",
-
 	"timezoneAmericaRioBranco":"アメリカ/リオブランコ　({p0})",
-
 	"timezoneAmericaRosario":"アメリカ/ロサリオ　({p0})",
-
 	"timezoneAmericaSantaIsabel":"アメリカ/サンタイサベル　({p0})",
-
 	"timezoneAmericaSantarem":"アメリカ/サンタレン　({p0})",
-
 	"timezoneAmericaSantiago":"アメリカ/サンチアゴ　({p0})",
-
 	"timezoneAmericaSantoDomingo":"アメリカ/サントドミンゴ　({p0})",
-
 	"timezoneAmericaSaoPaulo":"アメリカ/サンパウロ　({p0})",
-
 	"timezoneAmericaScoresbysund":"アメリカ/スコアズビースンド　({p0})",
-
 	"timezoneAmericaShiprock":"アメリカ/シップロック　({p0})",
-
 	"timezoneAmericaSitka":"アメリカ/シトカ　({p0})",
-
 	"timezoneAmericaStBarthelemy":"アメリカ/サン・バルテルミー　({p0})",
-
 	"timezoneAmericaStJohns":"アメリカ/セントジョン　({p0})",
-
 	"timezoneAmericaStKitts":"アメリカ/セントクリストファー  ({p0})",
-
 	"timezoneAmericaStLucia":"アメリカ/セントルシア　({p0})",
-
 	"timezoneAmericaStThomas":"アメリカ/セントトーマス　({p0})",
-
 	"timezoneAmericaStVincent":"アメリカ/セントビンセント　({p0})",
-
 	"timezoneAmericaSwiftCurrent":"アメリカ/スイフトカレント　({p0})",
-
 	"timezoneAmericaTegucigalpa":"アメリカ/テグシガルパ　({p0})",
-
 	"timezoneAmericaThule":"アメリカ/チューレ　({p0})",
-
 	"timezoneAmericaThunderBay":"アメリカ/サンダーベイ　({p0})",
-
 	"timezoneAmericaTijuana":"アメリカ/ティフアナ　({p0})",
-
 	"timezoneAmericaToronto":"アメリカ/トロント　({p0})",
-
 	"timezoneAmericaTortola":"アメリカ/トルトラ　({p0})",
-
 	"timezoneAmericaVancouver":"アメリカ/バンクーバー　({p0})",
-
 	"timezoneAmericaWhitehorse":"アメリカ/ホワイトホース　({p0})",
-
 	"timezoneAmericaWinnipeg":"アメリカ/ウィニペグ　({p0})",
-
 	"timezoneAmericaYakutat":"アメリカ/ヤクタト　({p0})",
-
 	"timezoneAmericaYellowknife":"アメリカ/イエローナイフ　({p0})",
-
 	"timezoneAntarcticaCasey":"南極/ケーシー　({p0})",
-
 	"timezoneAntarcticaDavis":"南極/デービス　({p0})",
-
 	"timezoneAntarcticaDumontDUrville":"南極/デュモン・デュルヴィル　({p0})",
-
 	"timezoneAntarcticaMacquarie":"南極/マッコーリー　({p0})",
-
 	"timezoneAntarcticaMawson":"南極/モーソン　({p0})",
-
 	"timezoneAntarcticaMcMurdo":"南極/マクマード　({p0})",
-
 	"timezoneAntarcticaPalmer":"南極/パーマー　({p0})",
-
 	"timezoneAntarcticaRothera":"南極/ロゼラ　({p0})",
-
 	"timezoneAntarcticaSouthPole":"南極/南極点　({p0})",
-
 	"timezoneAntarcticaSyowa":"南極/昭和　({p0})",
-
 	"timezoneAntarcticaTroll":"南極/トロル　({p0})",
-
 	"timezoneAntarcticaVostok":"南極/ボストーク　({p0})",
-
 	"timezoneArcticLongyearbyen":"南極/ロングイヤービーエン　({p0})",
-
 	"timezoneAsiaAden":"アジア/アデン　({p0})",
-
 	"timezoneAsiaAlmaty":"アジア/アルマトイ　({p0})",
-
 	"timezoneAsiaAmman":"アジア/アンマン　({p0})",
-
 	"timezoneAsiaAnadyr":"アジア/アナディリ　({p0})",
-
 	"timezoneAsiaAqtau":"アジア/アクタウ　({p0})",
-
 	"timezoneAsiaAqtobe":"アジア/アクトべ　({p0})",
-
 	"timezoneAsiaAshgabat":"アジア/アシガバード　({p0})",
-
 	"timezoneAsiaBaghdad":"アジア/バグダッド　({p0})",
-
 	"timezoneAsiaBahrain":"アジア/バーレーン　({p0})",
-
 	"timezoneAsiaBaku":"アジア/バクー　({p0})",
-
 	"timezoneAsiaBangkok":"アジア/バンコク　({p0})",
-
 	"timezoneAsiaBeirut":"アジア/ベイルート　({p0})",
-
 	"timezoneAsiaBishkek":"アジア/ビシュケク　({p0})",
-
 	"timezoneAsiaBrunei":"アジア/ブルネイ　({p0})",
-
 	"timezoneAsiaCalcutta":"アジア/コルカタ　({p0})",
-
 	"timezoneAsiaChita":"アジア/チタ　({p0})",
-
 	"timezoneAsiaChoibalsan":"アジア/チョイバルサン　({p0})",
-
 	"timezoneAsiaChongqing":"アジア/重慶　({p0})",
-
 	"timezoneAsiaColombo":"アジア/コロンボ　({p0})",
-
 	"timezoneAsiaDamascus":"アジア/ダマスカス　({p0})",
-
 	"timezoneAsiaDhaka":"アジア/ダッカ　({p0})",
-
 	"timezoneAsiaDili":"アジア/ディリ　({p0})",
-
 	"timezoneAsiaDubai":"アジア/ドバイ　({p0})",
-
 	"timezoneAsiaDushanbe":"アジア/ドゥシャンベ　({p0})",
-
 	"timezoneAsiaGaza":"アジア/ガザ　({p0})",
-
 	"timezoneAsiaHarbin":"アジア/ハルビン　({p0})",
-
 	"timezoneAsiaHebron":"アジア/ヘブロン　({p0})",
-
 	"timezoneAsiaHoChiMinh":"アジア/ホーチミン　({p0})",
-
 	"timezoneAsiaHongKong":"アジア/香港　({p0})",
-
 	"timezoneAsiaHovd":"アジア/ホブド　({p0})",
-
 	"timezoneAsiaIrkutsk":"アジア/イルクーツク　({p0})",
-
 	"timezoneAsiaIstanbul":"アジア/イスタンブール　({p0})",
-
 	"timezoneAsiaJakarta":"アジア/ジャカルタ　({p0})",
-
 	"timezoneAsiaJayapura":"アジア/ジャヤプラ　({p0})",
-
 	"timezoneAsiaJerusalem":"アジア/エルサレム　({p0})",
-
 	"timezoneAsiaKabul":"アジア/カブール　({p0})",
-
 	"timezoneAsiaKamchatka":"アジア/カムチャツカ　({p0})",
-
 	"timezoneAsiaKarachi":"アジア/カラチ　({p0})",
-
 	"timezoneAsiaKashgar":"アジア/カシュガル　({p0})",
-
 	"timezoneAsiaKathmandu":"アジア/カトマンズ　({p0})",
-
 	"timezoneAsiaKatmandu":"アジア/カトマンズ　({p0})",
-
 	"timezoneAsiaKhandyga":"アジア/ハンドゥイガ　({p0})",
-
 	"timezoneAsiaKolkata":"アジア/コルカタ　({p0})",
-
 		"timezoneAsiaKrasnoyarsk":"アジア/クラスノヤルスク　({p0})",
-
 	"timezoneAsiaKualaLumpur":"アジア/クアラルンプール　({p0})",
-
 	"timezoneAsiaKuching":"アジア/クチン　({p0})",
-
 	"timezoneAsiaKuwait":"アジア/クウェート　({p0})",
-
 	"timezoneAsiaMacao":"アジア/マカオ　({p0})",
-
 	"timezoneAsiaMacau":"アジア/マカオ　({p0})",
-
 	"timezoneAsiaMagadan":"アジア/マダガン　({p0})",
-
 	"timezoneAsiaMakassar":"アジア/マカッサル　({p0})",
-
 	"timezoneAsiaManila":"アジア/マニラ　({p0})",
-
 	"timezoneAsiaMuscat":"アジア/マスカット　({p0})",
-
 	"timezoneAsiaNicosia":"アジア/ニコシア　({p0})",
-
 	"timezoneAsiaNovokuznetsk":"アジア/ノヴォクズネクツ　({p0})",
-
 	"timezoneAsiaNovosibirsk":"アジア/ノヴォシビルスク　({p0})",
-
 	"timezoneAsiaOmsk":"アジア/オムスク　({p0})",
-
 	"timezoneAsiaOral":"アジア/オラル　({p0})",
-
 	"timezoneAsiaPhnomPenh":"アジア/プノンペン　({p0})",
-
 	"timezoneAsiaPontianak":"アジア/ポンティアック　({p0})",
-
 	"timezoneAsiaPyongyang":"アジア/平壌　({p0})",
-
 	"timezoneAsiaQatar":"アジア/カタール　({p0})",
-
 	"timezoneAsiaQyzylorda":"アジア/クズロルダ　({p0})",
-
 	"timezoneAsiaRangoon":"アジア/ヤンゴン　({p0})",
-
 	"timezoneAsiaRiyadh":"アジア/リヤド　({p0})",
-
 	"timezoneAsiaSakhalin":"アジア/樺太　({p0})",
-
 	"timezoneAsiaSaigon":"アジア/ホーチミン　({p0})",
-
 	"timezoneAsiaSamarkand":"アジア/サマルカンド　({p0})",
-
 	"timezoneAsiaSeoul":"アジア/ソウル　({p0})",
-
 	"timezoneAsiaShanghai":"アジア/上海　({p0})",
-
 	"timezoneAsiaSingapore":"アジア/シンガポール　({p0})",
-
 	"timezoneAsiaSrednekolymsk":"アジア/スレドネコリムスク　({p0})",
-
 	"timezoneAsiaTaipei":"アジア/台北　({p0})",
-
 	"timezoneAsiaTashkent":"アジア/タシュケント　({p0})",
-
 	"timezoneAsiaTbilisi":"アジア/トビリシ　({p0})",
-
 	"timezoneAsiaTehran":"アジア/テヘラン　({p0})",
-
 	"timezoneAsiaThimphu":"アジア/ティンプー　({p0})",
-
 	"timezoneAsiaTokyo":"アジア/東京　({p0})",
-
 	"timezoneAsiaUjungPandang":"アジア/マカッサル　({p0})",
-
 	"timezoneAsiaUlaanbaatar":"アジア/ウランバートル　({p0})",
-
 	"timezoneAsiaUrumqi":"アジア/ウルムチ　({p0})",
-
 	"timezoneAsiaUst-Nera":"アジア/ウスチ＝ネラ　({p0})",
-
 	"timezoneAsiaVientiane":"アジア/ヴィエンチャン　({p0})",
-
 	"timezoneAsiaVladivostok":"アジア/ウラジオストク　({p0})",
-
 	"timezoneAsiaYakutsk":"アジア/ヤクーツク　({p0})",
-
 	"timezoneAsiaYekaterinburg":"アジア/エカテリンブルグ　({p0})",
-
 	"timezoneAsiaYerevan":"アジア/エレバン　({p0})",
-
 	"timezoneAtlanticAzores":"大西洋/アゾレス　({p0})",
-
 	"timezoneAtlanticBermuda":"大西洋/バミューダ　({p0})",
-
 	"timezoneAtlanticCanary":"大西洋/カナリア　({p0})",
-
 	"timezoneAtlanticCapeVerde":"大西洋/カーボベルデ　({p0})",
-
 	"timezoneAtlanticFaeroe":"大西洋/フェロー　({p0})",
-
 	"timezoneAtlanticFaroe":"大西洋/フェロー　({p0})",
-
 	"timezoneAtlanticJanMayen":"大西洋/ヤンマイエン　({p0})",
-
 	"timezoneAtlanticMadeira":"大西洋/マデイラ　({p0})",
-
 	"timezoneAtlanticReykjavik":"大西洋/レイキャヴィーク　({p0})",
-
 	"timezoneAtlanticSouthGeorgia":"大西洋/サウス・ジョージア　({p0})",
-
 	"timezoneAtlanticStHelena":"大西洋/セント・ヘレナ　({p0})",
-
 	"timezoneAtlanticStanley":"大西洋/スタンリー　({p0})",
-
 	"timezoneAustraliaAdelaide":"オーストラリア/アデレード　({p0})",
-
 	"timezoneAustraliaBrisbane":"オーストラリア/ブリズベン　({p0})",
-
 	"timezoneAustraliaBrokenHill":"オーストラリア/ブロークン・ヒル　({p0})",
-
 	"timezoneAustraliaCurrie":"オーストラリア/カリー　({p0})",
-
 	"timezoneAustraliaDarwin":"オーストラリア/ダーウィン　({p0})",
-
 	"timezoneAustraliaEucla":"オーストラリア/ユークラ　({p0})",
-
 	"timezoneAustraliaHobart":"オーストラリア/ホバート　({p0})",
-
 	"timezoneAustraliaLindeman":"オーストラリア/リンデマン　({p0})",
-
 	"timezoneAustraliaLordHowe":"オーストラリア/ロード・ハウ　({p0})",
-
 	"timezoneAustraliaMelbourne":"オーストラリア/メルボルン　({p0})",
-
 	"timezoneAustraliaPerth":"オーストラリア/パース　({p0})",
-
 	"timezoneAustraliaSydney":"オーストラリア/シドニー　({p0})",
-
 	"timezoneCanadaAtlantic":"カナダ/大西洋　({p0})",
-
 	"timezoneCanadaCentral":"カナダ/中部　({p0})",
-
 	"timezoneCanadaEastern":"カナダ/東部　({p0})",
-
 	"timezoneCanadaMountain":"カナダ/山岳部　({p0})",
-
 	"timezoneCanadaNewfoundland":"カナダ/ニューファンドランド　({p0})",
-
 	"timezoneCanadaPacific":"カナダ/太平洋　({p0})",
-
 	"timezoneEtcGMT":"その他/GMT　({p0})",
-
 	"timezoneEuropeAmsterdam":"ヨーロッパ/アムステルダム　({p0})",
-
 	"timezoneEuropeAndorra":"ヨーロッパ/アンドラ　({p0})",
-
 	"timezoneEuropeAthens":"ヨーロッパ/アテネ　({p0})",
-
 	"timezoneEuropeBelfast":"ヨーロッパ/ベルファスト　({p0})",
-
 	"timezoneEuropeBelgrade":"ヨーロッパ/ベオグラード　({p0})",
-
 	"timezoneEuropeBerlin":"ヨーロッパ/ベルリン　({p0})",
-
 	"timezoneEuropeBratislava":"ヨーロッパ/ブラチスラヴァ　({p0})",
-
 	"timezoneEuropeBrussels":"ヨーロッパ/ブリュッセル　({p0})",
-
 	"timezoneEuropeBucharest":"ヨーロッパ/ブカレスト　({p0})",
-
 	"timezoneEuropeBudapest":"ヨーロッパ/ブダペスト　({p0})",
-
 	"timezoneEuropeBusingen":"ヨーロッパ/ビュージンゲン　({p0})",
-
 	"timezoneEuropeChisinau":"ヨーロッパ/キシナウ　({p0})",
-
 	"timezoneEuropeCopenhagen":"ヨーロッパ/コペンハーゲン　({p0})",
-
 	"timezoneEuropeDublin":"ヨーロッパ/ダブリン　({p0})",
-
 	"timezoneEuropeGibraltar":"ヨーロッパ/ジブラルタル　({p0})",
-
 	"timezoneEuropeGuernsey":"ヨーロッパ/ガーンジー　({p0})",
-
 	"timezoneEuropeHelsinki":"ヨーロッパ/ヘルシンキ　({p0})",
-
 	"timezoneEuropeIsleofMan":"ヨーロッパ/マン島　({p0})",
-
 	"timezoneEuropeIstanbul":"ヨーロッパ/イスタンブール　({p0})",
-
 	"timezoneEuropeJersey":"ヨーロッパ/ジャージー　({p0})",
-
 	"timezoneEuropeKaliningrad":"ヨーロッパ/カリーニングラード　({p0})",
-
 	"timezoneEuropeKiev":"ヨーロッパ/キエフ　({p0})",
-
 	"timezoneEuropeLisbon":"ヨーロッパ/リスボン　({p0})",
-
 	"timezoneEuropeLjubljana":"ヨーロッパ/リュブリャナ　({p0})",
-
 	"timezoneEuropeLondon":"ヨーロッパ/ロンドン　({p0})",
-
 	"timezoneEuropeLuxembourg":"ヨーロッパ/ルクセンブルク　({p0})",
-
 	"timezoneEuropeMadrid":"ヨーロッパ/マドリード　({p0})",
-
 	"timezoneEuropeMalta":"ヨーロッパ/マルタ　({p0})",
-
 	"timezoneEuropeMariehamn":"ヨーロッパ/マリエハムン　({p0})",
-
 	"timezoneEuropeMinsk":"ヨーロッパ/ミンスク　({p0})",
-
 	"timezoneEuropeMonaco":"ヨーロッパ/モナコ　({p0})",
-
 	"timezoneEuropeMoscow":"ヨーロッパ/モスクワ　({p0})",
-
 	"timezoneEuropeNicosia":"ヨーロッパ/ニコシア　({p0})",
-
 	"timezoneEuropeOslo":"ヨーロッパ/オスロ　({p0})",
-
 	"timezoneEuropeParis":"ヨーロッパ/パリ　({p0})",
-
 	"timezoneEuropePodgorica":"ヨーロッパ/ポドゴリツァ　({p0})",
-
 	"timezoneEuropePrague":"ヨーロッパ/プラハ　({p0})",
-
 	"timezoneEuropeRiga":"ヨーロッパ/リガ　({p0})",
-
 	"timezoneEuropeRome":"ヨーロッパ/ローマ　({p0})",
-
 	"timezoneEuropeSamara":"ヨーロッパ/サマーラ　({p0})",
-
 	"timezoneEuropeSanMarino":"ヨーロッパ/サンマリノ　({p0})",
-
 	"timezoneEuropeSarajevo":"ヨーロッパ/サラエヴォ　({p0})",
-
 	"timezoneEuropeSimferopol":"ヨーロッパ/シンフォロポリ　({p0})",
-
 	"timezoneEuropeSkopje":"ヨーロッパ/スコピエ　({p0})",
-
 	"timezoneEuropeSofia":"ヨーロッパ/ソフィア　({p0})",
-
 	"timezoneEuropeStockholm":"ヨーロッパ/ストックホルム　({p0})",
-
 	"timezoneEuropeTallinn":"ヨーロッパ/タリン　({p0})",
-
 	"timezoneEuropeTirane":"ヨーロッパ/ティラナ　({p0})",
-
 	"timezoneEuropeUzhgorod":"ヨーロッパ/ウージュホロド　({p0})",
-
 	"timezoneEuropeVaduz":"ヨーロッパ/ファドゥーツ　({p0})",
-
 	"timezoneEuropeVatican":"ヨーロッパ/バチカン　({p0})",
-
 	"timezoneEuropeVienna":"ヨーロッパ/ウィーン　({p0})",
-
 	"timezoneEuropeVilnius":"ヨーロッパ/ヴィリニュス　({p0})",
-
 	"timezoneEuropeVolgograd":"ヨーロッパ/ヴォルゴグラード　({p0})",
-
 	"timezoneEuropeWarsaw":"ヨーロッパ/ワルシャワ　({p0})",
-
 	"timezoneEuropeZagreb":"ヨーロッパ/ザグレブ　({p0})",
-
 	"timezoneEuropeZaporozhye":"Eヨーロッパ/ザポリージャ　({p0})",
-
 	"timezoneEuropeZurich":"ヨーロッパ/チューリッヒ　({p0})",
-
 	"timezoneGMT":"GMT ({p0})",
 	"timezoneIndianAntananarivo":"インド洋/アンタナナリボ　({p0})",
-
 "timezoneIndianChagos":"インド洋/チャゴス　({p0})",
-
 	"timezoneIndianChristmas":"インド洋/クリスマス　({p0})",
-
 	"timezoneIndianCocos":"インド洋/ココス　({p0})",
-
 	"timezoneIndianComoro":"インド洋/コモロ　({p0})",
-
 	"timezoneIndianKerguelen":"インド洋/ケルゲレン　({p0})",
-
 	"timezoneIndianMahe":"インド洋/マヘ　({p0})",
-
 	"timezoneIndianMaldives":"インド洋/モルディブ　({p0})",
-
 	"timezoneIndianMauritius":"インド洋/モーリシャス　({p0})",
-
 	"timezoneIndianMayotte":"インド洋/マヨット　({p0})",
-
 	"timezoneIndianReunion":"インド洋/レユニオン　({p0})",
-
 	"timezonePacificApia":"太平洋/アピア　({p0})",
-
 	"timezonePacificAuckland":"太平洋/オークランド　({p0})",
-
 	"timezonePacificBougainville":"太平洋/ブーゲンビル　({p0})",
-
 	"timezonePacificChatham":"太平洋/チャタム　({p0})",
-
 	"timezonePacificChuuk":"太平洋/チューク　({p0})",
-
 	"timezonePacificEaster":"太平洋/イースター　({p0})",
-
 	"timezonePacificEfate":"太平洋/エファテ　({p0})",
-
 	"timezonePacificEnderbury":"太平洋/エンダーベリー　({p0})",
-
 	"timezonePacificFakaofo":"太平洋/ファカオフォ　({p0})",
-
 	"timezonePacificFiji":"太平洋/フィジー　({p0})",
-
 	"timezonePacificFunafuti":"太平洋/フナフティ　({p0})",
-
 	"timezonePacificGalapagos":"太平洋/ガラパゴス　({p0})",
-
 	"timezonePacificGambier":"太平洋/ガンビエ　({p0})",
-
 	"timezonePacificGuadalcanal":"太平洋/ガナルカナル　({p0})",
-
 	"timezonePacificGuam":"太平洋/グァム　({p0})",
-
 	"timezonePacificHonolulu":"太平洋/ホノルル　({p0})",
-
 	"timezonePacificJohnston":"太平洋/ジョンストン　({p0})",
-
 	"timezonePacificKiritimati":"太平洋/キリスィマスィ　({p0})",
-
 	"timezonePacificKosrae":"太平洋/コスラエ　({p0})",
-
 	"timezonePacificKwajalein":"太平洋/クェゼリン　({p0})",
-
 	"timezonePacificMajuro":"太平洋/マジュロ　({p0})",
-
 	"timezonePacificMarquesas":"太平洋/マルキーズ　({p0})",
-
 	"timezonePacificMidway":"太平洋/ミッドウェー　({p0})",
-
 	"timezonePacificNauru":"太平洋/ナウル　({p0})",
-
 	"timezonePacificNiue":"太平洋/ニウエ　({p0})",
-
 	"timezonePacificNorfolk":"太平洋/ノーフォーク　({p0})",
-
 	"timezonePacificNoumea":"太平洋/ヌメア　({p0})",
-
 	"timezonePacificPagoPago":"太平洋/パゴパゴ　({p0})",
-
 	"timezonePacificPalau":"太平洋/パラオ　({p0})",
-
 	"timezonePacificPitcairn":"太平洋/ピトケアン　({p0})",
-
 	"timezonePacificPonape":"太平洋/ポンペイ　({p0})",
-
 	"timezonePacificPohnpei":"太平洋/ポンペイ　({p0})",
-
 	"timezonePacificPortMoresby":"太平洋/ポート・モレスビー　({p0})",
-
 	"timezonePacificRarotonga":"太平洋/ラロトンガ　({p0})",
-
 	"timezonePacificSaipan":"太平洋/サイパン　({p0})",
-
 	"timezonePacificTahiti":"太平洋/タヒチ　({p0})",
-
 	"timezonePacificTarawa":"太平洋/タラワ　({p0})",
-
 	"timezonePacificTongatapu":"太平洋/トンガタプ　({p0})",
-
 	"timezonePacificTruk":"太平洋/チューク　({p0})",
-
 	"timezonePacificWake":"太平洋/ウェーク　({p0})",
-
 	"timezonePacificWallis":"太平洋/ウベア　({p0})",
-
 	"timezonePacificYap":"太平洋/ヤップ　({p0})",
-
 	"timezoneUSAlaska":"米国/アラスカ　({p0})",
-
 	"timezoneUSArizona":"米国/アリゾナ　({p0})",
-
 	"timezoneUSCentral":"米国/中部　({p0})",
-
 	"timezoneUSEastern":"米国/東部　({p0})",
-
 	"timezoneUSHawaii":"米国/ハワイ　({p0})",
-
 	"timezoneUSMountain":"米国/山岳部　({p0})",
-
 	"timezoneUSPacific":"米国/太平洋　({p0})",
-
 	"timezoneUTC":"UTC ({p0})",
 	"detectTimezone":"現在地で時間帯を検索",
-
 	"showApplications":"アプリを表示",
-
 	"hideApplications":"アプリを非表示",
-
 	"tablePrintSelected":"選択した部分を印刷",
-
 	"tableDeleteSelected":"選択した部分を消去",
-
 	"tableRenewSelected":"選択した部分を更新",
-
 	"tableResetSelected":"選択した部分をリセット",
-
 	"tableRestoreSelected":"選択した部分を復元",
-
     "tableRebootSelected":"選択した部分を再起動",
-
 	"tableDeleteAll":"全てを消去",
-
 	"tableRenewAll":"全てを更新",
-
 	"tableResetAll":"全てをリセット",
-
 	"tableRestoreAll":"全てを復元",
-
     "tableBlockSelected":"選択した部分をブロック",
-
     "tableUnblockSelected":"選択した部分のブロックを解除",
-
     "tableEditSelected":"選択した部分を編集",
-
     "tableTransferSelected":"ネットワークへ移動",
-
 	"nodeTableActionsTransfer":"ネットワークへ移動",
-
 	"signupEmailTip":"有効なEメールアドレスが必要です。{displayName}に関する問題のご連絡は、このEメールアドレスを介して行います。スパムは送りません - お約束します。",
-
 	"networksCreateNameTip":"このネットワークの名前です。ネットワークは、同じ設定とレポートを共有するアクセスポイントを論理的に分類したものです。",
-
 	"networksCreatePasswordTip":"マスターのユーザー名とパスワードとは異なるパスワードを入力してください。全てのネットワークへのアクセス権を提供することなく、当該のネットワークのみへのアクセス権を与えることが可能になります。",
-
 	"networksCreateEmailTip":"マスターのユーザー名からEメールアドレスをコピーしました。サイトマネージャー、もしくは、クライアントのEメールアドレスを利用したい場合、変更することが可能です。",
-
 	"networksCreateLocationTip":"ネットワークの物理的な場所です。詳しい住所が分からない場合は、郵便番号（アメリカ）、または、市と国名を入力してください。Google Mapから簡単にアクセスポイントを追加することができるようになります。",
-
 	"settingsGeneralNetworkNameTip":"このネットワークの名前、および、このネットワークへの個別のログインIDです。",
-
 	"settingsGeneralLocationTip":"ネットワークの物理的な場所です。アクセスポイントを追加したら、アクセスポイントページ上の地図ツールで移動することができます。",
-
 	"settingsGeneralTimezoneTip":"ネットワークの時間帯です。全てのレポートはこの情報を用いて時間の表示を行います。",
-
 	"settingsGeneralDisableInternetCheckTip":"選択すると、ワイヤレス・ネットワークはアクティブなインターネット接続が存在する場合のみ利用可能になります。こうすることで、接続を失った時、および、選択した設定が推奨される時、アクセスポイントは速やかに復帰することが可能になります。 選択を解除すると、ワイヤレス・ネットワークはインターネット接続が存在しない場合でも維持されます。こうすることで、プリンターや共有のドライブ等のローカルのリソースを引き続き利用することが可能になりますが、アクセスポイントに関しては、接続を失うと、復帰にかかる時間が長くなる可能性があります。",
-
 	"settingsGeneralNotificationEmailAddressTip":"アクセスポイントがオフラインになった際にアラートを受信するEメールアドレスを追加してください。複数のEメールアドレスを入力する際は、スペースで区切ってください。",
-
 	"settingsGeneralNotesTip":"この設置について、後ほど参照することができるようにしたいことがあれば、注意書きを入力してください。",
-
 	"ssidGeneralNameTip":"全てのアクセスポイントのブロードキャストでユーザーに見せたい名前を入力してください。SSIDに代わりに各アクセスポイントの名前を利用したい場合は、下のボックスにチェックを入れてください。",
-
 	"ssidGeneralEnableUseNodeNameTip":"選択を行うと、各アクセスポイントは、各自の名前と上に表示されたSSIDの欄の内容を連結したものをSSIDとしてブロードキャストするようになります。",
-
 	"ssidGeneralEnableTip":"有効にすると、このSSIDはこのネットワーク内の全てのアクセスポイントでブロードキャストを行います。無効にすると、SSIDのブロードキャストは行われません。WiFiのスケジュールもアクティブになっていると、このマスタースイッチが有効になっている場合のみSSIDの操作を行うようになります。",
-
 	"ssidGeneralEnableHiddenNetworkTip":"有効にすると、このSSIDはユーザーのネットワークのリスト内で接続するべきSSIDとして表示されます。無効にすると、ユーザーはSSID名を自分で入力しなければいけなくなります。",
-
 	"ssidGeneralWifiAuthTypeTip":"このネットワークに対する最初の認証を決定してください。公開: ユーザーはパスワードを入力することなく接続することが可能で、スプラッシュページに導かれます。事前共有キー: 8文字以上の1点のパスワードを全てのユーザーと共有する必要があります。エンタープライズ: 各ユーザーに対して固有のユーザー名とパスワードをと必要する802.1x認証を利用します。",
-
 	"ssidGeneralWpa2OnlyTip":"セキュリティーの改善を実施してください。WPA2を介して接続を行うことが不可能な一部の旧型の端末に対するサポートを無効にしてください。",
-
 	"ssidGeneralWpaPasswordTip":"ユーザーがこのネットワークに接続するためのパスワード（キー、または、PSKとも呼ばれます）です。スペースを使わず、8文字以上である必要があります。",
-
 	"ssidCpSplashPageTip":"有効にすると、ユーザーはクリックし、バウチャーを入力する、もしくは、ネットワークにアクセスする時間をPayPalで購入しなければなりません。 {ts0}{displayName} ヘルプセンター{te1}でスプラッシュページの詳しい情報を用意しています。Facebook Wifiに関しては、{ts2}Facebookのヘルプセンター{te3}を参考してください。",
-
 	"ssidCpSplashPageLegacyTip":"有効にすると、ユーザーはクリックし、バウチャーを入力する、もしくは、ネットワークにアクセスする時間をPayPalで購入しなければなりません。{ts0}{displayName} ヘルプセンター{te1}でスプラッシュページの詳しい情報を用意しています。",
-
 	"ssidCpClientForceTimeoutTip":"バウチャーなしのアクセスに対するアクティビティーに関係なく、スプラッシュページが表示されるまでの時間（分）。1日=1440分。",
-
 	"ssidCpLoginMethodTip":"スプラッシュページの認証のタイプに関する詳しい情報を{ts0}{displayName}ヘルプセンター{te1}で用意しています。",
-
 	"ssidCpAfterSplashPageRedirectUrlTip":"スプラッシュページの次に表示するページです。ユーザーがリクエストするページを表示する場合は空欄のままにしておいてください。このオプションを利用するには最初にスプラッシュページを表示する必要があります。",
-
 	"ssidCpEnableTrafficShapingTip":"有効にすると、このSSID上の各クライアントの端末には、下で設定した値のアップロードスピードとダウンロードスピードの制限が設けられます。バウチャー、PayPal、RADIUS、および、HTTP Authで制限を用いている場合に必要になります。この値よりもバウチャー、PayPal、RADIUS、または、HTTP Authの設定が優先されます。",
-
-	"ssidCpEnableBlockPreauthClientsTip":"クライアントの端末が認証されるまでは、全てのポートをブロックしてください。チェックを外すと、閲覧のみがブロックされます。",
-
-	"ssidCpEnableRequireValidLoginTip":"スプラッシュページ上で有効なバウチャーを必要とします。チェックを外すと、上の早さ、および、期間で、そして、（オプションで）バウチャー、または、PayPalを用いてより早く、基本的なサービスを提供することが可能になります。",
-
+	"ssidCpEnableBlockPreauthClientsTip":"クライアントの端末が認証されるまでは、全てのポートをブロックしてください。チェックを外すと、閲覧のみ(HTTPポート80の通信)がブロックされます。HTTPな通信場合はキャップチブポータルを表示されて、以外通信は表示だしないをブロックされます。",
+  "ssidCpEnableRequireValidLoginTip":"スプラッシュページ上で有効なバウチャーを必要とします。チェックを外すと、上の早さ、および、期間で、そして、（オプションで）バウチャー、または、PayPalを用いてより早く、基本的なサービスを提供することが可能になります。",
++ "ssidCpEnableFailsafeTip":"Enable this to allow clients to connect to the internet, when the authentication server is unreachable.",
 	"ssidCpWhitelistTip":"スプラッシュページを表示しないMACアドレスを1列に1つ。ゲーム端末やその他のブラウザーを持たない端末に便利です。ただし、帯域制限は、ホワイトリストした端末に適用されます。",
-
 	"ssidCpBlocklistTip":"このネットワークからブロックするMACアドレスを1列に1つ。",
-
 	"ssidCpBlockMessageTip":"ブロックされたユーザーに向けてスプラッシュページで表示するメッセージです。ファームウェア NG r347以降を必要とし、最大で128文字です。",
-
 	"ssidAdvancedWifiWhitelistTip":"このSSIDを利用することが許可されてるMACアドレスを1列に1つ。その他のユーザーはこのSSIDに接続することはできません。全てのMACアドレスを許可する場合は空欄のままにしておいてください。",
-
 	"ssidCpWalledGardenTip":"ユーザーが認証前に訪問することが可能なサイトです。有効なホスト名、または、IPアドレスをそれぞれ別の列に提供する必要があります。",
-
 	"ssidAdvancedEnableLanBlockTip":"ワイヤレスネットワーク上のユーザーが有線LANにアクセスする行為を防ぎます。",
-
 	"ssidAdvancedEnableApIsolationTip":"ワイヤレスのクライアントがネットワーク上の別のワイヤレスのクライアントに接続する行為を防ぎます。 この機能を無効にすると、ネットワークに取り付けられたプリンター、スピーカー、または、メディアハブを共有したりすることが可能になります。ただし、悪意のあるユーザーが他のクライアントにアクセスする行為を防ぐことはできなくなります。非公開のネットワークのみで、あるいは、全てのユーザーがコンピュータでファイヤーウォールを有効にしていることを把握している場合のみ、無効にするようにしてください。",
-
 	"ssidAdvancedSmtpRedirectServerAddressTip":"ネットワークの代替SMTPサーバーのIPアドレスです。ユーザーはISPのSMTPサーバーを使って、SMTPのEメールを送信することが可能になります。",
-
 	"ssidAdvancedVlanTagTip":"このSSID上のトラフィックは特定のVLAN（許可されている範囲は2-4094）とブリッジング、および、タギングされます。 802.1Qと互換性のあるスイッチとルーターを利用することが前提です。 VLAN対応のスイッチやルーターを持っていない場合は、この機能を有効にしないでください。",
-
 	"radioCountryCodeTip":"利用可能なチャンネルと送信電力を定める規制範囲です。規制範囲はこのネットワーク内のノードによってレポートされたジオロケーションによって自動的に設定されます。",
-
 	"radioTxPowerTip":"このネットワーク上のアクセスポイントに対する送信電力の最大値を手動で設定します。最大の送信電力は国の規制、および、ハードウェアによる制限を受けます。これは電力の強い端末が存在する密度の濃い屋内のネットワークで電力を削減するために利用することができます。",
-
 	"radioEnableAutorfTip":"自動設定は{displayName}に毎晩ネットワークのチャンネルの設定を最適化させることができます。手動設定は、全てのアクセスポイントでバンドごとに利用する単一のチャンネルを指定することができます（管理 > アクセスポイントの順にアクセスし、個々のアクセスポイントよりも優先させることができます）。自動設定が選択されている場合、ネットワークごと、もしくは、アクセスポイントごとにチャンネルを指定することはできなくなります。",
-
-	"radioChannel24Tip":"全てのアクセスポイントにデフォルトの2.4 GHzのチャンネルを設定します。「+」を持つチャンネルは、ワイドチャンネルであることを意味し、障害の多い環境での利用には薦められません。 個々のアクセスポイントの編集によりこの編集を上書きすることが可能です。",
-
-	"radioChannel5Tip":"全てのアクセスポイントにデフォルトの5 GHzのチャンネルを設定します。「+」を持つチャンネルは、ワイドチャンネルであることを意味し、障害の多い環境での利用には薦められません。　個々のアクセスポイントの編集によりこの編集を上書きすることが可能です。",
-
+	"radioChannel24Tip":"全てのアクセスポイントにデフォルトの2.4 GHzのチャンネルを設定します。ワイドチャンネルで、障害の多い環境での利用には薦められません。 個々のアクセスポイントの編集によりこの編集を上書きすることが可能です。",
+	"radioChannel5Tip":"全てのアクセスポイントにォルトの5 GHzのチャンネルを設定します。ワイドチャンネルで、障害の多い環境での利用には薦められません。　個々のアクセスポイントの編集によりこの編集を上書きすることが可能です。",
 	"upgradeDisableTip":"有効にすると、新しいアップグレードが利用可能になると、ネットワークは自動的に最新版にアップグレードされます。",
-
-	"upgradeFirmwareReleaseTip":"ネットワーク上のアクセスポイントに対するファームウェアのリリースを選択します。ファームウェアのアップグレードはメンテナンス期間中に行われます。 リリース「安定」は「安定-最新」よりも多く利用、および、テストされています。",
-
+	"upgradeFirmwareReleaseTip":"ネットワーク上のアクセスポイントに対するファームウェアのリリースを選択します。ファームウェアのアップグレードはメンテナンス期間中に行われます,
+	"upgradeSwitchFirmwareReleaseTip":"ネットワーク上のスイッチに対するファームウェアのリリースを選択します。ファームウェアのアップグレードはメンテナンス期間中に行われます",
 	"radioAutorfHourTip":"乱れを最小限に抑えるアップグレードとAuto RFの変更を行う期間を選択します。",
-
 	"settingsGeneralDisplayNameTip":"このテキストにはディスプレイ名の変数を使ってアクセスすることが可能であり、カスタムコードのスニペットを使って、作成するレポート用のカスタムタイトルに利用することができます。",
-
 	"settingsSsidGatewayNameTip":"これはスプラッシュページ内の$ゲートウェイ名の代わりに表示されます。SSID名を利用する場合は、空欄のままにしておいてください。",
-
 	"settingsGeneralLogoTip":"自分が所有するロゴを読み込み、アプリの左上の{displayName}のロゴと置き換えます。",
-
 	"settingsGeneralDisablePublicAccessTip":"クリックすると、パスワード不要の読み出し専用のネットワーク表示を有効にすることができます。有効にすると、パスワードを必要とせず{displayName}にネットワーク名を入力するだけで、読み出し専用の表示にアクセスすることができます。ただし、ネットワークの設定を変更するにはパスワードの入力が必要です。",
-
 	"settingsGeneralEnable12hDisplayTip":"チェックすると、12時間（午前/午後）フォーマットで時間の表示が行われます。",
-
 	"embedSnippetTip":"{displayName}の埋め込みの量にかかわらず、1つのHTMLページに必要なSCRIPTタグは1つだけです。",
-
 	"settingsDisplayEmbedDisableTip":"現在の埋め込みを恒久的に解除します。このアクションは無効にすることができない点に留意してください。埋め込みを解除すると、現在のキーとトークンは恒久的に無効になり、再び有効にするには新しいキーとトークンを作成することになります。 ",
-
 	"advancedNodeRootPasswordTip":"ネットワーク上の全てのアクセスポイントでSSHに利用するルートパスワードです。このパスワードは、このネットワークを作成した際にランダムに生成されたものです。",
-
 	"advancedEnableMeshEncryptionTip":"WPA2保護を用いて全てのメッシュのトラフィックを暗号化します。暗号化により、このネットワークに属さないアクセスポイントはメッシュに参加することはできなくなります。ファームウェア-ng r466以降が必要です。",
-
 	"advancedSmtpRedirectServerAddressTip":"インターネット・サービス・プロバイダー（ISP）のSMTPサーバーのIPアドレスを入力して、ISPのSMTPサーバーを使って、ユーザーがSMTPのEメールを送信することができるようにします。",
-
 	"advancedDnsDomainNameTip":"LANで完全修飾ドメイン名なしでリソースにアクセスするためのローカルのドメインです。代替DNSサーバーを定義する必要があります。",
-
 	"advancedDnsServerIpAddressTip":"OpenDNS等のネットワークに対する代替DNSサーバーのIPアドレスです。OpenDNSはコンテンツのフィルタリング等、役に立つ追加の機能を提供します。",
-
 	"advancedCustomScriptUrlTip":"このネットワークの全てのアクセスポイントにインストールしたいcustom.shのスクリプトのURLを入力してください。これは追加の機能をインストールするために利用する開発者向けのオプションであり、 通常の操作で利用することはありません。",
-
 	"advancedEnableShareVoucherTip":"有効にすると、このネットワークで生成されたバウチャーは、このアカウントのその他の全てのネットワークで利用することができるようになります。",
-
 	"advancedWiredBridgeSsidTip":"有線のクライアントがアクセスポイントに接続されると、このSSIDの設定を利用します。",
-
 	"advancedWirelessBridgeSsidTip":"LANにブリッジするSSIDを選択してください。クライアントはファイルサーバーやプリンター等のLANのリソースにアクセスすることが可能になり、NATを無効にして、LANが全てのクライアントのDHCPアドレスを割り振ります。各SSIDの設定ページでVLANタグを使うことで、SSIDをさらにブリッジすることができます。",
-
 	"advancedWirelessBridgeSsid2Tip":"クライアントはファイルサーバーやプリンター等のLANのリソースにアクセスすることが可能になり、NATを無効にして、LANが全てのクライアントのDHCPアドレスを割り振ります。各SSIDの設定ページでVLANタグを使うことで、SSIDをさらにブリッジすることができます。 ",
-
 	"advancedPaypal":"PayPal",
 	"advancedPaypalTip":"PayPalの今すぐ購入ボタンをスプラッシュページで利用し、インターネットへのアクセスを販売することができます。詳細は{ts0}{displayName}とPayPalの利用{te1}で確認してください。この設定は全てのSSIDに適用されますが、帯域制限を有効にして（特定のSSIDのキャプティブポータルの設定から）下の帯域幅の制限を実行する必要があります。",
-
 	"paypalMaxUserCount":"1つのバウチャーあたりのクライアントの数",
-
 	"paypalMaxUserCountTip":"1度のPayPalの購入あたりのクライアントの端末数。通常は1-5つ（最大で10）。",
-
 	"paypalDownloadLimit":"ダウンロードの帯域幅",
-
 	"paypalDownloadLimitTip":"PayPal向けクライアントの端末1台あたりのダウンロードの帯域制限（kbps）",
-
 	"paypalUploadLimit":"アップロードの帯域幅",
-
 	"paypalUploadLimitTip":"PayPal向けクライアントの端末1台あたりのアップロードの帯域制限（kbps）",
-
 	"paypalPdtKey":"PayPalのIDトークン",
-
 	"paypalPdtKeyTip":"PayPalがこのアカウントに生成したトークンです。",
-
 	"printVouchers":"バウチャーを印刷",
-
 	"printVouchersSize":"用紙サイズ",
-
     "printSizeA4":"A4 - Avery C32016",
 	"printSizeLetterAvery5160":"レター - Avery 5160",
-
 	"printSizeLetterAvery5371":"レター - Avery 5371",
-
 	"printSize3inReceipt":"3\" レシート",
-
     "printSubmit":"印刷",
-
     "printCancel":"キャンセル",
-
 	"usernameTip":"このユーザー名は全てのネットワークを1つの場所で管理することができます。新しいネットワークを作成したい場合は、新しいユーザー名を作るのではなく、CloudTrax内で行ってください。",
-
 	"termsConfirm":"{ts0}利用規約{te1}に同意します。",
-
 	"signupInfoHeader":"開始します。",
-
 	"signupInfoP1":"CloudTraxはネットワークを簡単に管理、および、監視することができます。",
-
 	"signupInfoP2":"好きなだけ無料で利用することが可能で、ネットワークとアクセスポイントの数は無制限です。",
-
 	"termsError":"利用規約を受け入れる必要があります。",
-
 	"signupInvalidName":"ファーストネームが必要です。",
-
 	"signupInvalidUsername":"有効なユーザー名が必要です。",
-
 	"passwordFailure0":"パスワードは8文字以上、50文字以下で大文字と小文字（A-Z）、0-9の数字、および、句読点を利用することができます。",
-
 	"passwordFailure1":"同じパスワードを入力してください。",
-
 	"passwordFailure2":"パスワードの更新に失敗しました。",
-
 	"rootPasswordFailure0":"ルートパスワードは6文字以上、80文字以下で大文字と小文字（A-Z）、0-9の数字、および、句読点を利用することができます。",
-
 	"wpaPasswordFailure0":"WPAのパスワードは8文字以上63文字以下で大文字と小文字（A-Z）、0-9の数字、および、句読点を利用することができます。",
-
 	"passwordHidden":"**** （非表示）",
-
 	"passwordChange":"変更",
-
 	"nodeMapDeleteConfirm":"このアクセスポイントを本当に消去しますか？{lb}{lb}　このアクションは取り消すことができず、アクセスポイントの全ての記録は失われます。",
-
 	"nodeMapTransferConfirm":"このアクセスポイントを本当に移動しますか？",
-
     "nodeTablePlurateDeleteConfirm":"これらのアクセスポイントを本当に消去しますか？{lb}{lb}　このアクションは取り消すことができず、アクセスポイントの全ての記録は失われます。",
-
     "nodeTableNodeDeleteSuccess":"アクセスポイントを消去しました",
-
     "nodeTableNodeDeleteError":"消去することができませんでした",
-
 	"beforeUnloadMessage":"保存されていない変更があります。",
-
 	"beforeUnloadMessage2":"異なるタブ、または、ウィンドウにスイッチドネットワークがあります。保存されていない変更があります。",
-
 	"networkMapOffline":"（オフライン）",
-
 	"invalidMac":"MACアドレスが無効です。",
-
 	"invalidLatLon":"座標が無効です。",
-
 	"invalidNetworkName":"3-30の文字（英数字、ダッシュ、スペース、下線）を利用してください。",
-
 	"invalidPurgeDays":"1-999までの整数を利用してください。",
-
 	"invalidMaxUsers":"0-9までの整数を利用してください。",
-
 	"invalidDuration":"1-8760までの整数を利用してください。",
-
 	"invalidVoucherQuantity":"1-999までの整数を利用してください。",
-
 	"invalidRemoteServerUrl":"プロトコル、ドメイン、および、パスを含む有効なURLが必要です。クエリ文字列は許可されません。",
-
 	"invalidVoucherCode":"バウチャーコードは大文字と小文字の文字（A-Z）、0-9の数字、および、句読点に制限されています。",
-
 	"invalidActiveDirectoryDefaultSeconds":"0-60の間で設定してください。",
-
 	"invalidActiveDirectoryDefaultDownload":"0.056-100の間で設定してください。",
-
 	"invalidActiveDirectoryDefaultUpload":"0.056-100の間で設定してください。",
-
 	"invalidClientForceTimeout":"30-4320の間で設定してください。",
-
 	"invalidClientIdleTimeout":"30-4320の間で設定してください。",
-
 	"invalidPerClientDownloadSpeed":"0.056-100の間で設定してください。",
-
 	"invalidPerClientUploadSpeed":"0.056-100の間で設定してください。",
-
 	"invalidPerClientDownloadSpeedLegacy":"0.056-22.528の間で設定してください。",
-
 	"invalidPerClientUploadSpeedLegacy":"0.056-11.260の間で設定してください。",
-
 	"invalidPayPalDownloadSpeed":"0.056-100の間で設定してください。",
-
 	"invalidPayPalUploadSpeed":"0.056-100の間で設定してください。",
-
 	"invalidPayPalDownloadSpeedLegacy":"0-9.999の間で設定してください。",
-
 	"invalidPayPalUploadSpeedLegacy":"0-9.999の間で設定してください。",
-
 	"show":"表示",
-
 	"hide":"非表示",
-
 	"vouchersCreate":"新しく作成する",
-
 	"nodesCreate":"新しく加える",
-
 	"firmwareRequired":"この機能にはバージョン578以降のファームウェアが必要です。",
-
 	"ssidOption":"SSID {p0}",
 	"networkDeleteSuccess":"ネットワークは消去されました。",
-
 	"radioEnableAutorfOn":"自動",
-
 	"radioEnableAutorfOff":"手動",
-
 	"voucherDurationTextTip":"このテキストは印刷されたバウチャーのバウチャーの期間よりも優先されます。",
-
 	"voucherSettingsAccessTextTip":"このテキストは印刷されたバウチャーのバウチャーコードよりも優先されます。",
-
 	"voucherSettingsBorderTip":"印刷されたバウチャーの周りに境界線を引くかどうかします。",
-
 	"voucherSettingsLogoTip":"印刷されたバウチャーに会社のロゴを描くかどうかコントロールします。",
-
 	"voucherSettingsLobbyAssistantPasswordTip":"このパスワードでログインすると、{displayName}のコントロールをバウチャーの作成、および、印刷に必要な機能に制限します。　",
-
 	"ssidCpEnableIncludeUserdataOnRedirectTip":"設定すると、リクエスト固有の追加の情報は、最終的なリダイレクトが発生した際にURLのパラメータとして追加されます。パラメータのnode_mac、client_mac、および、client_urlが、それぞれ、アクセスポイントとクライアントのMACアドレス、および、オリジナルのリクエストのURLに設定されます。 ",
-
 	"ssidCpLoginMethodRadiusServerAddress1Tip":"プライマリRADIUSサーバーのホスト名",
-
 	"ssidCpLoginMethodRadiusServerAddress2Tip":"セカンダリRADIUSサーバーのホスト名",
-
 	"ssidCpLoginMethodRadiusServerSecretTip":"設定されている場合、提供されたサーバーの秘密鍵をRADIUSサーバー、および、	リモートのUAMサーバーに提示し、呼び出し元の身分を確認するために利用することができます。",
-
 	"ssidCpLoginMethodRadiusNasIdTip":"設定されている場合、RADIUSサーバー、および、リモートのUAMサーバーにコンテキストの情報を提供するため、NASを供給することができます。",
-
 	"ssidCpLoginMethodHttpUrlTip":"プライマリHTTP認証サーバーの完全なURL",
-
 	"ssidCpLoginMethodHttpSecretTip":"提供されたサーバーの秘密鍵をHTTP認証サーバーに提示し、呼び出し元の身分を確認するために利用することができます。",
-
 	"maintenanceWindowStartHour0":"午前0時",
-
 	"maintenanceWindowStartHour1":"午前1時",
-
 	"maintenanceWindowStartHour2":"午前2時",
-
 	"maintenanceWindowStartHour3":"午前3時",
-
 	"maintenanceWindowStartHour4":"午前4時",
-
 	"maintenanceWindowStartHour5":"午前5時",
-
 	"maintenanceWindowStartHour6":"午前6時",
-
 	"maintenanceWindowStartHour7":"午前7時",
-
 	"maintenanceWindowStartHour8":"午前8時",
-
 	"maintenanceWindowStartHour9":"午前9時",
-
 	"maintenanceWindowStartHour10":"午前10時",
-
 	"maintenanceWindowStartHour11":"午前11時",
-
 	"maintenanceWindowStartHour12":"午前12時",
-
 	"maintenanceWindowStartHour13":"午後1時",
-
 	"maintenanceWindowStartHour14":"午後2時",
-
 	"maintenanceWindowStartHour15":"午後3時",
-
 	"maintenanceWindowStartHour16":"午後4時",
-
 	"maintenanceWindowStartHour17":"午後5時",
-
 	"maintenanceWindowStartHour18":"午後6時",
-
 	"maintenanceWindowStartHour19":"午後7時",
-
 	"maintenanceWindowStartHour20":"午後8時",
-
 	"maintenanceWindowStartHour21":"午後9時",
-
 	"maintenanceWindowStartHour22":"午後10時",
-
 	"maintenanceWindowStartHour23":"午後11時",
-
 	"maintenanceWindowDurationHours1":"1時間",
-
 	"maintenanceWindowDurationHours2":"2時間",
-
 	"maintenanceWindowDurationHours3":"3時間",
-
 	"maintenanceWindowDurationHours4":"4時間",
-
 	"maintenanceWindowDurationHours5":"5時間",
-
 	"maintenanceWindowDurationHours6":"6時間",
-
 	"maintenanceWindowDurationHours7":"7時間",
-
 	"maintenanceWindowDurationHours8":"8時間",
-
 	"maintenanceWindowDurationHours9":"9時間",
-
 	"maintenanceWindowDurationHours10":"10時間",
-
 	"maintenanceWindowDurationHours11":"11時間",
-
 	"maintenanceWindowDurationHours12":"12時間",
-
 	"maintenanceWindowDurationHours13":"13時間",
-
 	"maintenanceWindowDurationHours14":"14時間",
-
 	"maintenanceWindowDurationHours15":"15時間",
-
 	"maintenanceWindowDurationHours16":"16時間",
-
 	"maintenanceWindowDurationHours17":"17時間",
-
 	"maintenanceWindowDurationHours18":"18時間",
-
 	"maintenanceWindowDurationHours19":"19時間",
-
 	"maintenanceWindowDurationHours20":"20時間",
-
 	"maintenanceWindowDurationHours21":"21時間",
-
 	"maintenanceWindowDurationHours22":"22時間",
-
 	"maintenanceWindowDurationHours23":"23時間",
-
 	"maintenanceWindowDurationHours24":"24時間",
-
 	"maintenanceWindowDaysSunday":"日曜日",
-
 	"maintenanceWindowDaysMonday":"月曜日",
-
 	"maintenanceWindowDaysTuesday":"火曜日",
-
 	"maintenanceWindowDaysWednesday":"水曜日",
-
 	"maintenanceWindowDaysThursday":"木曜日",
-
 	"maintenanceWindowDaysFriday":"金曜日",
-
 	"maintenanceWindowDaysSaturday":"土曜日",
-
 	"maintenanceWindow":"メンテナンスの期間",
-
 	"maintenanceWindowDays":"アクティブな日",
-
 	"maintenanceWindowStart":"開始時間",
-
 	"maintenanceWindowDuration":"期間",
-
 	"maintenanceWindowTimezone":"タイムゾーン: {p0}",
-
 	"apiFailure":"問題が発生しました: ",
-
 	"privacy":"プライバシーポリシー",
-
 	"privacyHeader1":"{legalDisplayName}プライバシーポリシー",
-
 	"privacyHeader2":"前回の更新日: 2015年4月30日　",
-
 	"privacyParagraph1":"このプライバシーポリシーは{legalDisplayName} (\"{ts0}{legalDisplayName}{te1}\")による個人に関する情報の収集、利用、および、開示について説明するものです。本プライバシーポリシーは、本プライバシーポリシーに関連する弊社のウェブサイト、モバイルアプリ、及び、その他のオンライン製品とサービス（合わせて\"{ts2}サービス{te3}\"）をお客様が利用する際に、あるいはその他の方法で当社と情報をやり取りする際に収集する情報に適用されます。",
-
 	"privacyParagraph2":"当社は本プライバシーポリシーを時折変更する可能性があります。変更を行う場合、当社はポリシー上部の日付を改訂することで通知を行います。また、場合によっては、追加の通知を行うこともあります（ホームページにメッセージを加える、または、通知をお客様に送信する等）。サービスにアクセスする際、または、当社と情報をやり取りする際はプライバシーポリシーを見直し、当社の情報の取り扱い、および、プライバシーを守る上で役立つ手段に関する最新の情報を把握することを推奨します。",
-
 	"privacyHeader3":"情報の収集",
-
 	"privacyHeader4":"お客様が当社に提供する情報",
-
 	"privacyParagraph3":"当社はお客様が直接当社に提供する情報を収集します。例えば、当社はユーザーがアカウントを作成する際、サービスの何らかのインタラクティブな機能を利用する際、フォームに入力する際、購入を行う際、カスタマーサポートを要請する際、もしくは、それ以外の方法で当社と連絡を取り合う際に情報を収集します。 当社が収集する可能性のある情報の種類には、Eメールアドレス、住所、電話番号、ファックス番号、クレジットカードやデビットカードの情報、PayPalのアカウント情報、および、お客様が当社に提供することを選んだその他のあらゆる情報が含まれます。",
-
 	"privacyHeader5":"当社が本サービスを利用する際に自動的に収集する情報",
-
 	"privacyParagraph4":"お客様が当社のサービスにアクセス、または、利用する際、当社は以下の情報を含むお客様に関する情報を自動的に収集します。",
-
 	"privacyList1":"{ts0}ログ情報:{te1}　当社は、お客様が利用するブラウザーのタイプ、アクセスした時間、当社サイトで閲覧したページ、および、IPアドレスを含む、本サービスの利用に関するログ情報を収集します。",
-
 	"privacyList2":"{ts0}端末の情報:{te1}　当社は、ハードウェアのモデル、オペレーティング・システムとそのバージョン、固有端末識別子、および、場合によっては、モバイルネットワークの情報を含む、お客様が当社のサービスにアクセスするために利用するコンピュータ、または、モバイル端末に関する情報を収集します。また、当社のサービスが管理するネットワークを利用するお客様の顧客に対しても、この情報の収集を行います。",
-
 	"privacyList3":"{ts0}位置情報:{te1} 当社は、毎回、お客様、または、{legalDisplayName}ネットワークのユーザーがネットワークにアクセスする度に、もしくは、当社のモバイルアプリの一つを利用する度に、あるいは、この情報の収集に同意する度に、端末の位置に関する情報を収集します。詳細は以下の\"お客様の選択\"でご確認ください。",
-
 	"privacyList4":"{ts0}クッキー、または、その他の追跡テクノロジーを用いて収集する情報:{te1}　当社、および、当社のサービスプロバイダーは、クッキーやビーコンを含む各種のテクノロジーを用いて、情報を収集します。",
-
 	"privacyList5":"{ts0}パケット・インスペクション（DPI）、および、その他のテクノロジーを用いて収集する情報:{te1}　当社は、このネットワークで訪問されるウェブサイト、および、利用されるアプリ（Netflix、Skype等）を特定するため、ネットワークを通して流れるトラフィックを検査します。この情報は、{legalDisplayName}ネットワークのコントローラーでユーザーに提示され、ネットワークの利用を理解する上で役に立ちます。 これはアクセスポイントレベルで行われ、トラフィック自体ではなく、サーバーに流れるトラフィックに関するデータを収集するものです。",
-
 	"privacyList6":"{ts0}その他のソースから収集する情報:{te1}　　{ts0}Information We Collect From Other Sources:{te1}  また、弊社は、その他のソースから情報を取得し、弊社のサービスを介して集めた情報と組み合わせることがあります。例えば、ID認証サービスや一般に公開されているソースを含む、第三者からお客様に関する情報を収集する可能性があります。ソーシャルメディアサイトを介してアカウントにログインすると、当該のソーシャルメディアサイトによって決められた認証プロセスに則って、当該のサイトから特定の情報にアクセスすることが可能であり、この中には名前やアカウントの情報が含まれることがあります。",
-
 	"privacyHeader6":"情報の利用",
-
 	"privacyParagraph5":"以下を含む各種の目的で、お客様の情報を利用する可能性があります。",
-
 	"privacyList7":"当社のサービスを提供、維持、および、改善するため。",
-
 	"privacyList8":"お客様がリクエストする製品、および、サービスを提供、および、届けるため、決済を処理するため、確認や請求を含む関連する情報を送信するため。",
-
 	"privacyList9":"技術的な通知、アップデート、セキュリティーアラート、および、管理に関するメッセージを送信するため。",
-
 	"privacyList10":"お客様のコメント、質問、および、リクエストに対応するため、および、カスタマーサービスを提供するため。",
-
 	"privacyList11":"{legalDisplayName}、および、他社による製品、サービス、オファー、および、プロモーションに関して連絡を取るため、および、お客様が興味を持ちそうなニュースと情報を提供するため。",
-
 	"privacyList12":"当社のサービスに関連する傾向、利用、および、アクティビティーを追跡するため、および、分析するため。",
-
 	"privacyList13":"サービスをパーソナライズするため、および、改善するため、および、お客様のプロフィールや興味と一致するコンテンツや機能を提供するため。",
-
 	"privacyList14":"当該の情報を収集した、その他の何らかの目的を達成するため。",
-
 	"privacyParagraph6":"{legalDisplayName}はアメリカ合衆国に拠点を置いており、当社が収集する情報はアメリカ合衆国の法律に準拠します。 当社のサービスにアクセス、または、利用することで、あるいは、その他の方法で当社に情報を提供することで、お客様はアメリカ合衆国内外、および、その他の国々で情報を処理、および、転送することに同意するものとします。",
-
 	"privacyHeader7":"情報の共有",
-
 	"privacyParagraph7":"当社は以下に示す通り、もしくは、本プライバシーポリシーで記述されている通り、お客様に関する情報を共有する可能性があります。",
-
 	"privacyList15":"当社に代わって作業を実施するために、当該の情報にアクセスする必要のあるベンダー、コンサルタント、および、その他のサービスプロバイダーと共有します。",
-
 	"privacyList16":"情報の開示が、準拠する法律、規定、もしくは、法的な手続きに従う、もしくは、必要とされると当社が考える場合、情報に求める要請に対して、共有する可能性があります。",
-
 	"privacyList17":"お客様の行動がユーザー規約、ポリシーと一致していないと当社が考える場合、もしくは、{legalDisplayName}、または、その他の権利、財産、および、安全を守るため、共有する可能性があります。",
-
 	"privacyList18":"あらゆる合併の交渉、{legalDisplayName}の資産の売却、全て、もしくは、一部の当社のビジネスの別の団体による資金調達、または、買収に関連して、もしくは、その期間中、共有する可能性があります。",
-
 	"privacyList19":"お客様の同意を得て、もしくは、お客様の指示で共有する可能性があります。",
-
 	"privacyParagraph8":"また、当社は、合理的に考えてお客様の特定に利用することが不可能な収集した情報、または、非特定化を行った情報を共有する可能性があります。",
-
 	"privacyHeader8":"他社が提供する分析サービス",
-
 	"privacyParagraph9":"当社は、他社に分析サービスを提供することを許可することがあります。これらの団体は、クッキー、ビーコン、および、その他のテクノロジーを用いて、当社のサービス、および、その他のウェブサイトの利用に関する情報を収集する可能性があります。その中には、お客様のIPアドレス、位置、端末、および、OSの種類とバージョン、ウェブブラウザー、閲覧したページ、ページの滞在時間、クリックしたリンク、および、コンバージョンに関する情報が含まれます。この情報は、{legalDisplayName}、および、他社が、とりわけ、データを分析、および、記録するため、特定のコンテンツの人気を特定するため、および、お客様のオンライン・アクティビティーをより理解するため、利用する可能性があります。",
-
 	"privacyHeader9":"セキュリティー",
-
 	"privacyParagraph10":"{legalDisplayName}は、損失、盗難、悪用、および、許可されていないアクセス、開示、変更、および、破壊からお客様の情報を保護する上で役に立つ合理的な手段を講じます。",
-
 	"privacyHeader10":"お客様の選択　Your Choices",
-
 	"privacyHeader11":"アカウントの情報　Account Information",
-
 	"privacyParagraph11":"オンラインのアカウントにログインすることで、お客様は好きな時にお客様に関する情報を更新、訂正、または、消去することができます。アカウントを消去したい、もしくは、停止したい場合、{thisHostname}で実施することが可能ですが、法律の求めてに応じて、または、合理的なビジネスの目的のため、特定の情報を維持することがある点に留意してください。 また、お客様に関する情報のキャッシュした、または、アーカイブしたコピーを一定期間維持することもあります。",
-
 	"privacyHeader12":"位置情報",
-
 	"privacyParagraph12":"位置情報を収集する当社のモバイルアプリのいずれかを初めて立ち上げると、アプリがこの情報を収集することに同意するよう求められます。 現在、当社は、当社のサービスを利用する上で、この位置情報を必要としているため、この情報の収集に同意していただけない場合、当社のサービスを利用することはできません。 当初、位置情報の収集に同意した場合でも、その後、モバイル端末上で選択を変更することで、いつでもこの情報の収集を停止することが可能です。停止すると、モバイルアプリ、または、アプリの特定の機能は動かなくなります。また、通常のアンインストールのプロセスに従い、端末から全てのモバイルアプリを削除することで、位置情報の収集を止めることも可能です。",
-
 	"privacyHeader13":"プロモーションのご連絡",
-
 	"privacyParagraph13":"{legalDisplayName}からのプロモーションに関するEメールの受信を、これらのEメール内の指示に従うことで、もしくは、アカウントにログインし、コミュニケーションの選択を変更することで、拒否することができます。 受信を拒否しても、アカウントに関する連絡、あるいは、継続中の取引関係に関する連絡を含む、プロモーションとは関係のない連絡を行うことがあります。 ",
-
 	"privacyHeader14":"お問い合わせ",
-
 	"privacyParagraph14":"本プライバシーポリシーに関してご不明な点がありましたら、以下の連絡先にお問い合わせください。",
-
 	"privacyAddress":"5 Centerpointe Drive Suite 400{lb}Lake Oswego, OR 97035{lb}United States{lb}Email: {ts0}support@open-mesh.com{te1}{lb}Phone: 503-616-2764",
 	"networksCreateNameTaken":"ネットワーク名が既に利用されています。",
-
 	"nodesMacTaken":"アクセスポイントが既に利用されています。",
-
 	"maintenanceWindowDaysError":"少なくとも日付を1つ以上選択する必要があります。",
-
 	"terms":"サービス契約",
-
 	"termsHeader1":"{legalDisplayName}サービス契約 ",
-
 	"termsHeader2":"前回の改定日: 2015年4月28日",
-
 	"termsParagraph1":"{legalDisplayName}とユーザー（「ユーザー」または「顧客」）との間で結ぶ{legalDisplayName}サービス契約（本「契約」）は、ユーザーによる{legalDisplayName}のクラウドベースのネットワークコントローラーのプラットフォームへのアクセス、および、利用を規定するものとする。 本契約を注意深く読むものとする。本契約の全ての諸条件に同意しない場合、本サービスへのアクセス、または、利用は認められない。",
-
 	"termsParagraph2":"{ts0}「同意する」ボタンをクリックする、{legalDisplayName}のアカウントを作成する、または、本サービスのいずれかの部分にアクセス、または、利用することで、本契約の諸条件に従うこと、および、拘束されることに同意するものとする。{te1}",
-
 	"termsParagraph3":"会社、または、他の団体の代わりに本契約を結ぶ場合、当該の団体を本契約の諸条件に拘束する権限を持っていることを意味するものとする。このような場合、本契約で用いられる「ユーザー」および「ユーザーの」は当該の団体に言及するものとする。",
-
 	"termsParagraph4":"1. {ts0}プライバシーポリシー{te1}。 {legalDisplayName}がユーザーに関する情報を収集、利用、および、開示する方法に関する情報は、{p2}で{legalDisplayName}プライバシーポリシーを{p2}読むものとする。{legalDisplayName}のプライバシーポリシーは、本言及により、本契約に取り込まれているものとする。",
-
 	"termsParagraph5":"2. {ts0}サービス{te1}。 本契約で用いられているように、「サービス」は、{legalDisplayName}が*.{thisHostname}にある{legalDisplayName}のウェブサイトを介して、もしくは、{legalDisplayName}のモバイルアプリを介して提供するクラウドベースのネットワークコントローラーのプラットフォームを意味する。本契約の諸条件に継続して従うことを条件として、{legalDisplayName}は本契約によりユーザーに、本サービスを利用し、指定された端末で構成される1つ、もしくは、複数の無線ネットワークを設定、および、管理するため、非独占的、且つ、制限つきの権利を与えるものとする。「指定された端末」のリストは{ts2}[リンク]{te3}に用意している。{legalDisplayName}は随時指定された端末のリストを改訂する可能性がある。",
-
 	"termsParagraph6":"3.{ts0}アカウント{te1}。 本サービスにアクセスするには、{legalDisplayName}のウェブサイトでアカウントを設定する必要がある。アカウントのユーザーによる全ての行為、および、不作為、および、アカウントの利用を介して行われる全てのアクティビティーの責任をユーザーが負うものとする。",
-
 	"termsParagraph7":"4. {ts0}認可されている利用{te1}。ユーザーは本契約の2節で付与されている権利の範囲内のみで本サービスを利用することが可能であるものとする。（a）指定された端末以外のルーター、アクセスポイント、ゲートウェイ、リピーター、もしくは、その他の端末を含むいかなる無線ネットワークを設定、もしくは、管理するために本サービスのいかなる部分を利用する権利、（b）いかなる許可されていない人物がお客様のアカウントを介して本サービスにアクセスする、または、利用することを許可する権利、（c）本サービスのいかなる部分のコード、または、関連する企業秘密をリバースエンジニアリングする、もしくは、発見する試みを行う権利、（d）変更する権利、または、内蔵のスプラッシュページ・エディター、または、{legalDisplayName}のサービスの利用を介して、ユーザーが作成したネットワークのインターフェースのコンポーネントをカスタマイズするために{legalDisplayName}が提供することが可能なその他の内蔵ツールをのぞき、本サービスのいかなる部分を基にして、派生的な作品を作る権利、（e）許可されていないいかなるやり方でサーバー、ネットワーク、データ、または、{legalDisplayName}、もしくは、その他の所有物やサービスを妨げる、混乱させる、損害を与える、または、アクセスするいかなる方法で本サービスを利用する権利、（f）競合するサービスや製品を開発するために本サービスのいかなる部分にアクセスする、または、利用する権利、 （g）本契約の2節に付与されている権利の範囲を越えて本サービスを利用する（まとめて「認可されていないアクティビティー」）権利を持たないものとする。{legalDisplayName}は、本契約の2節に記述されている権利をいかなる認可されていないアクティビティーを行わないことを条件に無料で与え、そして、ユーザーは、認可されていないアクティビティーを行わないことに同意するものとする。",
-
 	"termsParagraph8":"5. {ts0}法律の順守{te1}。 ユーザーは本サービスへのアクセス、または、利用に適用される全ての法律を順守することに同意するものとする。",
-
 	"termsParagraph9":"6. {ts0}停止{te1}。{legalDisplayName}は、{legalDisplayName}が{legalDisplayName}の法的な義務を順守するために必要と考える場合、予告なく、または、責任を負うことなく、ユーザーの本サービスへのアクセス、または、利用を停止する権利を持つものとする。",
-
 	"termsParagraph10":"7. {ts0}本サービスの変更{te1}。 本契約、または、いかなる{legalDisplayName}のウェブサイトに矛盾するものがあっても、{legalDisplayName}は、随時本サービスのいかなる機能性、機能、または、その他の態様を変更、追加、もしくは、削除する権利を持つものとする。",
-
 	"termsParagraph11":"8. {ts0}メンテナンス、および、アップグレード{te1}。　 本サービスは、メンテナンス、または、アップグレードを行うため、その都度利用することができなくなる可能性がある。{legalDisplayName} は、この中断を最小限に抑えるため、商業的に合理的な努力を行うものとする。{legalDisplayName} wi",
-
 	"termsParagraph12":"9. {ts0}第三者のサービス{te1}。ユーザーへの都合を考慮して、{legalDisplayName}は第三者が提供しているサービスや製品へのリンクを提供する可能性がある。{legalDisplayName}のサービスの利用に関連してこのようなサービスや製品の利用を推奨する。 You mayこのような第三者のサービスや製品は、それぞれ、ユーザーと当該のサービスや製品の間で結ぶ個別の契約に基づき、提供されるものとする。{legalDisplayName}は、いかなる第三者のサービスや製品も承認するものではない。{legalDisplayName}は、いかなる第三者のサービスや製品に関しても表明、または、保証を行うものではなく、{legalDisplayName}はいかなる第三者のサービスや製品のユーザーの利用に関して、責任を負わないものとする。",
-
 	"termsParagraph13":"10. {ts0}所有権{te1}。{legalDisplayName}は、{legalDisplayName}のネットワークコントローラーのプラットフォーム、および、そのコンポーネントと機能一つ一つに対する全ての知的財産権を含む、全ての権利、権原、および、利益を保有する。{legalDisplayName}、または、本サービスにアクセスすることで、もしくは、利用することで発生した本サービスに関して得た全ての情報は、{legalDisplayName}の機密情報とする。ユーザーは{legalDisplayName}の機密情報を本サービスを利用する以外の理由で利用しないことに同意するものとする。ユーザーは{legalDisplayName}の機密情報を開示しないことに同意するものとする。",
-
 	"termsParagraph14":"11. {ts0}限定的保証{te1}。 {legalDisplayName}は、本サービスが{legalDisplayName}の当時の配信されたユーザー文書に記述されている通りに十分に機能することをゆーざーに保証するものとする。 この保証における{legalDisplayName}の唯一の義務は、本サービスの再現性の障害を是正し、本サービスが{legalDisplayName}の当時配信されているユーザー文書に記述されている通り、十分に機能するように商業的に合理的な努力をするものとする。",
-
 	"termsParagraph15":"12. {ts0}保証の免責{te1}。 {ts2}11節に記述されている保証をのぞき、{legalDisplayName}は、明示的であるか黙示的であるかにかかわらず、あらゆる保証を否認する。例えば、商品性、特定目的への適合性および非侵害の黙示的保証を含むが、これらの保証に限定するものではない。",
-
 	"termsParagraph16":"13. {ts0}侵害{te1}。本サービスの利用が他者の知的財産権を侵害すると主張する者が現れた場合、 {legalDisplayName}は（a）侵害しないように本サービスを変更する、（b）本サービスの侵害する一つの機能、または、複数の機能を消去する、もしくは、（c）本サービスのユーザーの継続的な利用に対するライセンスを取得する可能性がある。",
-
 	"termsParagraph17":"14. {ts0}付随的損害、および、結果的損害{te1}。 {ts2}{legalDisplayName}は、契約の記述、または、不法行為のあるなしにかかわらず、あるいは、{legalDisplayName}がこのような損害の助言を受けていたとしても、いかなる間接的な付随的損害、特別な損害、もしくは、結果的な損害、または、いかなる利益の損失、収益の損失、または、データの損失の責任も負わないものとする。",
-
 	"termsParagraph18":"15. {ts0}責任制限{te1}。　いかなる場合も、いかなる請求に対しても、ユーザー、および、ユーザーのアカウントを介して本サービスを利用するその他の全ての者に対する{legalDisplayName}の総合的な累積責任は、{legalDisplayName}のサービスによって管理される無線ネットワーク内で使用される指定された端末に対してユーザーが支払う金額の25%を超えないものとする。 {legalDisplayName}は本契約の2節に記述されている権利をこの節に記述されている{legalDisplayName}の責任の上限に同意することを条件として無料で提供する。",
-
 	"termsParagraph19":"16. {ts0}賠償{te1}。ユーザーは、{legalDisplayName}、{legalDisplayName}の関連会社、および、それぞれの従業員、役員、取締役、代理人、顧客、継承者、譲受人を守り、補償し、そして、a）いかなる顧客による、または、本サービスの利用によって作成された、または、管理されたネットワークのユーザーによる実際の、もしくは、申し立てられた過失、不注意、または、意図的に悪意のある行為、（b）{legalDisplayName}が本サービスに関して配信するユーザー文書に記述されていない方法による顧客のサービスの利用に基づいた範囲で、第三者による全ての請求、要求、訴訟、行為、調査、手続きから発生した、関連する、あるいは、結果として生じた、合理的な弁護人の料金、訴訟費用、および、それぞれの賠償免責当事者が負担した、または、被った調査費用を含む、いかなる責任、損害、損失、支出から保護するものとする。",
-
 	"termsParagraph20":"17. {ts0}終了{te1}。ユーザーは本サービスの利用をいつでも終了することができる。本契約内の、または、いかなる{legalDisplayName}のウェブサイト内の矛盾にかかわらず、{legalDisplayName}は、ユーザーがこの契約を違反した場合、本契約、および、本サービスへのアクセス、および、利用を終了することができるものとする。",
-
 	"termsParagraph21":"18. {ts0}改正{te1}。{legalDisplayName}は、諸条件変更の通知を提供することで、本契約の諸条件をいつでも、および、随時変更する権利を有する。 {legalDisplayName}は、{legalDisplayName}のウェブサイトに通知を掲載する、本契約上部の日付を改訂する、Eメールを送信する、あるいは、その他のいかなる手段を講じて、当該の通知を提供する可能性がある。諸条件の変更の通知後の顧客による本サービスの継続的な利用は、当該の変更を受け入れたことを意味するものとする。 このような変更に同意しない場合、本サービスの利用を止めることに同意するものとする。",
-
 	"termsParagraph22":"19. {ts0}適用される法律、および、場所{te1}。　本契約は、法律の選択に関連する異なる規則とは関係なく、アメリカ合衆国のオレゴン州の法律によって規定され、解釈され、理解され、および、施行されるものとする。顧客、および、{legalDisplayName}は、本契約によって生じる、または、関連するいかなる訴訟、または、手続きに関して、ここにアメリカ合衆国オレゴン州マルトノマ郡にある州立裁判所、および、連邦裁判所の管轄に同意するものとする。いずれの当事者も、本契約、または、サービスにおいて、または、そのために発生するいかなる訴訟、控訴、手続き、または、申し立てをこの裁判所以外では行わないものとする。",
-
 	"termsParagraph23":"20. {ts0}合理的な支配のおよばない出来事{te1}。　{legalDisplayName}は、合理的な支配のおよばないいかなる原因、または、状況の結果として発生する責任を負わないものとする。",
-
 	"termsParagraph24":"21. {ts0}輸出のコンプライアンス{te1}。 ユーザーはアメリカ合衆国政府の取引禁止業者リストに名前が掲載されていないことを表明する。ユーザーは、アメリカ合衆国が通商を禁止している国で、もしくは、アメリカ合衆国の輸出の法律、または、規則を違反して、本サービスにアクセス、または、利用することを許可してはならない。",
-
 	"termsParagraph25":"22. {ts0}完全条項{te1}。本契約は、本サービスの利用に関して、ユーザーと{legalDisplayName}の間の完全条項であり、{legalDisplayName}のウェブサイトのいかなる情報を含む、主題に関して書面、または、口頭による、全ての事前、および、同時期の契約、提案、または、表明にとって代わるものとする。",
-
 	"termsParagraph26":"23. {ts0}権利放棄{te1}。本契約におけるいかなる権利の行使の{legalDisplayName}による不履行、または、遅れが生じたとしても、その権利の放棄を意味するものではない。" ,
-
 	"termsParagraph27":"24. {ts0}分離可能性{te1}。本契約のいかなる条項が法律に違反すると管轄裁判所によって判断された場合、当該の条項は無効と見なされる。ただし、本契約の残りの条項は引き続き有効である。",
-
 	"termsParagraph28":"25. {ts0}譲渡{te1}。ユーザーは、直接的に、法律の規定により、または、その他の形で、事前に書面での{legalDisplayName}の同意なく、本契約、または、本契約におけるいかなる権利も譲渡しないものとする。前項に従い、本契約は、当事者、および、当事者のそれぞれの継承者、および、譲受人を完全に拘束し、その利益のために効力を生じ、および、各人によって実施されるものとする。",
-
 	"termsAccept":"同意する",
-
 	"username":"ユーザー名",
-
 	"nodeMapTransferNode":"{p0}既にネットワークの一つに存在します。このネットワークに移しますか？",
-
 	"networksCreateNameValidation":"ネットワーク名に利用することができるのは、大文字と小文字（A-Z）、0-9までの数字、および、+ ' \" \\をのぞく句読点です。",
-
 	"enableAutorfOnConfirm":"Auto RFを有効にすると、ノード1つあたりのチャンネルのチャンネル割り当て数はリセットされ、{displayName}によって最適化されます。Auto RFが後に無効にされても、以前のチャンネルの割り当ては破棄されます。",
-
 	"splashTemplate":"テンプレート",
-
 	"splashTemplateSaved":"保存したページ",
-
 	"splashTemplateDefault":"デフォルト",
-
 	"splashTemplateAirport":"空港",
-
 	"splashTemplateBeach":"ビーチ",
-
 	"splashSizeBrew":"ビール",
-
 	"splashTemplateCamp":"キャンプ",
-
 	"splashTemplateCoffee":"コーヒー",
-
 	"splashSizeDownhill":"下り坂",
-
 	"splashTemplateHotel":"ホテル",
-
 	"splashTemplatePark":"公園",
-
 	"splashSizeTemplateRelax":"リラックス",
-
 	"splashTemplateRestaurant":"レストラン",
-
 	"splashTemplateShop":"お店",
-
 	"splashTemplateChangeConfirm":"保存していない変更は失われます。続行しますか？",
-
 	"voucherSettingsImage":"バウチャーの画像",
-
     "voucherSettingsImageTip":"特定のバウチャーの印刷物に表示される画像を読み込みます。",
-
     "vouchersQuantityTip":"作成するバウチャーの数",
-
     "vouchersPaperSizeTip":"バウチャーのこのセットをすぐに印刷する場合に利用する用紙のサイズ。バウチャーはバウチャーページからいつでも再度印刷することができます。",
-
     "vouchersNameTip":"カスタムコードを利用したい場合は、ここに入力してください。利用しない場合は、コードがランダムに生成されます。 バウチャーコードは、大文字と小文字を区別しません。",
-
     "vouchersCommentTip":"バウチャーコードに表示される関連する情報の注釈。印刷されたバウチャーには表示されません。",
-
     "vouchersDurationTip":"このバウチャーが有効にされた後に利用可能な時間。",
-
     "vouchersMaxUsersTip":"このバウチャーを利用することが可能な端末の最大数。0-9で選びます。0は無制限を意味します。",
-
     "vouchersDownloadLimitTip":"このバウチャーを利用する端末がダウンロードを行う際に利用可能な最大帯域幅。",
-
     "vouchersUploadLimitTip":"このバウチャーを利用する端末がアップロードを行う際に利用可能な最大帯域幅。",
-
     "vouchersPurgeDaysTip":"未使用のバウチャーが消去されるまでの時間。",
-
     "vouchersSaveDefaultsTip":"今後のバウチャーの作成に対してこの設定をデフォルトにするにはチェックを入れてください。",
-
 	"settingsSsidPaypal":"PayPal",
 	
 	"ssidPaypalItemId":"アイテムID",
-
 	"ssidPaypalItemIdTip":"この読み出し専用の値は、PayPalのアクセスを設定するプロセスの一部で必要になります。この欄はPaypalのアイテムIDの欄に貼り付けられます。詳細は{ts0}PayPalの設定{te1}でご確認ください。",
-
 	"accountUpdateEmailTip":"このマスターアカウントのログインに関連するEメールアドレスです。",
-
 	"accountUpdateFirstNameTip":"確認、および、その他のEメールで当社がお客様に対して利用する名称です。",
-
 	"accountUpdatePasswordCurrentTip":"現在のパスワードを入力して、変更を確認してください。",
-
 	"accountUpdatePasswordNewTip":"これはマスターの管理用パスワードであるため、分かりやすいパスワードは避けてください。このパスワードは、全てのネットワークにアクセスするために利用します。いかなるネットワークのパスワードとも異なるパスワードにしてください。8文字-50文字以内（最大で50バイト）で作る必要があります。",
-
 	"nodeMapLabelClients":"クライアント: {p0}",
-
 	"nodeMapLabelChannel5":"5GHz: {p0}",
 	"nodeMapLabelChannel24":"2.4GHz: {p0}",
 	"vlanError":"2-4094の範囲内の数字であり、このネットワーク内の全てのSSIDと異なるものにしてください。",
-
 	"nodeMapAnnotationsLines":"信号線",
-
 	"nodeMapAnnotationsLinesTip":"アクセスポイント間の信号の強度を表す線を表示します。太い線は信号が強いことを意味します。リピーターにカーソルを合わせると、ゲートウェイへのパスが、その間に見られるRSSIの値とともに表示されます。",
-
 	"nodeMapAnnotationsRssi":"RSSI",
 	
 	"nodeMapAnnotationsClients":"クライアント",
-
 	"nodeMapAnnotationsClientsTip":"アクセスポイントにそれぞれのアクセスポイントが担当するクライアントの数の注釈をつけてください。この数はズームレベルを高くすると表示されます。",
-
 	"nodeMapAnnotationsChannels":"チャンネル",
-
 	"nodeMapAnnotationsChannelsTip":"各アクセスポイントに利用するチャンネルに関する情報について注釈をつけてください。この情報はズームレベルを高くすると表示されます。",
-
 	"nodeMapAnnotationsTitle":"注釈",
-
 	"featureDisabledBridged":"この機能はこのSSIDがブリッジ接続されている間は利用することができません。",
-
 	"transferNodeSuccess":"{p0} アクセスポイント(s)がネットワークに移されました{ts1}{p2}{te3}。",
-
 	"ssidCpSplashPageType":"スプラッシュページの種類",
-
 	"splashPageConfig":"スプラッシュページの設定",
-
 	"ssidGeneralWifiAuthTypeType":"認証の種類",
-
 	"authSubsection":"認証の設定",
-
 	"networkDelete1":"ネットワーク{p0}、および、全ての関連するデータを消去しようとしています。",
-
 	"networkDelete2":"これは{ts0}元に戻すことができません{te1}。 ネットワーク、および、- アクセスポイントの名前とMACアドレスを含む - 関連する全てのデータは永遠に失われます。",
-
 	"networkDelete3":"ネットワークを消去するには、\"{p0}\"と入力してください。",
-
 	"navSettingsSsid1":"SSID 1",
 	"navSettingsSsid2":"SSID 2",
 	"navSettingsSsid3":"SSID 3",
 	"navSettingsSsid4":"SSID 4",
 	"redactorFailure1":"カスタムのスプラッシュページのHTMLが正しく読み込まれません。 テンプレートを選び、新しく作り直すか、サポートにお問い合わせください。",
-
 	"osOther":"その他",
-
 	"passwordRecoverAccount":"アカウント",
-
 	"captivePortalType":"キャプティブポータル",
-
 	"captivePortalTypeTip1":"{displayName}: スプラッシュページ、帯域幅、および、ユーザーコントロールを簡単に設定することができます。ホテル、アパート、レストラン、カフェ等のテンプレートを用意しています。",
-
 	"captivePortalTypeTip2":"Chillispot AAA: AAAサーバーと互換性のある第三者のChillispotです。",
-
 	"captivePortalTypeCloudtrax":"{displayName}",
 	"captivePortalTypeCoova":"Chillispot AAA",
 	"coovaProvider":"プロバイダー",
-
 	"coovaProviderRAD":"手動",
-
 	"coovaProviderGATOR":"WiFiGator",
 	"coovaProviderHOTSYS":"HotSpot System",
 	"coovaProviderWCPAE":"WiFi Rush",
 	"coovaProviderWSOFT":"WiFi-Soft",
 	"coovaProviderWSPOT":"WorldSpot",
 	"coovaProviderTip":"弊社は\"手動\"のオプションの利用を推奨します。一部のリスティングは間もなく中止されます。手動の設定に関してはプロバイダーにお問い合わせください。",
-
 	"coovaRadiusServer1":"RADIUS サーバー 1",
-
 	"coovaRadiusServer1Tip":"1つ目のRADIUSサーバーのIP",
-
 	"coovaRadiusServer2":"ADIUS サーバー 2",
-
 	"coovaRadiusServer2Tip":"2つ目のRADIUSサーバーのIP",
-
 	"coovaRadiusSecret":"RADIUSの秘密鍵",
-
 	"coovaRadiusSecretTip":"RADIUSの秘密鍵（共有鍵）",
-
 	"coovaRadiusNasId":"RADIUS NASID",
 	"coovaRadiusNasIdTip":"RADIUSのプロバイダーによってユーザーに割り振られたNASIDです。",
-
 	"coovaUamServerUrl":"UAM サーバー",
-
 	"coovaUamServerUrlTip":"転送サーバーのアドレス（Web認証ポータル）です。",
-
 	"coovaUamUrl":"UAM URL",
 	"coovaUamUrlTip":"UAM サーバー上のログインスクリプトURLの場所です。",
-
 	"coovaUamSecret":"UAMの秘密鍵",
-
 	"coovaUamSecretTip":"UAM サーバー用の非公開のパスワードです。",
-
 	"coovaUamDomainUrls":"許可されたドメイン",
-
 	"coovaUamDomainUrlsTip":"ユーザーが認証される前にアクセスすることが可能なドメインのリストです。コンマで区切られています。このリストからデフォルトのドメインを削除することは推奨できません。キャプティブポータルが機能しなくなる可能性があるためです。このリストをクリアすると、デフォルトの設定に戻ります。",
-
 	"coovaFqdn":"IP、または、ドメイン",
-
 	"coovaFqdnTip":"エンタープライズ・サーバーのIPアドレス、もしくは、ドメイン名です。ホスティングのオプションの場合は空欄のままにしておいてください。",
-
 	"coovaEnableSwapOctets":"ChilliSpotとの互換性",
-
 	"coovaEnableSwapOctetsTip":"ChilliSpotとの互換性を確認します（\"swapoctets\"のオプションを有効にします）。",
-
 	"ssidCpClientIdleTimeout":"クライアントのアイドルタイムアウト",
-
 	"ssidCpClientIdleTimeoutTip":"バウチャーなしのアクセスに対してスプラッシュページが表示される前にクライアントがアイドル状態になる時間（分）です。1日=1440分です。",
-
 	"settingsSsidAvailability":"稼働状況",
-
 	"ssidAvailabilitySchedulingEnable":"WiFiのスケジュール決定",
-
 	"ssidAvailabilitySchedulingEnableTip":"WiFiのスケジュール決定を行うと、各SSIDを特定の時間に有効、もしくは、無効にすることができます。 SSIDは、{displayName}へのチェックイン後、通常は、特定した時間の5分以内に有効、もしくは、無効になります。 このスケジュールは、マスターのEnable for the SSIDがONになっている場合のみ、SSIDの操作を行います。",
-
 	"schedulingSubsection":"スケジュール",
-
 	"schedulingPreset":"プリセット",
-
 	"schedulingPresetAlwaysOn":"常にON",
-
 	"schedulingPresetDaily8to6":"毎日8時-6時",
-
 	"schedulingPresetDaily8to6NoWeekends":"（週末をのぞく）毎日8時-6時",
-
 	"schedulingPresetCustom":"カスタムスケジュール",
-
 	"schedulingDay":"曜日",
-
 	"schedulingAvailability":"稼働状況",
-
 	"schedulingAvailable":"稼働可",
-
 	"schedulingUnavailable":"稼働不可",
-
 	"schedulingDayMonday":"月曜日",
-
 	"schedulingDayTuesday":"火曜日",
-
 	"schedulingDayWednesday":"水曜日",
-
 	"schedulingDayThursday":"木曜日",
-
 	"schedulingDayFriday":"金曜日",
-
 	"schedulingDaySaturday":"土曜日",
-
 	"schedulingDaySunday":"日曜日",
-
 	"schedulingStart":"開始時間",
-
 	"schedulingEnd":"終了時間",
-
 	"nodeMapSettings":"オプション",
-
 	"createNodeSingle":"地図上にアクセスポイントを追加",
-
 	"createNodeBulkMac":"MACを介してアクセスポイントを一括して追加",
-
 	"createNodeBulkCsv":"CSVのアップロードを介してアクセスポイントを一括して追加",
-
 	"createNodeBulkCsvSample":"サンプルをダウンロード",
-
 	"createNodeBulkMacLabel":"MACアドレス",
-
 	"createNodeBulkMacPlaceholder":"例:{lb}00:01:cc:dd:ee:33{lb}00:00:cc:dd:ee:44",
-
 	"nodesAddSuccess":"成功しました！アクセスポイントが追加されました。電源に接続してから5分後にこちらでレポートを開始するはずです。",
-
 	"disabled":"無効にしました。",
-
 	"createNodeBulkCsvTip":"アクセスポイントを記述するCSVファイルを選択してください。欄の内容と順番が、サンプルのファイルと一致している必要があります。このファイルは下でダウンロードすることができます。MACアドレスをのぞく全ての欄への入力は任意であり、空欄にしておくとデフォルトの値が与えられます。",
-
 	"createNodeBulkMacTip":"追加する1つ、または、複数のアクセスポイントのMACアドレスを1列に1つずつ入力してください。　",
-
 	"flagBeta":"この機能は、当社の公開しているベータテスト・プログラムにおいてフィードバックを得るためにリリースされているものです。",
-
 	"ssidAdvancedEnableBandSteering":"バンドステアリング",
-
 	"ssidAdvancedEnableBandSteeringTip":"バンドステアリングは、利用可能な帯域幅を最大限活用するため、可能な場合クライアントを5Ghz帯につなぐ試みを行うものです。",
-
+	"ssidAdvancedEnable80211r":"802.11r",
++ "ssidAdvancedEnable80211rTip":"802.11r or fast BSS transition (FT) attempts to reduce handoff delay in situations where an end device is roaming from one AP to another. This is useful in applications such as VoIP calls that must maintain continuity of connection.",
 	"ssidDisabledAlert":"このSSIDは無効です。　This SSID is disabled. このSSIDの設定の表示、および、変更を有効にします。",
-
 	"pieChartRemaining":"残り",
-
 	"firmwareStableModalHeader":"安定 ファームウェア",
-
 	"firmwareStableModal1":"ネットワークに安定 ファームウェアを選択しました。これは、既存のアクセスポイントに対するベータのアップデートを受信しなくなり、\"安定\"と見なされるファームウェアに対してのみこのネットワークへのアップデートを受信するようになります。 これは現在アクセスポイントにあるファームウェアをダウングレードするものではありません。 すぐにアクセスポイントを手動でダウングレードするには、ここで\"{p0}\"を選択し、続いてアクセスポイントを{ts1}手動でmanually flash{te2}する必要があります。",
-
 	"firmwareBetaModalHeader":"安定-最新 ファームウェア オプトイン　Stable-latest Firmware Opt-In",
-
 	"firmwareBetaModal1":"{ts0}自動アップグレードの継続を有効にします。{te1} {ts0}Enable automatic upgrades to continue.{te1} ネットワークは安定している最新のファームウェアのバージョンにアップグレードされます。今すぐにアップグレードすることも、もしくは、後ほどメンテナンス期間中にアップグレードするよう予定を入れることも可能です。このアップグレードは、大規模なネットワークでは最長で1時間を要することがあります。 安定しているバージョンにダウングレードして戻すことは無線では不可能であり、{ts2}手動{te3}で実施する必要があります。",
-
 	"firmwareLegacyToStableModalHeader":"安定 ファームウェア　Stable Firmware",
-
 	"firmwareLegacyToStableModal1":"安定しているファームウェアのバージョンにアップグレードされます。これには、4つのSSID、全てのSSIDの追跡、アプリの監視、Facebook WiFiへの対応、および、その他の多数の改善が含まれます。このアップグレードは、大規模なネットワークでは最長で1時間を要することがあります。",
-
 	"settingsOkay":"OK",
 	"firmwareUpgradeNow":"今すぐアップグレード",
-
 	"firmwareUpgradeLater":"後でアップグレード",
-
 	"upgradeDisable2":"自動アップグレードを有効にする",
-
 	"maintenanceWindowTip":"{displayName}が自動ファームウェア・アップグレード、および、自動チャンネル設定等のメンテナンスを行う期間を選択してください。変更が適用された場合、この期間中にアクセスポイントは再起動を行う可能性があります。",
-
 	"networksCreateLegacy":"レガシーネットワークとして作成",
-
 	"networksCreateLegacyTip":"このオプションを選択すると、レガシーネットワークを作成し、5xx以前のファームウェアを利用しているアクセスポイントを管理します。 Chillispot AAAにはこのオプションが必要です。大方のユーザーには推奨しません。",
-
 	"defaultValidationError":"無効な値",
-
 	"languageSelect":"言語",
-
 	"languageFeedback":"この翻訳に対する改善を提案",
-
 	"localizationInstructions":"フィードバック",
-
 	"redactorhtml":"HTML",
 	"redactorvideo":"動画を挿入",
-
 	"redactorimage":"画像を挿入",
-
 	"redactortable":"テーブル",
-
 	"redactorlink":"リンク",
-
 	"redactorlink_insert":"リンクを挿入",
-
 	"redactorlink_edit":"リンクを編集",
-
 	"redactorunlink":"リンクの解除",
-
 	"redactorformatting":"フォーマット設定",
-
 	"redactorparagraph":"通常のテキスト",
-
 	"redactorquote":"引用",
-
 	"redactorcode":"コード",
-
 	"redactorheader1":"ヘッダー 1",
-
 	"redactorheader2":"ヘッダー 2",
-
 	"redactorheader3":"ヘッダー 3",
-
 	"redactorheader4":"ヘッダー 4",
-
 	"redactorheader5":"ヘッダー 5",
-
 	"redactorbold":"ボールド体",
-
 	"redactoritalic":"イタリック体",
-
 	"redactorfontcolor":"フォントの色",
-
 	"redactorbackcolor":"背景の色",
-
 	"redactorunorderedlist":"番号なしリスト",
-
 	"redactororderedlist":"番号つきリスト",
-
 	"redactoroutdent":"アウトデント",
-
 	"redactorindent":"インデント",
-
 	"redactorcancel":"キャンセル",
-
 	"redactorinsert":"挿入",
-
 	"redactorsave":"保存",
-
 	"redactor_delete":"消去",
-
 	"redactorinsert_table":"テーブルを挿入",
-
 	"redactorinsert_row_above":"上に行を追加",
-
 	"redactorinsert_row_below":"下に行を追加",
-
 	"redactorinsert_column_left":"左に列を追加",
-
 	"redactorinsert_column_right":"右に列を追加",
-
 	"redactordelete_column":"列を消去",
-
 	"redactordelete_row":"行を消去",
-
 	"redactordelete_table":"テーブルを消去",
-
 	"redactorrows":"行",
-
 	"redactorcolumns":"列",
-
 	"redactoradd_head":"ヘッダーを追加",
-
 	"redactordelete_head":"ヘッダーを消去",
-
 	"redactortitle":"タイトル",
-
 	"redactorimage_position":"位置",
-
 	"redactornone":"なし",
-
 	"redactorleft":"左",
-
 	"redactorright":"右",
-
 	"redactorcenter":"中央",
-
 	"redactorimage_web_link":"画像リンク",
-
 	"redactortext":"テキスト",
-
 	"redactormailto":"Eメール",
-
 	"redactorweb":"URL",
 	"redactorvideo_html_code":"動画の埋め込みコード",
-
 	"redactorfile":"ファイルを挿入",
-
 	"redactorupload":"アップロード",
-
 	"redactordownload":"ダウンロード",
-
 	"redactorchoose":"選択",
-
 	"redactoror_choose":"Or choose",
 	"redactordrop_file_here":"ここにファイルをドロップ",
-
 	"redactoralign_left":"テキストを左に揃える",
-
 	"redactoralign_center":"テキストを中央に揃える",
-
 	"redactoralign_right":"テキストを右に揃える",
-
 	"redactoralign_justify":"テキストを両端揃えにする",
-
 	"redactorhorizontalrule":"水平線を挿入",
-
 	"redactordeleted":"削除済み",
-
 	"redactoranchor":"アンカー",
-
 	"redactorlink_new_tab":"新しいタブでリンクを開く",
-
 	"redactorunderline":"下線",
-
 	"redactoralignment":"配置",
-
 	"redactorfilename":"名前（任意）",
-
 	"redactoredit":"編集",
-
 	"advancedLocalDomain":"ローカルのドメイン",
-
 	"advancedLocalDomainPlaceholder":"例. domain.local",
-
 	"advancedLocalDomainTip":"LAN上で完全修飾ドメイン名なしでリソースに利用するためのローカルのドメインです。 LANの代替DNSサーバーを入力する必要があります（テストではまだ実装していません）。",
-
 	"nodeTableStatusCustomShNames":"custom.sh 名前",
-
 	"nodeTableStatusCustomShErrors":"custom.sh エラー",
-
 	"migrationError1":"アップグレード可能ではないアクセスポイントが1つ、または、複数あります。これにはgeneric_ap51、OM1P、または、MR500が含まれます。 ネットワークからこれらのアクセスポイントを削除した後、もう一度試してください。",
-
 	"migrationError2":"現在のキャプティブポータルは、CoovaChilli、もしくは、ChilliSpot AAAであり、どちらもアップグレードされたファームウェアでは利用することができません。　異なるキャプティブポータルの設定を選択し、もう一度試してください。",
-
 	"migrationError3":"一部のアクセスポイントは、古いファームウェアで稼働しており、アップグレードを開始する前にオンライン状態にする必要があります。オンラインにする、もしくは、ネットワークから削除してください。",
-
 	"migrationError4":"このネットワークにはアップグレードするノードが存在しません。",
-
 	"ssidDisabledTip":"現在のファームウェアが追跡するのはSSID #1のみです。5xx以降のファームウェアに設定>メンテナンスからアップグレードし、最大で4つのSSIDを有効化し、追跡してください。",
-
 	"apiError12020":"現在、このSSIDは有線接続のクライアントをブリッジ接続するために使われており、無効にすることはできません。無効にするには、最初に設定 -> 上級者向け -> 有線クライアントのブリッジ接続から、異なるSSIDを選んで、有線のクライアントをブリッジ接続します。",
-
 	"advancedPresence":"プレゼンス・レポーティング",
-
 	"advancedEnablePresence":"プレゼンス・レポーティング",
-
-	"advancedEnablePresenceTip":"無線接続のクライアントに関するプレゼンスデータをエクスポートする設定です。 一般的に位置の分析に利用されます。",
-
+	"advancedEnablePresenceTip":"無線接続のクライアントに関するプレゼンスデータをエクスポートする設定です。 一般的に位置の分析に利用されます。この機能は、今後のサービスの有料パッケージの一部になることに注意してください。 {ts0}詳細を確認してください{te1}",
 	"advancedPresenceUrl":"サーバーの位置",
-
 	"advancedPresenceSecret":"鍵",
-
 	"advancedPresenceSecretInvalid":"64文字以下に収める必要があります（|は利用することができません）。",
-
 	"advancedPresenceRate":"速さ（秒）",
-
 	"advancedPresenceRate30":"30",
 	"advancedPresenceRate60":"60",
 	"advancedPresenceRate75":"75",
 	"advancedPresenceRate100":"100",
 	"advancedPresenceRate150":"150",
 	"networksCreateClone":"ネットワークを複製しますか？",
-
 	"networksCreateCloneNo":"いいえ、デフォルトの設定を利用します。",
-
 	"networksCreateCloneYes":"はい、複製を行います。",
-
 	"cloneLoading":"ネットワークを複製しています…　完了までに数秒かかる可能性があります。",
-
 	"networksCreateCloneTip":"ネットワークを複製すると、当該のネットワークの設定は全て新しいネットワークにコピーされます。アクセスポイントとバウチャーは複製されません。",
-
 	"statusNetworkList":"リスト",
-
 	"statusNetworkMap":"地図",
-
 	"networkTableName":"ネットワーク名",
-
 	"networkTableNone":"ネットワークが見つかりません",
-
 	"networkTableNodesUp":"AP（アップ）",
-
 	"networkTableNodesDown":"AP（ダウン）",
-
 	"networkTableNodesDownPercent":"AP（% ダウン）",
-
 	"networkTableNodesNew":"AP（新規）",
-
 	"networkTableNodesTotal":"AP（合計）",
-
 	"networkTableLatestFirmware":"最新のファームウェアのバージョン",
-
 	"networkTableActions":"アクション",
-
 	"networkTableActionsClone":"複製",
-
 	"networkTableActionsDelete":"消去",
-
 	"networkTableActionsView":"マップで見る",
-
 	"networkTableExportCsv":"全てエクスポート: CSV ",
-
 	"networkTableExportXml":"全てエクスポート: XML ",
-
 	"networkTableExportNodesCsv":"全てのノードをエクスポート: CSV ",
-
 	"nodeUpgradeStatusUpgrade":"（アップグレード中）",
-
 	"nodeUpgradeStatusDownload":"（アップグレードは保留中）",
-
 	"networksCreateType":"ネットワークのタイプ",
-
 	"networksCreateTypeDefault":"1つ選択してください",
-
 	"networksCreateTypeHotel":"ホテル、または、ホスピタリティー",
-
 	"networksCreateTypeRetail":"小売店",
-
 	"networksCreateTypeFood":"飲食店",
-
 	"networksCreateTypeHousing":"複数世帯の住宅",
-
 	"networksCreateTypeSchool":"学校",
-
 	"networksCreateTypeHealthcare":"医療機関",
-
 	"networksCreateTypeHome":"家",
-
 	"networksCreateTypeCommunity":"コミュニティー",
-
 	"networksCreateTypeBusiness":"中小企業",
-
 	"networksCreateTypeOther":"その他",
-
 	"ssidAdvancedPerformance":"パフォーマンス",
-
 	"ssidAdvancedPerformance0":"最大のパフォーマンス",
-
 	"ssidAdvancedPerformance1":"ハイパフォーマンス",
-
 	"ssidAdvancedPerformance2":"バランス重視",
-
 	"ssidAdvancedPerformance3":"最大コントロール",
-
 	"performanceSliderFeature0":"アプリのビジビリティ―",
-
 	"performanceSliderFeature1":"クライアントのスタッツ",
-
 	"performanceSliderFeature2":"キャプティブポータル",
-
 	"performanceSliderFeature3":"帯域制限:",
-
 	"networkCreate":"新しく作成",
-
 	"masterSurveyQuestion0":"ユーザーのタイプ",
-
 	"masterSurveyAnswer0":"マネージドサービスのプロバイダー",
-
 	"masterSurveyAnswer1":"IT/AVインテグレーター",
-
 	"masterSurveyAnswer2":"エンドカスタマー",
-
 	"masterSurveyAnswer3":"その他",
-
 	"masterSurveySubmit":"送信",
-
 	"masterSurveyQuestion1":"Open Meshの製品を主にどこで利用しますか？",
-
 	"masterSurveyHeader":"CloudTraxの調査",
-
 	"surveyError1":"Open Meshの製品を主に利用する場所を選択してください。",
-
 	"masterSurveyIntro":"中断して申し訳ございません。 CloudTraxの改善に役立つ簡単な質問に答えていただけると幸いです。",
-
 	"lanIp":"LAN IP",
 	"meshIp":"Mesh IP",
 	"newsHeader":"新着情報",
-
 	"newsLink":"詳細 > ",
-
 	"networkChangeWarning":"別のタブ、または、ウィンドウでネットワークを切り換えました。",
-
 	"nodeStatusReboot":"このアクセスポイントはオンラインですが、チェックインが行われていません。{ts0}再起動{te1}を行ってください。",
-
 	"nodeStatusBadIp":"未知のアクセスポイントの場所です。FCC（連邦通信委員会）に従うため、チャンネルの利用を制限しました。 {ts0}詳細{te1}。",
-
 	"beforeUnloadTitle":"このページを去りますか？",
-
 	"beforeUnloadStay":"このページにとどまる",
-
 	"beforeUnloadLeave":"このページを去る",
-
 	"brandingTitle":"ブランド・コントローラー",
-
 	"brandingConfigTitle":"ブランド・コントローラーの設定",
-
 	"brandingDomainTitle":"フルドメインの設定",
-
 	"brandingEnable":"有効にする",
-
 	"brandingEnableTip":"CloudTraxのお客様自身のバージョンを作成することができます（この機能は今後有料になります）。",
-
 	"brandingSubdomain":"サブドメイン",
-
 	"brandingDomainEnable":"フルドメイン",
-
 	"brandingDomainEnableTip":"フルドメインのカスタマイズ（SSL証明書を提供していただく必要があります）。",
-
 	"brandingDomain":"ドメイン名",
-
 	"brandingDomainTip":"このドメインを{p0}に向けるため、CNAMEの記録を作成するか、もしくは、更新してください。",
-
 	"brandingCertPublic":"公開鍵証明書",
-
 	"brandingCertPublicTip":"PEM形式の証明書です。",
-
 	"brandingCertChain":"証明書チェーン",
-
 	"brandingCertChainTip":"別々のファイルとして受信した場合、OpenSSLのコマンドを使ってまとめることも、もしくは、無料のオンラインサービスを利用して、同じ作業を実施することも可能です。",
-
 	"brandingCertPrivate":"秘密鍵",
-
 	"brandingCertPrivateTip":"PEM形式の秘密鍵です。",
-
 	"brandingLoginImage":"ログインページの画像",
-
 	"brandingLoginImageTip":"この画像は、cloudtrax.comに表示されている画像に代わって表示されます。画像自体にテキストを含めることもできます。{lb}475x375ピクセルのJPEG、PNG、もしくは、GIFの画像が利用可能です。　{lb}475x375 pixels, JPEG, PNG or GIF.",
-
 	"brandingNetworkLogo":"アプリ内のロゴ",
-
 	"brandingNetworkLogoTip":"このロゴは、CloudTraxのアプリ内のロゴに代わって表示されます。{lb}170x48ピクセルのJPEG、PNG、または、GIFの画像が利用可能です。",
-
 	"brandingFavicon":"ファビコン",
-
 	"brandingFaviconTip":"このファビコンは、ブラウザー内のCloudTraxのファビコンに代わって表示されます。",
-
 	"brandingPrimaryColor":"スキン（ボタン、アイコンの色）",
-
 	"brandingDisplayName":"\"CloudTrax\"に代わって表示するテキスト　",
-
 	"brandingDisplayNameTip":"このテキストは、アプリ内で\"CloudTrax\"に代わって表示されます。",
-
 	"brandingHelpUrl":"ヘルプデスク / ナレッジベースのURL / Eメール",
-
 	"brandingHelpUrlTip":"これは、CloudTraxのヘルプデスクの記事が言及される際に代わって表示されます。ナレッジベースのリンクをお持ちではない場合は、カスタマーサポートのEメールアドレスを提供することもできます。",
-
 	"brandingReplyTo":"Email reply-to",
-	
 	"brandingReplyToTip":"reply-toのヘッダーをEメールに設定します。",
-
 	"brandingPrivacyPolicy":"プライバシーポリシー",
-
 	"brandingPrivacyPolicyPlaceholder":"ユーザーが「プライバシーポリシー」のリンクをクリックした際に表示したいテキストを入力してください。プレーンテキストで最大15,000文字まで入力可能です（マークダウンに対応）。プライバシーポリシーのリンクを表示したくない場合は、空欄のままにしておいてください。",
-
 	"brandingPrivacyPolicyTip":"プレーンテキストのみ利用可能です（マークダウンに対応）。空欄のままにしておくと、プライバシーポリシーは表示されません。",
-
 	"brandingServiceAgreement":"サービス契約",
-
 	"brandingServiceAgreementPlaceholder":"ユーザーが「サービス契約」のリンクをクリックした際に表示したいテキストを入力してください。プレーンテキストで最大15,000文字まで入力可能です（マークダウンに対応）。サービス契約のリンクを表示したくない場合は、空欄のままにしておいてください。",
-
 	"brandingServiceAgreementTip":"プレーンテキストのみ利用可能です（マークダウンに対応）。 空欄のままにしておくと、サービス契約は表示されません。",
-
 	"none":"なし",
-
 	"brandingLegalEnable":"サービス契約とプライバシーポリシーをカスタマイズ",
-
 	"brandingLegalEnableTip":"既存のCloudTraxのサービス契約とプライバシーポリシーをアレンジし、お客様の味を出すことができます。 何も変えない場合、CloudTraxバージョンが表示されます。",
-
 	"brandingLegalCompanyName":"\"CloudTrax\"に代わって表示するテキスト　",
-
 	"brandingLegalCompanyNamePlaceholder":"CloudTrax",
 	"brandingLegalCompanyNameTip":"このテキストは、プライバシーポリシー内、および、サービス契約内で既存の\"CloudTrax\"に代わって表示されます。",
-
 	"brandingLegalContactInfo":"連絡先　Contact Information",
-
 	"brandingLegalContactInfoPlaceholder":"5 Centerpointe Drive Suite 400{lb}Lake Oswego, OR 97035{lb}United States{lb}Email: support@open-mesh.com{lb}Phone: 503-616-2764",
 	"brandingLegalContactInfoTip":"この連絡先は、Open-Meshの連絡先に代わって表示されます。",
-
 	"nodePaneOnline":"オンライン",
-
 	"nodePaneOffline":"オフライン",
-
 	"nodePaneFirmware":"ファームウェア",
-
 	"nodePaneMac":"MACアドレス",
-
 	"nodePaneClients":"クライアント",
-
 	"nodePaneDownload":"ダウンロード",
-
 	"nodePaneUpload":"アップロード",
-
 	"nodePaneVitals":"重要な情報",
-
 	"nodePaneOutages":"停止",
-
 	"nodePaneLastCheckin":"前回のチェックイン",
-
 	"nodePaneUptime":"アップタイム",
-
 	"nodePaneLoad":"読み込む",
-
 	"nodePaneMemfree":"空きメモリ",
-
 	"nodePaneRadio":"無線",
-
 	"nodePaneAutorfOn":"オートチャンネルはONです",
-
 	"nodePaneAutorfOff":"オートチャンネルはOFFです",
-
+  "nodePaneResetOverrides":"全ネットワークの設定のように{ts0}レセット{ts1}",
 	"nodePaneChannel":"チャンネル",
-
 	"nodePanePower":"電力",
-
 	"nodePaneHtMode":"帯域幅",
-
 	"nodePaneSpare":"アラート",
-
 	"nodePaneMesh":"メッシ",
 	"nodePaneMeshSpeed":"メッシュスピード",
-
 	"nodePaneSpeedLast":"前回:",
-
 	"nodePaneSpeedAverage":"平均:",
-
 	"nodePaneNearestGateway":"最も近いゲートウェイ",
-
 	"nodePaneActions":"アクション",
-
 	"nodePaneTool":"ツール:",
-
 	"nodePaneNeighbors":"近郊",
-
 	"nodePanePrevious":"< 前",
-
 	"nodePaneNext":"次 >",
-
 	"nodePaneDescriptionPlaceholder":"アクセスポイントの説明...",
-
 	"nodePaneImageDelete":"消去",
-
+  "nodePaneImageTip":"後で参照できるように、インストールされているアクセスポイントの写真をアップロード。",
 	"nodeImageDeleteConfirm":"このアクセスポイントの画像を本当に消去しますか？ このアクションは元に戻すことができません。",
-
 	"nodePaneHops":"{p0} ホップ",
-
 	"nodePaneChannel24":"2.4GHz チャンネル:",
-
 	"nodePaneChannel5":"5GHz チャンネル:",
-
 	"nodePaneTxPower":"送信電力:",
-
 	"outageChartTime":"時間:",
-
 	"outageChartStatus":"状況:",
-
 	"outageChartStatusOnline":"オンライン",
-
-	"outageChartStatusOffline":"オフライン"
-
+  "outageChartStatusOnlineGateway":"オンライン・ゲートウェイモード",
+  "outageChartStatusOnline":"オンライン・中継機モード",
+	"outageChartStatusOffline":"オフライン",
+ +	"switchesCreate":"Add New",
+ +	"statusSwitches":"Switches",
+ +	"createSwitchModal":"Add a Switch",
+ +	"createSwitchNameLabel":"Name",
+ +	"createSwitchModelLabel":"Model",
+ +	"createSwitchMacLabel":"MAC",
+ +	"createSwitchDescriptionLabel":"Description",
+ +	"switchTableNone":"No switches added yet!",
+ +	"switchPluralLabel":"{p0} switches total.",
+ +	"switchSingularLabel":"{p0} switch total.",
+ +	"switchTableStatus":"Status",
+ +	"switchTableName":"Name",
+ +	"switchTableDescription":"Description",
+ +	"switchTableMac":"MAC",
+ +	"switchTableIp":"IP",
+ +	"switchTableGatewayIp":"Gateway IP",
+ +	"switchTablePorts":"Ports (Active / Total)",
+ +	"switchTableUptime":"Uptime",
+ +	"switchTableVersion":"Version",
+ +	"switchTablePowerBudget":"Total Power Budget",
+ +	"switchTablePowerAvailable":"Available Power",
+ +	"watts":"{p0} watt(s)",
+ +	"wattsShort":"{p0}w",
+ +	"upgradeFirmwareReleaseSwitch":"Firmware release",
+ +	"upgradeFirmwareReleaseSwitchS8":"OMS8:",
+ +	"upgradeFirmwareReleaseSwitchS24":"OMS24:",
+ +	"upgradeFirmwareReleaseSwitchS48":"OMS48:",
+ +	"switchSnmpEnable":"Enable SNMP (Switches only)",
+ +	"switchSnmpCommunity":"SNMP community name",
+ +	"switchSnmpEnableTip":"Enables read-only SNMP reporting on switches.",
+ +	"switchSnmpCommunityTip":"The text specifies the read-only community string.",
+ +	"statusUsers":"Users",
+ +	"userTableEmail":"Email",
+ +	"userTableName":"Name",
+ +	"userTableAccountRole":"Account Role",
+ +	"userTableResourceRole":"Highest Resource Role",
+ +	"userTableNotes":"Notes",
+ +	"userTableActions":"Actions",
+ +	"userTableActionsPassword":"Change password",
+ +	"userTableActionsEnable":"Enable",
+ +	"userTableActionsDisable":"Disable",
+ +	"userPluralLabel":"{p0} users total.",
+ +	"userSingularLabel":"{p0} user total.",
+ +	"usersCreate":"Add New",
+ +	"userDelete":"Delete user",
+ +	"userDeleteParagraph1":"Are you sure you would like to delete this user?",
+ +	"userCreateEmail":"Email",
+ +	"userCreateName":"Name",
+ +	"userCreateNotes":"Notes",
+ +	"userCreateModal":"Add a User",
+ +	"userCreateRole":"Role",
+ +	"userRoleOwner":"Owner",
+ +	"userRoleAdmin":"Admin",
+ +	"userRoleNgroup":"Network Group",
+ +	"userRoleDefault":"Default",
+ +	"submitNext":"Next >",
+ +	"userUpdate":"Update User",
+ +	"userUpdateCreate":"Add Roles",
+ +	"networkRoleAdmin":"Admin",
+ +	"networkRoleRead":"Read only",
+ +	"networkRoleLobby":"Lobby",
+ +	"userUpdateAddRole":"Add Role",
+ +	"userUpdateRemoveRole":"Remove Role",
+ +	"userUpdateRoles":"Role",
+ +	"userUpdateUnassigned":"Unassigned Resources",
+ +	"userUpdateAssigned":"Assigned Resources",
+ +	"statusNg":"Network Groups",
+ +	"ngCreate":"Add a Network Group",
+ +	"ngCreateModal":"Add a Network Group",
+ +	"ngCreateName":"Name",
+ +	"ngAddNetwork":"Transfer >",
+ +	"ngRemoveNetwork":"< Remove",
+ +	"sourceNgs":"Source Network Groups",
+ +	"sourceNgNetworks":"Source Networks",
+ +	"targetNgs":"Target Network Groups",
+ +	"targetNgNetworks":"Target Networks",
+ +	"ngActionUpdate":"Edit Network Group",
+ +	"ngActionDelete":"Delete Network Group",
+ +	"ngUpdateModal":"Edit a Network Group",
+ +	"ngUpdateNewName":"New Name",
+ +	"ngDeleteModal":"Delete a Network Group",
+ +	"ngUpdateNg":"Network Group",
+ +	"ngDeleteConfirm":"Are you sure you want to delete this Network Group?",
+ +	"ngDeleteAlert":"Cannot delete a Network Group that has networks in it. Either delete the networks in this group or move them to other networks before attempting to delete the network group",
+ +	"switchPaneMac":"MAC",
+ +	"switchPaneDescription":"Description",
+ +	"switchPaneIp":"IP",
+ +	"switchPaneVlan":"Management VLAN",
+ +	"switchPanePowerBudget":"Total Power Budget",
+ +	"switchPanePowerAvailable":"Available Power",
+ +	"advancedDisableMatching":"Layer 7 Packet Inspection",
+ +	"advancedDisableMatchingTip":"Disable this if you want higher Wi-Fi performance (speed). Disabling this will cause application data (pie chart and table) in the clients page to not be displayed and application data in the networks overview page to display all traffic as 'unclassified.'",
+ +	"portTableId":"Port",
+ +	"portTableDescription":"Description",
+ +	"portTableStatus":"Status",
+ +	"portTableStatusDown":"Disconnected",
+ +	"portTableStatusUp":"Connected",
+ +	"portTableVlanId":"PVID",
+ +	"portTableTaggedVlans":"Allowed VLANs",
+ +	"portTableUntaggedVlans":"Untagged VLANs",
+ +	"portTablePoe":"PoE",
+ +	"portTablePoePriority":"Priority",
+ +	"portTablePoeType":"Type",
+ +	"portTablePoeLimit":"PoE Limit",
+ +	"portTablePoeDraw":"Power Draw",
+ +	"portTablePoeStatus":"Status",
+ +	"portTablePoeStatusEnabled":"Enabled",
+ +	"portTablePoeStatusDisabled":"Disabled",
+ +	"portTablePoePriorityLow":"Low",
+ +	"portTablePoePriorityMedium":"Medium",
+ +	"portTablePoePriorityHigh":"High",
+ +	"portTablePoePriorityCritical":"Critical",
+ +	"portTablePoeTypeAuto":"Auto",
+ +	"portTablePoeTypeManual":"Manual",
+ +	"portTableActionsReset":"Reset",
+ +	"portTableActionsEnable":"Enable",
+ +	"portTableActionsDisable":"Disable",
+ +    "portTableResetSent":"Reset command sent",
+ +	"portTableDisableSent":"Disable command sent",
+ +	"portTableEnableSent":"Enable command sent",
+ +    "switchTableDeleteSuccess":"Switch(es) deleted",
+ +	"switchDeleteConfirm":"Are you sure you want to delete this switch?{lb}{lb}This action cannot be undone and all records of this switch will be lost.",
+ +	"switchCreateSuccess":"Success! Your switch has been added. It should start reporting here shortly after plugging it in.",
+ +    "switchUpdateSuccess":"Switch updated",
+ +	"txPowerDefault":"Network default",
+ +	"channelBandwidth20":"20MHz",
+ +	"channelBandwidth40":"40MHz",
+ +	"channelBandwidth80":"80MHz",
+ +	"radioChannelBandwidth":"Max channel width:",
+ +	"upgradeNodes":"Access points",
+ +	"upgradeSwitches":"Switches",
+ +	"switchTableStatusOnline":"Online",
+ +	"switchTableStatusOffline":"Offline",
+ +	"nodePaneModel":"Model",
+ +	"ssidGeneralDisableBands":"Band",
+ +	"ssidGeneralDisableBands24":"2.4GHz",
+ +	"ssidGeneralDisableBands5":"5GHz",
+ +	"ssidGeneralDisableBandsBoth":"Both",
+ +	"ssidGeneralDisableBandsNone":"None",
+ +	"ssidGeneralDisableBandsTip":"Use this to limit what bands the SSID is broadcast on. Note: Selecting the 'only' options in a network with single radio devices (like the OM2P) may cause the SSID to not be broadcast at all.",
+ +	"transferSwitchSuccess":"{p0} switch(es) have been moved to network {ts1}{p2}{te3}.",
+ +	"select":"Select",
+ +	"none":"None",
+ +	"switchPaneHelp":"Click here to learn more about this page",
+ +	"portTableNone":"No ports added yet!",
+ +	"portPluralLabel":"{p0} ports total.",
+ +	"portSingularLabel":"{p0} port total.",
+ +	"nodePaneSpareTip":"Disable to turn off alerts for this specific access point (when used as a spare, client bridge, etc). Individual access point alerts can only be enabled when alerts are enabled for the entire network on the Configure > General page.",
+ +	"nodePaneMeshTip":"The speed of this access point to the nearest gateway.",
+ +	"nodePaneMeshNone":"This access point is in gateway mode. Mesh information is only shown for access points in repeater mode.",
+ +	"switchPanePortMenuReset":"Reset",
+ +	"switchPanePortMenuEnable":"Enable Link",
+ +	"switchPanePortMenuDisable":"Disable Link",
+ +	"switchPanePortMenuPoeEnable":"Enable PoE",
+ +	"switchPanePortMenuPoeDisable":"Disable PoE",
+ +	"switchPanePortMenuDisconnected":"Disconnected",
+ +	"switchPanePortMatchingClient":"Connected to {p0}.",
+ +	"switchPanePortClients":"Connected to {p0} device(s).",
+ +	"switchPanePortClientsModal":"Connected devices",
+ +	"switchPanePortClientsTableMac":"MAC",
+ +	"switchPanePortClientsTableName":"Device Name",
+ +	"umMigrateTitle":"New User Management System",
+ +	"umMigrateP1":"{ts0}Click here{te1} to learn about our new user management system. Once you have read about it, {ts2}click here{te3} to launch a wizard that will guide you through the steps to migrate your existing account to the new user management system.",
+ +	"umMigrateP2":"This account has already been migrated to the new user management system. {ts0}Click here{te1} to learn more about it. {ts2}Click here{te3} to disable the old user management system.",
+ +	"umDisableModalTitle":"Old account disable",
+ +	"umDisableModalP1":"Confirm disable?",
+ +	"umDisableModalP2":"Please log into your account using your new user management system credentials to disable the old system.",
+ +	"umDisableModalButton":"Yes, I cancel",
+ +	"umMigrateModalTitle":"User Management Migration Wizard",
+ +	"userPassword":"Change password",
+ +	"userPasswordResetP1":"Click on \"Send\" to send an email with password reset instructions to the user.",
+ +	"userEnabled":"User enabled",
+ +	"userDisabled":"User disabled",
+ +	"userPasswordResetError1":"Invalid user or token",
+ +	"userPasswordResetError2":"User, token, and password required.",
+ +	"userPasswordResetHeader":"Password Reset",
+ +	"userPasswordResetP1":"Please enter a new password.",
+ +	"userPasswordResetCompleteHeader":"Password Reset Complete",
+ +	"userPasswordResetCompleteP1":"Password has been reset sucessfully.",
+ +	"userVerifyHeader":"User Verification",
+ +	"userVerifyP1":"Please enter a password.",
+ +	"userVerifyCompleteHeader":"User Verification Complete",
+ +	"userVerifyCompleteP1":"User has been verified successfully.",
+ +	"userUpdateRolesNetwork":"Network",
+ +	"userUpdateRolesNgroup":"Network Group"
 }
