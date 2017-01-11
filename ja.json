@@ -439,10 +439,11 @@
   "nodeStatus9":"アクセスポイントのキーのペアリングが必要です。",
   "nodeStatus10":"VLANのローミングは無効です。",
   "nodeStatus11":"Alt ダッシュボードのチェックインの有効期限が過ぎました！",
- +"nodeStatus12":"low TX-power mode",
- +"nodeStatus13":"overlay partition is full",
- +"nodeStatus14":"alternate checkin path broken that should never come up",
- +"switchStatusPairing":"Switch pairing required.",
+"nodeStatus12":"低TXパワーモード",
+"nodeStatus13":"オーバーレイ・パーティションが一杯です",
+
+"nodeStatus14":"alternate checkin path broken that should never come up",
+"switchStatusPairing":"スイッチのペアリングが必要です。",
 	"notApplicable":"該当なし",
 	"surveyTableSignal":"シグナル",
 	"surveyTableChannel":"チャンネル",
@@ -734,7 +735,7 @@
 	"ssidCpPerClientDownloadSpeed":"ダウンロード",
 	"ssidCpPerClientUploadSpeed":"アップロード",
 	"ssidCpEnableBlockPreauthClients":"認証されていないユーザーをブロックする",
-+ "ssidCpEnableFailsafe":"Enable Failsafe Mode",
+"ssidCpEnableFailsafe":"フェイルセーフモードを有効にする",
 	"ssidCpEnableRequireValidLogin":"バウチャーを要求",
 	"ssidCpWhitelist":"ホワイトリスト",
 	"ssidCpWhitelistPlaceholder":"例:{lb}00:01:cc:dd:ee:ee{lb}00:00:cc:dd:ee:ff",
@@ -1686,7 +1687,7 @@
 	"ssidCpEnableTrafficShapingTip":"有効にすると、このSSID上の各クライアントの端末には、下で設定した値のアップロードスピードとダウンロードスピードの制限が設けられます。バウチャー、PayPal、RADIUS、および、HTTP Authで制限を用いている場合に必要になります。この値よりもバウチャー、PayPal、RADIUS、または、HTTP Authの設定が優先されます。",
 	"ssidCpEnableBlockPreauthClientsTip":"クライアントの端末が認証されるまでは、全てのポートをブロックしてください。チェックを外すと、閲覧のみ(HTTPポート80の通信)がブロックされます。HTTPな通信場合はキャップチブポータルを表示されて、以外通信は表示だしないをブロックされます。",
   "ssidCpEnableRequireValidLoginTip":"スプラッシュページ上で有効なバウチャーを必要とします。チェックを外すと、上の早さ、および、期間で、そして、（オプションで）バウチャー、または、PayPalを用いてより早く、基本的なサービスを提供することが可能になります。",
-+ "ssidCpEnableFailsafeTip":"Enable this to allow clients to connect to the internet, when the authentication server is unreachable.",
+"ssidCpEnableFailsafeTip":"このモードを有効にすると、認証サーバーが利用することができなくても、クライアントはインターネットに接続することが可能になります。",
 	"ssidCpWhitelistTip":"スプラッシュページを表示しないMACアドレスを1列に1つ。ゲーム端末やその他のブラウザーを持たない端末に便利です。ただし、帯域制限は、ホワイトリストした端末に適用されます。",
 	"ssidCpBlocklistTip":"このネットワークからブロックするMACアドレスを1列に1つ。",
 	"ssidCpBlockMessageTip":"ブロックされたユーザーに向けてスプラッシュページで表示するメッセージです。ファームウェア NG r347以降を必要とし、最大で128文字です。",
@@ -2091,7 +2092,7 @@
 	"ssidAdvancedEnableBandSteering":"バンドステアリング",
 	"ssidAdvancedEnableBandSteeringTip":"バンドステアリングは、利用可能な帯域幅を最大限活用するため、可能な場合クライアントを5Ghz帯につなぐ試みを行うものです。",
 	"ssidAdvancedEnable80211r":"802.11r",
-+ "ssidAdvancedEnable80211rTip":"802.11r or fast BSS transition (FT) attempts to reduce handoff delay in situations where an end device is roaming from one AP to another. This is useful in applications such as VoIP calls that must maintain continuity of connection.",
+"ssidAdvancedEnable80211rTip":"802.11r、または、BSSの高速移行（FT）を試み、エンドの端末があるAPから別のAPへのローミング時にハンドオフの遅延を減少します。これは接続状態を確実に継続しなければならないVoIP通話等を利用する際に役に立ちます。 ",
 	"ssidDisabledAlert":"このSSIDは無効です。　This SSID is disabled. このSSIDの設定の表示、および、変更を有効にします。",
 	"pieChartRemaining":"残り",
 	"firmwareStableModalHeader":"安定 ファームウェア",
@@ -2359,189 +2360,289 @@
   "outageChartStatusOnlineGateway":"オンライン・ゲートウェイモード",
   "outageChartStatusOnline":"オンライン・中継機モード",
 	"outageChartStatusOffline":"オフライン",
- +	"switchesCreate":"Add New",
- +	"statusSwitches":"Switches",
- +	"createSwitchModal":"Add a Switch",
- +	"createSwitchNameLabel":"Name",
- +	"createSwitchModelLabel":"Model",
- +	"createSwitchMacLabel":"MAC",
- +	"createSwitchDescriptionLabel":"Description",
- +	"switchTableNone":"No switches added yet!",
- +	"switchPluralLabel":"{p0} switches total.",
- +	"switchSingularLabel":"{p0} switch total.",
- +	"switchTableStatus":"Status",
- +	"switchTableName":"Name",
- +	"switchTableDescription":"Description",
- +	"switchTableMac":"MAC",
- +	"switchTableIp":"IP",
- +	"switchTableGatewayIp":"Gateway IP",
- +	"switchTablePorts":"Ports (Active / Total)",
- +	"switchTableUptime":"Uptime",
- +	"switchTableVersion":"Version",
- +	"switchTablePowerBudget":"Total Power Budget",
- +	"switchTablePowerAvailable":"Available Power",
- +	"watts":"{p0} watt(s)",
- +	"wattsShort":"{p0}w",
- +	"upgradeFirmwareReleaseSwitch":"Firmware release",
- +	"upgradeFirmwareReleaseSwitchS8":"OMS8:",
- +	"upgradeFirmwareReleaseSwitchS24":"OMS24:",
- +	"upgradeFirmwareReleaseSwitchS48":"OMS48:",
- +	"switchSnmpEnable":"Enable SNMP (Switches only)",
- +	"switchSnmpCommunity":"SNMP community name",
- +	"switchSnmpEnableTip":"Enables read-only SNMP reporting on switches.",
- +	"switchSnmpCommunityTip":"The text specifies the read-only community string.",
- +	"statusUsers":"Users",
- +	"userTableEmail":"Email",
- +	"userTableName":"Name",
- +	"userTableAccountRole":"Account Role",
- +	"userTableResourceRole":"Highest Resource Role",
- +	"userTableNotes":"Notes",
- +	"userTableActions":"Actions",
- +	"userTableActionsPassword":"Change password",
- +	"userTableActionsEnable":"Enable",
- +	"userTableActionsDisable":"Disable",
- +	"userPluralLabel":"{p0} users total.",
- +	"userSingularLabel":"{p0} user total.",
- +	"usersCreate":"Add New",
- +	"userDelete":"Delete user",
- +	"userDeleteParagraph1":"Are you sure you would like to delete this user?",
- +	"userCreateEmail":"Email",
- +	"userCreateName":"Name",
- +	"userCreateNotes":"Notes",
- +	"userCreateModal":"Add a User",
- +	"userCreateRole":"Role",
- +	"userRoleOwner":"Owner",
- +	"userRoleAdmin":"Admin",
- +	"userRoleNgroup":"Network Group",
- +	"userRoleDefault":"Default",
- +	"submitNext":"Next >",
- +	"userUpdate":"Update User",
- +	"userUpdateCreate":"Add Roles",
- +	"networkRoleAdmin":"Admin",
- +	"networkRoleRead":"Read only",
- +	"networkRoleLobby":"Lobby",
- +	"userUpdateAddRole":"Add Role",
- +	"userUpdateRemoveRole":"Remove Role",
- +	"userUpdateRoles":"Role",
- +	"userUpdateUnassigned":"Unassigned Resources",
- +	"userUpdateAssigned":"Assigned Resources",
- +	"statusNg":"Network Groups",
- +	"ngCreate":"Add a Network Group",
- +	"ngCreateModal":"Add a Network Group",
- +	"ngCreateName":"Name",
- +	"ngAddNetwork":"Transfer >",
- +	"ngRemoveNetwork":"< Remove",
- +	"sourceNgs":"Source Network Groups",
- +	"sourceNgNetworks":"Source Networks",
- +	"targetNgs":"Target Network Groups",
- +	"targetNgNetworks":"Target Networks",
- +	"ngActionUpdate":"Edit Network Group",
- +	"ngActionDelete":"Delete Network Group",
- +	"ngUpdateModal":"Edit a Network Group",
- +	"ngUpdateNewName":"New Name",
- +	"ngDeleteModal":"Delete a Network Group",
- +	"ngUpdateNg":"Network Group",
- +	"ngDeleteConfirm":"Are you sure you want to delete this Network Group?",
- +	"ngDeleteAlert":"Cannot delete a Network Group that has networks in it. Either delete the networks in this group or move them to other networks before attempting to delete the network group",
- +	"switchPaneMac":"MAC",
- +	"switchPaneDescription":"Description",
- +	"switchPaneIp":"IP",
- +	"switchPaneVlan":"Management VLAN",
- +	"switchPanePowerBudget":"Total Power Budget",
- +	"switchPanePowerAvailable":"Available Power",
- +	"advancedDisableMatching":"Layer 7 Packet Inspection",
- +	"advancedDisableMatchingTip":"Disable this if you want higher Wi-Fi performance (speed). Disabling this will cause application data (pie chart and table) in the clients page to not be displayed and application data in the networks overview page to display all traffic as 'unclassified.'",
- +	"portTableId":"Port",
- +	"portTableDescription":"Description",
- +	"portTableStatus":"Status",
- +	"portTableStatusDown":"Disconnected",
- +	"portTableStatusUp":"Connected",
- +	"portTableVlanId":"PVID",
- +	"portTableTaggedVlans":"Allowed VLANs",
- +	"portTableUntaggedVlans":"Untagged VLANs",
- +	"portTablePoe":"PoE",
- +	"portTablePoePriority":"Priority",
- +	"portTablePoeType":"Type",
- +	"portTablePoeLimit":"PoE Limit",
- +	"portTablePoeDraw":"Power Draw",
- +	"portTablePoeStatus":"Status",
- +	"portTablePoeStatusEnabled":"Enabled",
- +	"portTablePoeStatusDisabled":"Disabled",
- +	"portTablePoePriorityLow":"Low",
- +	"portTablePoePriorityMedium":"Medium",
- +	"portTablePoePriorityHigh":"High",
- +	"portTablePoePriorityCritical":"Critical",
- +	"portTablePoeTypeAuto":"Auto",
- +	"portTablePoeTypeManual":"Manual",
- +	"portTableActionsReset":"Reset",
- +	"portTableActionsEnable":"Enable",
- +	"portTableActionsDisable":"Disable",
- +    "portTableResetSent":"Reset command sent",
- +	"portTableDisableSent":"Disable command sent",
- +	"portTableEnableSent":"Enable command sent",
- +    "switchTableDeleteSuccess":"Switch(es) deleted",
- +	"switchDeleteConfirm":"Are you sure you want to delete this switch?{lb}{lb}This action cannot be undone and all records of this switch will be lost.",
- +	"switchCreateSuccess":"Success! Your switch has been added. It should start reporting here shortly after plugging it in.",
- +    "switchUpdateSuccess":"Switch updated",
- +	"txPowerDefault":"Network default",
- +	"channelBandwidth20":"20MHz",
- +	"channelBandwidth40":"40MHz",
- +	"channelBandwidth80":"80MHz",
- +	"radioChannelBandwidth":"Max channel width:",
- +	"upgradeNodes":"Access points",
- +	"upgradeSwitches":"Switches",
- +	"switchTableStatusOnline":"Online",
- +	"switchTableStatusOffline":"Offline",
- +	"nodePaneModel":"Model",
- +	"ssidGeneralDisableBands":"Band",
- +	"ssidGeneralDisableBands24":"2.4GHz",
- +	"ssidGeneralDisableBands5":"5GHz",
- +	"ssidGeneralDisableBandsBoth":"Both",
- +	"ssidGeneralDisableBandsNone":"None",
- +	"ssidGeneralDisableBandsTip":"Use this to limit what bands the SSID is broadcast on. Note: Selecting the 'only' options in a network with single radio devices (like the OM2P) may cause the SSID to not be broadcast at all.",
- +	"transferSwitchSuccess":"{p0} switch(es) have been moved to network {ts1}{p2}{te3}.",
- +	"select":"Select",
- +	"none":"None",
- +	"switchPaneHelp":"Click here to learn more about this page",
- +	"portTableNone":"No ports added yet!",
- +	"portPluralLabel":"{p0} ports total.",
- +	"portSingularLabel":"{p0} port total.",
- +	"nodePaneSpareTip":"Disable to turn off alerts for this specific access point (when used as a spare, client bridge, etc). Individual access point alerts can only be enabled when alerts are enabled for the entire network on the Configure > General page.",
- +	"nodePaneMeshTip":"The speed of this access point to the nearest gateway.",
- +	"nodePaneMeshNone":"This access point is in gateway mode. Mesh information is only shown for access points in repeater mode.",
- +	"switchPanePortMenuReset":"Reset",
- +	"switchPanePortMenuEnable":"Enable Link",
- +	"switchPanePortMenuDisable":"Disable Link",
- +	"switchPanePortMenuPoeEnable":"Enable PoE",
- +	"switchPanePortMenuPoeDisable":"Disable PoE",
- +	"switchPanePortMenuDisconnected":"Disconnected",
- +	"switchPanePortMatchingClient":"Connected to {p0}.",
- +	"switchPanePortClients":"Connected to {p0} device(s).",
- +	"switchPanePortClientsModal":"Connected devices",
- +	"switchPanePortClientsTableMac":"MAC",
- +	"switchPanePortClientsTableName":"Device Name",
- +	"umMigrateTitle":"New User Management System",
- +	"umMigrateP1":"{ts0}Click here{te1} to learn about our new user management system. Once you have read about it, {ts2}click here{te3} to launch a wizard that will guide you through the steps to migrate your existing account to the new user management system.",
- +	"umMigrateP2":"This account has already been migrated to the new user management system. {ts0}Click here{te1} to learn more about it. {ts2}Click here{te3} to disable the old user management system.",
- +	"umDisableModalTitle":"Old account disable",
- +	"umDisableModalP1":"Confirm disable?",
- +	"umDisableModalP2":"Please log into your account using your new user management system credentials to disable the old system.",
- +	"umDisableModalButton":"Yes, I cancel",
- +	"umMigrateModalTitle":"User Management Migration Wizard",
- +	"userPassword":"Change password",
- +	"userPasswordResetP1":"Click on \"Send\" to send an email with password reset instructions to the user.",
- +	"userEnabled":"User enabled",
- +	"userDisabled":"User disabled",
- +	"userPasswordResetError1":"Invalid user or token",
- +	"userPasswordResetError2":"User, token, and password required.",
- +	"userPasswordResetHeader":"Password Reset",
- +	"userPasswordResetP1":"Please enter a new password.",
- +	"userPasswordResetCompleteHeader":"Password Reset Complete",
- +	"userPasswordResetCompleteP1":"Password has been reset sucessfully.",
- +	"userVerifyHeader":"User Verification",
- +	"userVerifyP1":"Please enter a password.",
- +	"userVerifyCompleteHeader":"User Verification Complete",
- +	"userVerifyCompleteP1":"User has been verified successfully.",
- +	"userUpdateRolesNetwork":"Network",
- +	"userUpdateRolesNgroup":"Network Group"
+"switchesCreate":"新しく追加",
+"statusSwitches":"スイッチ",
+
+"createSwitchModal":"スイッチを追加",
+
+"createSwitchNameLabel":"名前",
+
+"createSwitchModelLabel":"モデル",
+"createSwitchMacLabel":"MAC",
+
+"createSwitchDescriptionLabel":"説明",
+
+"switchTableNone":"まだスイッチは追加されていません！",
+"switchPluralLabel":"{p0} スイッチ",
+
+"switchSingularLabel":"{p0} スイッチ",
+"switchTableStatus":"ステータス",
+"switchTableName":"名前",
+"switchTableDescription":"説明",
+"switchTableMac":"MAC",
+"switchTableIp":"IP",
+"switchTableGatewayIp":"ゲートウェイ IP",
+
+"switchTablePorts":"ポート（アクティブ/合計）",
+"switchTableUptime":"アップタイム",
+"switchTableVersion":"バージョン",
+"switchTablePowerBudget":"電力バジェットの合計",
+"switchTablePowerAvailable":"利用可能な電力",
+
+"watts":"{p0} ワット",
+"wattsShort":"{p0}w",
+"upgradeFirmwareReleaseSwitch":"ファームウェアのリリース",
+"upgradeFirmwareReleaseSwitchS8":"OMS8:",
+"upgradeFirmwareReleaseSwitchS24":"OMS24:",
+"upgradeFirmwareReleaseSwitchS48":"OMS48:",
+"switchSnmpEnable":"SNMPを有効にする（スイッチのみ）",
+"switchSnmpCommunity":"SNMPのコミュニティー名",
+"switchSnmpEnableTip":"スイッチに関する読み取り専用のSNMPのレポートを有効にする。",
+"switchSnmpCommunityTip":"読み取り専用のコミュニティーの文字列を識別するテキストです。",
+
+"statusUsers":"ユーザー",
+"userTableEmail":"Eメール",
+"userTableName":"名前",
+"userTableAccountRole":"アカウントの役割",
+"userTableResourceRole":"最高のリソースの役割",
+"userTableNotes":"メモ",
+"userTableActions":"アクション",
+"userTableActionsPassword":"パスワードを変更",
+"userTableActionsEnable":"有効にする",
+"userTableActionsDisable":"無効にする",
+"userPluralLabel":"{p0} 使用人",
+"userSingularLabel":"{p0} 使用人",
+"usersCreate":"新しく追加",
+"userDelete":"ユーザーを消去",
+"userDeleteParagraph1":"本当にこのユーザーを消去しますか？",
+"userCreateEmail":"Eメール",
+"userCreateName":"名前",
+"userCreateNotes":"メモ",
+"userCreateModal":"ユーザーを追加",
+"userCreateRole":"役割",
+"userRoleOwner":"オーナー",
+"userRoleAdmin":"管理者",
+"userRoleNgroup":"ネットワークグループ",
+"userRoleDefault":"デフォルト",
+"submitNext":"次へ >",
+"userUpdate":"ユーザーを更新",
+"userUpdateCreate":"役割を追加",
+"networkRoleAdmin":"管理者",
+"networkRoleRead":"読み取り専用",
+"networkRoleLobby":"ロビー",
+"userUpdateAddRole":"役割を追加",
+"userUpdateRemoveRole":"役割を削除",
+"userUpdateRoles":"役割",
+"userUpdateUnassigned":"割り当てられていないリソース",
+"userUpdateAssigned":"割り当てられたリソース",
+"statusNg":"ネットワークグループ",
+
+"ngCreate":"ネットワークグループを追加",
+
+"ngCreateModal":"ネットワークグループを追加",
+"ngCreateName":"名前",
+
+"ngAddNetwork":"転送 >",
+"ngRemoveNetwork":"< 削除",
+"sourceNgs":"Source Network Groups",
+"sourceNgNetworks":"Source Networks",
+
+"targetNgs":"Target Network Groups",
+
+"targetNgNetworks":"Target Networks",
+"ngActionUpdate":"ネットワークグループを編集",
+
+"ngActionDelete":"ネットワークグループを消去",
+"ngUpdateModal":"ネットワークグループを編集",
+"ngUpdateNewName":"新しい名前",
+
+"ngDeleteModal":"ネットワークグループを消去",
+"ngUpdateNg":"ネットワークグループ",
+"ngDeleteConfirm":"本当にこのネットワークグループを消去しますか？",
+"ngDeleteAlert":"ネットワークを持つネットワークグループを消去することはできません。ネットワークグループを消去する前に、このグループ内のネットワークを消去するか、もしくは、別のネットワークに移してください。",
+
+"switchPaneMac":"MAC",
+
+"switchPaneDescription":"説明",
+
+"switchPaneIp":"IP",
+"switchPaneVlan":"管理 VLAN",
+"switchPanePowerBudget":"電力バジェットの合計",
+
+"switchPanePowerAvailable":"利用可能な電力",
+"advancedDisableMatching":"レイヤー 7 パケット検査",
+
+"advancedDisableMatchingTip":"無線のパフォーマンス（スピード）を高めたい場合は、無効にしてください。無効にすると、クライアントページ内のアプリケーションのデータ（円グラフと表）は表示されなくなり、また、ネットワークの概要のページ内のアプリケーションのデータは全て'未分類'と表示されるようになります。",
+
+"portTableId":"ポート",
+
+"portTableDescription":"説明",
+
+"portTableStatus":"ステータス",
+
+"portTableStatusDown":"接続されていません",
+
+"portTableStatusUp":"接続中",
+
+"portTableVlanId":"PVID",
+"portTableTaggedVlans":"許可されたVLAN",
+
+"portTableUntaggedVlans":"タグ付けされていないVLAN",
+
+"portTablePoe":"PoE",
+"portTablePoePriority":"優先順位",
+
+"portTablePoeType":"タイプ",
+
+"portTablePoeLimit":"PoE 制限",
+
+"portTablePoeDraw":"電力の消費",
+
+"portTablePoeStatus":"ステータス",
+
+"portTablePoeStatusEnabled":"有効",
+
+"portTablePoeStatusDisabled":"無効",
+
+"portTablePoePriorityLow":"低",
+"portTablePoePriorityMedium":"中",
+
+"portTablePoePriorityHigh":"高",
+"portTablePoePriorityCritical":"最高",
+
+"portTablePoeTypeAuto":"自動",
+
+"portTablePoeTypeManual":"手動",
+
+"portTableActionsReset":"リセット",
+
+"portTableActionsEnable":"有効にする",
+
+"portTableActionsDisable":"無効にする",
+
+"portTableResetSent":"リセットのコマンドを送信しました",
+
+"portTableDisableSent":"無効にするコマンドを送信しました",
+"portTableEnableSent":"有効にするコマンドを送信しました",
+
+"switchTableDeleteSuccess":"スイッチを消去しました",
+
+"switchDeleteConfirm":"本当にこのスイッチを消去しますか？{lb}{lb}このアクションは取り消すことができず、このスイッチの記録は全て失われます。",
+
+"switchCreateSuccess":"成功しました！スイッチが追加されました。接続後、間もなくここでレポートを開始します。",
+
+"switchUpdateSuccess":"スイッチを更新しました",
+
+"txPowerDefault":"ネットワークの初期設定",
+
+"channelBandwidth20":"20MHz",
+
+"channelBandwidth40":"40MHz",
+
+"channelBandwidth80":"80MHz",
+
+"radioChannelBandwidth":"最大のチャンネルの帯域幅:",
+
+"upgradeNodes":"アクセスポイント",
+
+"upgradeSwitches":"スイッチ",
+
+"switchTableStatusOnline":"オンライン",
+
+"switchTableStatusOffline":"オフライン",
+
+"nodePaneModel":"モデル",
+"ssidGeneralDisableBands":"帯域",
+"ssidGeneralDisableBands24":"2.4GHz",
+
+"ssidGeneralDisableBands5":"5GHz",
+
+"ssidGeneralDisableBandsBoth":"両方",
+
+"ssidGeneralDisableBandsNone":"どちらでもない",
+
+"ssidGeneralDisableBandsTip":"SSIDをブロードキャストする帯域を制限します。注記: 単一の無線端末（OM2P等）を持つネットワーク内で「only」のオプションを選ぶと、SSIDが全くブロードキャストされないことがあります",
+
+"transferSwitchSuccess":"{p0} スイッチがネットワークに移されました {ts1}{p2}{te3}。",
+"select":"選択",
+
+"none":"なし",
+
+"switchPaneHelp":"このページに関する詳細はここをクリックしてください",
+
+"portTableNone":"まだポートは追加されていません！",
+
+"portPluralLabel":"{p0} ports total",
+
+"portSingularLabel":"{p0} port total.",
+
+"nodePaneSpareTip":"この特定のアクセスポイントに対するアラートを止める場合は無効にしてください（スペア、クライアントのブリッジ等に利用する場合）。個々のアクセスポイントに対するアラートは、設定 > 一般ページ上でネットワーク全体に対するアラートが有効にされた場合のみ、有効になります。",
+
+"nodePaneMeshTip":"このアクセスポイントの一番近いゲートウェイまでの速度です。",
+
+"nodePaneMeshNone":"このアクセスポイントはゲートウェイモードです。メッシュの情報はリピーターモードのアクセスポイントのみに表示されます。",
+
+"switchPanePortMenuReset":"リセット",
+
+"switchPanePortMenuEnable":"リンクを有効にする",
+
+"switchPanePortMenuDisable":"リンクを無効にする",
+
+"switchPanePortMenuPoeEnable":"PoEを有効にする",
+"switchPanePortMenuPoeDisable":"PoEを無効にする",
+
+"switchPanePortMenuDisconnected":"接続されていません",
+
+"switchPanePortMatchingClient":"{p0}に接続されています。",
+
+"switchPanePortClients":"{p0}の端末に接続されています。",
+
+"switchPanePortClientsModal":"接続されている端末",
+
+"switchPanePortClientsTableMac":"MAC",
+
+"switchPanePortClientsTableName":"端末の名前",
+
+"umMigrateTitle":"新しいユーザー管理システム",
+"umMigrateP1":"{ts0}ここをクリック{te1}して弊社の新しいユーザー管理システムの詳細を確認してください。 確認後、{ts2}ここをクリック{te3}してウィザードを立ち上げてください。ウィザードは既存のアカウントを新しいユーザー管理システムに移す際の手順を説明します。 ",
+"umMigrateP2":"このアカウントは既に新しいユーザー管理システムに移されています。{ts0}ここをクリック{te1}して詳細を確認してください。過去のユーザー管理システムを無効にするには{ts2}ここをクリック{te3}してください。",
+
+"umDisableModalTitle":"Old account disable",
+
+"umDisableModalP1":"無効になっていることを確認しますか？",
+
+"umDisableModalP2":"新しいユーザー管理システムのログイン情報を用いて、アカウントにログインし、過去のシステムを無効にしてください。",
+"umDisableModalButton":"はい、キャンセルします",
+
+"umMigrateModalTitle":"ユーザー管理システムの移行ウィザード",
+
+"userPassword":"パスワードを変更",
+
+"userPasswordResetP1":"\"送信\"をクリックして、ユーザーにパスワードをリセットする際の方法を説明するEメールを送信します。",
+
+"userEnabled":"有効にされたユーザー",
+
+"userDisabled":"無効にされたユーザー",
+
+"userPasswordResetError1":"無効なユーザー、または、トークン",
+
+"userPasswordResetError2":"ユーザー、トークン、および、パスワードが必要です。",
+"userPasswordResetHeader":"パスワードをリセット",
+
+"userPasswordResetP1":"新しいパスワードを入力してください。",
+
+"userPasswordResetCompleteHeader":"パスワードのリセットが完了しました",
+
+"userPasswordResetCompleteP1":"パスワードは正しくリセットされました。",
+"userVerifyHeader":"ユーザー認証",
+
+"userVerifyP1":"パスワードを入力してください。",
+
+"userVerifyCompleteHeader":"ユーザー認証が完了しました",
+
+"userVerifyCompleteP1":"ユーザーが正しく認証されました。",
+
+"userUpdateRolesNetwork":"ネットワーク",
+
+"userUpdateRolesNgroup":"ネットワークグループ"
 }
