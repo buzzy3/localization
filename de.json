@@ -1,5 +1,4 @@
 {
-    "version": "a942c1239a9ab34a2842e4f79093938211bb432e",
     "minutes": "Minuten",
     "seconds": "Sekunden",
     "now": "Jetzt",
@@ -2300,7 +2299,6 @@
 	"nodePaneRadio":"Funk",
 	"nodePaneAutorfOn":"Kanalautomatik ist AN",
 	"nodePaneAutorfOff":"Kanalautomatik ist AUS",
-	"nodePaneChannel":"Kanal",
 	"nodePanePower":"Stärke",
 	"nodePaneHtMode":"Weite:",
 	"nodePaneSpare":"Alarme",
@@ -2317,8 +2315,7 @@
 	"nodePaneImageDelete":"Löschen",
 	"nodeImageDeleteConfirm":"Wollen Sie wirklich das Bild dieses Access Points löschen? Diese Aktion kann nicht widerrufen werden.",
 	"nodePaneHops":"{p0} Hops",
-	"nodePaneChannel24":"2.4GHz Kanal:",
-	"nodePaneChannel5":"5GHz Kanal:",
+	"nodePaneChannel":"Kanal:",
 	"nodePaneTxPower":"Sendeleistung:",
 	"outageChartTime":"Zeit:",
 	"outageChartStatus":"Status:",
